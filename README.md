@@ -1,5 +1,4 @@
-<div align="center">
-    <a href="https://www.cyc2018.xyz"> <img src="https://badgen.net/badge/CyC/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB?icon=sourcegraph&color=4ab8a1"></a>
+<div align="left">
     <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/13?icon=github&color=4ab8a1"></a>
     <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/stars/Ynot/CS-Notes?icon=github&color=4ab8a1"></a>
     <a href="https://github.com/CyC2018/CS-Notes"> <img src="https://badgen.net/github/forks/CyC2018/CS-Notes?icon=github&color=4ab8a1"></a>
@@ -10,14 +9,6 @@
 | 算法&nbsp; | 操作系统 | 网络&nbsp;|面向对象| &nbsp;数据库&nbsp;&nbsp;|&nbsp;Java&nbsp;&nbsp;|系统设计| &nbsp;&nbsp;工具&nbsp;&nbsp; |编码实践| &nbsp;&nbsp;后记&nbsp;&nbsp; |
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | [:pencil2:](#pencil2-算法) | [:computer:](#computer-操作系统) | [:cloud:](#cloud-网络) | [:art:](#art-面向对象) | [:floppy_disk:](#floppy_disk-数据库) |[:coffee:](#coffee-java)| [:bulb:](#bulb-系统设计) |[:wrench:](#wrench-工具)| [:watermelon:](#watermelon-编码实践) |[:memo:](#memo-后记)|
-
-<br>
-
-<div align="center">
-    <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/githubio/LogoMakr_0zpEzN.png" width="200px">
-</div>
-
-<br>
 
 ## :pencil2: 算法
 
@@ -78,23 +69,3 @@
 
 - [代码可读性](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码可读性.md)
 - [代码风格规范](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码风格规范.md)
-
-## :memo: 后记
-
-### 排版
-
-笔记内容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md) 进行排版，以保证内容的可读性。
-
-不使用 `![]()` 这种方式来引用图片，而是用 `<img>` 标签。一方面是为了能够控制图片以合适的大小显示，另一方面是因为 [GFM](https://github.github.com/gfm/) 不支持 `<center> ![]() </center>` 这种方法让图片居中显示，只能使用 `<div align="center"> <img src=""/> </div>` 达到居中的效果。
-
-在线排版工具：[Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)。
-
-### License
-
-本仓库的内容不是将网上的资料随意拼凑而来，除了少部分引用书上和技术文档的原文（这部分内容都在末尾的参考链接中加了出处），其余都是我的原创。在您引用本仓库内容或者对内容进行修改演绎时，请署名并以相同方式共享，谢谢。
-
-转载文章请在开头明显处标明该页面地址，公众号等其它转载请联系 zhengyc101@163.com。
-
-Logo：[logomakr](https://logomakr.com/)
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
