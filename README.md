@@ -1,5 +1,5 @@
 <div align="left">
-    <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/1?icon=github&color=4ab8a1"></a>
+    <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/2125032?icon=github&color=4ab8a1"></a>
     <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/stars/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
     <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/forks/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
 </div><br>
@@ -8,7 +8,7 @@
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
 
-| Algorithm | Database | &nbsp;&nbsp;OS&nbsp;&nbsp; | Network | &nbsp;&nbsp;SD&nbsp;&nbsp; | &nbsp;OOP&nbsp; | Java | Practice | Tools |  
+| Algorithm | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | &nbsp;Java&nbsp; | Practice | &nbsp;Tools&nbsp; |  
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | 
 | [:pencil:](#pencil-algorithm) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
 
