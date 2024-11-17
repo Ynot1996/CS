@@ -1,14 +1,14 @@
 <div align="left">
-    <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/13?icon=github&color=4ab8a1"></a>
-    <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/stars/Ynot/CS-Notes?icon=github&color=4ab8a1"></a>
-    <a href="https://github.com/Ynot/CS-Notes"> <img src="https://badgen.net/github/forks/Ynot/CS-Notes?icon=github&color=4ab8a1"></a>
+    <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/1?icon=github&color=4ab8a1"></a>
+    <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/stars/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
+    <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/forks/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
 </div>
 
 <br>
-
-| Algorithm | Database | OS | Network | 系统設計 | 面向對象 | Java | 工具 | 編程實踐 | 
+<!-- [:wrench:](#wrench-tools) 前面是圖像;後面是索引(小寫)-->
+| Algorithm | Database | OS | Network | SD | OOP | Java | Coding Practice | Tools |  
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| [:pencil:](#pencil-algorithm) | [:file_folder:](#file_folder-database) | [:computer:](#computer-OS) | [:cloud:](#cloud-network) | [:bulb:](#bulb-系统设计) | [:art:](#art-面向对象) |[:coffee:](#coffee-java) |[:wrench:](#wrench-工具)| [:watermelon:](#watermelon-编码实践) |
+| [:pencil:](#pencil-algorithm) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-coding_practice) | [:wrench:](#wrench-tools) | 
 
 ## :pencil: Algorithm
 
@@ -36,7 +36,7 @@
 - [HTTP](https://github.com/CyC2018/CS-Notes/blob/master/notes/HTTP.md)
 - [Socket](https://github.com/CyC2018/CS-Notes/blob/master/notes/Socket.md)
 
-## :bulb: 系统设计 
+## :bulb: SD 
 
 - [系统设计基础](https://github.com/CyC2018/CS-Notes/blob/master/notes/系统设计基础.md)
 - [分布式](https://github.com/CyC2018/CS-Notes/blob/master/notes/分布式.md)
@@ -45,7 +45,7 @@
 - [缓存](https://github.com/CyC2018/CS-Notes/blob/master/notes/缓存.md)
 - [消息队列](https://github.com/CyC2018/CS-Notes/blob/master/notes/消息队列.md)
 
-## :art: 面向对象
+## :art: OOP
 
 - [面向对象思想](https://github.com/CyC2018/CS-Notes/blob/master/notes/面向对象思想.md)
 - [设计模式](https://github.com/CyC2018/CS-Notes/blob/master/notes/设计模式%20-%20目录.md)
@@ -58,14 +58,16 @@
 - [Java 虚拟机](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20虚拟机.md)
 - [Java I/O](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20IO.md)
 
-## :wrench: 工具 
+## :1st_place_medal: Coding_Practice 
+
+- [代码可读性](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码可读性.md)
+- [代码风格规范](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码风格规范.md)
+  
+## :wrench: Tools 
 
 - [Git](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)
 - [Docker](https://github.com/CyC2018/CS-Notes/blob/master/notes/Docker.md)
 - [构建工具](https://github.com/CyC2018/CS-Notes/blob/master/notes/构建工具.md)
 - [正则表达式](https://github.com/CyC2018/CS-Notes/blob/master/notes/正则表达式.md)
 
-## :watermelon: 编码实践 
 
-- [代码可读性](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码可读性.md)
-- [代码风格规范](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码风格规范.md)
