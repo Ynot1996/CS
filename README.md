@@ -2,13 +2,16 @@
     <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/1?icon=github&color=4ab8a1"></a>
     <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/stars/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
     <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/forks/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
-</div>
+</div><br>
 
-<br>
-<!-- [:wrench:](#wrench-tools) 前面是圖像;後面是索引(小寫)-->
-| Algorithm | Database | OS | Network | SD | OOP | Java | Coding Practice | Tools |  
+<!-- 因排版需要，使用"&nbsp;"(不間斷空格)來調整間距 -->
+<!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
+
+
+| Algorithm | Database | &nbsp;&nbsp;OS&nbsp;&nbsp; | Network | &nbsp;&nbsp;SD&nbsp;&nbsp; | &nbsp;OOP&nbsp; | Java | Practice | Tools |  
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| [:pencil:](#pencil-algorithm) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-coding_practice) | [:wrench:](#wrench-tools) | 
+| [:pencil:](#pencil-algorithm) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
+
 
 ## :pencil: Algorithm
 
@@ -58,7 +61,7 @@
 - [Java 虚拟机](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20虚拟机.md)
 - [Java I/O](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20IO.md)
 
-## :1st_place_medal: Coding_Practice 
+## :1st_place_medal: Practice 
 
 - [代码可读性](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码可读性.md)
 - [代码风格规范](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码风格规范.md)
