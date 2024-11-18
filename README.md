@@ -15,7 +15,13 @@
 
 ## :pencil: Algorithm
 
-- [Leetcode](https://github.com/Ynot1996/CS/blob/main/Algorithm/Leetcode.md)
+<!-- 
+採用完整網址較佳（其中一個保留使用相對路徑）
+blob：指向文件的具體內容。GitHub 使用 blob 來指示你正在訪問一個具體的文件，而不是資料夾或樹狀結構（tree）。
+main：指的是 Git 專案的主分支名稱。
+-->
+
+- [Leetcode](https://github.com/Ynot1996/CS/blob/main/Algorithm/Leetcode.md)    
 - [剑指 Offer 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/剑指%20Offer%20题解%20-%20目录.md)
 - [算法](https://github.com/CyC2018/CS-Notes/blob/master/notes/算法%20-%20目录.md)
 - [字节跳动内推](assets/内推.md)
