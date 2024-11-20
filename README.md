@@ -41,7 +41,7 @@ main：指的是 Git 專案的主分支名稱。
 ## :cloud: Network 
 
 - [计算机网络](https://github.com/CyC2018/CS-Notes/blob/master/notes/计算机网络%20-%20目录.md)
-- [HTTP](https://github.com/CyC2018/CS-Notes/blob/Network/HTTP.md)
+- [HTTP](https://github.com/Ynot1996/CS/blob/main/Network/HTTP.md)
 - [Socket](https://github.com/CyC2018/CS-Notes/blob/master/notes/Socket.md)
 
 ## :bulb: SD 
