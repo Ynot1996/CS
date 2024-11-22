@@ -67,7 +67,7 @@
 請求報文結構：
 
 - 第一行包含了請求方法、URL、協議版本；
-- 接下来的多行都是請求Header，每個Header都有一個Header名稱，以及對應的值。
+- 接下来的多行都是請求Headers，每個Header都有一個Header名稱，以及對應的值。
 - 一個空行用来分隔Header和Body
 - 最後是請求的Body
 
