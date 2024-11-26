@@ -30,7 +30,6 @@ main：指的是 Git 專案的主分支名稱。
 - [SQL 语法](https://github.com/CyC2018/CS-Notes/blob/master/notes/SQL%20语法.md)
 - [SQL 练习](https://github.com/CyC2018/CS-Notes/blob/master/notes/SQL%20练习.md)
 - [MySQL](https://github.com/CyC2018/CS-Notes/blob/master/notes/MySQL.md)
-- [Redis](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md)
 
 ## :computer: OS
 
