@@ -40,25 +40,23 @@
 
 ## 一、Basic
 
-模式定义了数据如何存储、存储什么样的数据以及数据如何分解等信息，数据库和表都有模式。
+SQL(Structured Query Language)，標準SQL由ANSI標準委員會管理，從而稱為ANSI SQL。
 
-主键的值不允许修改，也不允许复用（不能将已经删除的主键值赋给新数据行的主键）。
+主鍵的值不允許修改，也不允許復用（假設EmployeeID為主鍵，EmployeeID為1的資料被刪除，插入一個新數據其EmployeeID不能再用於1作為其值）。
 
-SQL（Structured Query Language)，标准 SQL 由 ANSI 标准委员会管理，从而称为 ANSI SQL。各个 DBMS 都有自己的实现，如 PL/SQL、Transact-SQL 等。
+SQL語句不區分大小寫，但是數據庫表名、列名和值是否區分則依賴具體的DBMS以及配置。
 
-SQL 语句不区分大小写，但是数据库表名、列名和值是否区分依赖于具体的 DBMS 以及配置。
-
-SQL 支持以下三种注释：
+SQL支持三種註解：
 
 ```sql
-## 注释
+## 註解
 SELECT *
-FROM mytable; -- 注释
-/* 注释1
-   注释2 */
+FROM mytable; -- 註解
+/* 註解1
+   註解2 */
 ```
 
-数据库创建与使用：
+數據庫創建與使用：
 
 ```sql
 CREATE DATABASE test;
