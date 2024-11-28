@@ -2,7 +2,7 @@
 <!-- GFM-TOC -->
 * [SQL Syntax](#sql-Syntax)
     * [一、Basic](#一Basic)
-    * [二、Create Table](#二Create Table)
+    * [二、Create Table](#二CreateTable)
     * [三、修改表](#三修改表)
     * [四、插入](#四插入)
     * [五、更新](#五更新)
