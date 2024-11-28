@@ -2,7 +2,7 @@
 <!-- GFM-TOC -->
 * [SQL Syntax](#sql-Syntax)
     * [一、Basic](#一Basic)
-    * [二、Create Table](#二CreateTable)
+    * [二、Create Table](#二Create_Table)
     * [三、修改表](#三修改表)
     * [四、插入](#四插入)
     * [五、更新](#五更新)
@@ -63,7 +63,7 @@ CREATE DATABASE test;
 USE test;
 ```
 
-## 二、Create Table
+## 二、Create_Table
 
 ```sql
 CREATE TABLE mytable (
