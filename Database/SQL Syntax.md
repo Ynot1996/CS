@@ -5,7 +5,7 @@
     * [二、Create Table](#二Create_Table)
     * [三、修改表](#三修改表)
     * [四、Insert](#四Insert)
-    * [五、更新](#五更新)
+    * [五、Update](#五Update)
     * [六、删除](#六删除)
     * [七、查询](#七查询)
         * [DISTINCT](#distinct)
@@ -120,7 +120,7 @@ CREATE TABLE newtable AS
 SELECT * FROM mytable;
 ```
 
-## 五、更新
+## 五、Update
 
 ```sql
 UPDATE mytable
