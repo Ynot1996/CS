@@ -1,12 +1,12 @@
-# Leetcode 题解
+# Leetcode 題解
 
 ## 前言
 
-從Leetcode中精選大約200題，其中包括面試經典题目。
+從Leetcode中精選大約200題，其中包括面試經典題目。
 
 ## 算法思想
 
-- [双指针](Two_Pointers.md)
+- [Two Pointers](Two_Pointers.md)
 - [排序](Leetcode%20题解%20-%20排序.md)
 - [贪心思想](Leetcode%20题解%20-%20贪心思想.md)
 - [二分查找](Leetcode%20题解%20-%20二分查找.md)
