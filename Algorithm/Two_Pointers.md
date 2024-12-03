@@ -1,4 +1,4 @@
-# Leetcode 题解 - 双指针
+# Leetcode 題解 - Two Pointers
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 双指针](#leetcode-题解---双指针)
     * [1. 有序数组的 Two Sum](#1-有序数组的-two-sum)
