@@ -1,6 +1,6 @@
 # Leetcode 題解 - Two Pointers
 <!-- GFM-TOC -->
-* [Leetcode 题解 - 双指针](#leetcode-题解---双指针)
+* [Leetcode 題解 - Two Pointers](#leetcode-題解---Two_Pointers)
     * [1. 有序数组的 Two Sum](#1-有序数组的-two-sum)
     * [2. 两数平方和](#2-两数平方和)
     * [3. 反转字符串中的元音字符](#3-反转字符串中的元音字符)
