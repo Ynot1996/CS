@@ -9,7 +9,7 @@
 - [Two Pointers](Two_Pointers.md)
 - [排序](排序.md)
 - [贪心思想](Leetcode%20题解%20-%20贪心思想.md)
-- [二分查找](Leetcode%20题解%20-%20二分查找.md)
+- [Binary Search](Leetcode%20题解%20-%20二分查找.md)
 - [分治](Leetcode%20题解%20-%20分治.md)
 - [搜索](Leetcode%20题解%20-%20搜索.md)
 - [动态规划](Leetcode%20题解%20-%20动态规划.md)
