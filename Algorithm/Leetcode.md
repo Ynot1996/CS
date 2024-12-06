@@ -15,15 +15,19 @@
 - [动态规划](Leetcode%20题解%20-%20动态规划.md)
 - [数学](Leetcode%20题解%20-%20数学.md)
 
-## 数据结构相关
+## Data Structures
 
-- [链表](Leetcode%20题解%20-%20链表.md)
-- [树](Leetcode%20题解%20-%20树.md)
+### Linear
+- [String](Data_Structures/Linear/String.md)
+- [Array and Matrix](Data_Structures/Linear/Array_&_Matrix.md)
+- [Linked List](Data_Structures/Linear/Linked_List.md)
 - [栈和队列](Leetcode%20题解%20-%20栈和队列.md)
+
+### Non-Linear
+- [Tree](Data_Structures/Non-Linear/Tree.md)
+- [Graph](Data_Structures/Non-Linear/Graph.md)
+
 - [Hash Table](Data_Structures/Hash_Table.md)
-- [字符串](Leetcode%20题解%20-%20字符串.md)
-- [数组与矩阵](Leetcode%20题解%20-%20数组与矩阵.md)
-- [图](Leetcode%20题解%20-%20图.md)
 - [位运算](Leetcode%20题解%20-%20位运算.md)
 
 ## 参考资料
