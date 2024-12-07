@@ -13,24 +13,22 @@
 
 雙指針是一種高效的遍歷技巧，通過在排序數組中同時移動左右指針，根據條件縮小搜索範圍，以線性時間 O(n) 解決問題。
 
-## 1. 有序数组的 Two Sum
+## 1. Two Sum - Input array is sorted
 
-167\. Two Sum II - Input array is sorted (Easy)
-
-[Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) / [力扣](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)
+167.[Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
 ```html
 Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 ```
 
-题目描述：在有序数组中找出两个数，使它们的和为 target。
+題目描述：在有序數组中找出两個數，兩數和為target。
 
-使用双指针，一个指针指向值较小的元素，一个指针指向值较大的元素。指向较小元素的指针从头向尾遍历，指向较大元素的指针从尾向头遍历。
+Use two pointers, left and right. The left pointer starts at the beginning and moves forward, while the right pointer starts at the end and moves backward.
 
-- 如果两个指针指向元素的和 sum == target，那么得到要求的结果；
-- 如果 sum \> target，移动较大的元素，使 sum 变小一些；
-- 如果 sum \< target，移动较小的元素，使 sum 变大一些。
+- 如果兩個指針sum == target，即可得到要求的结果:[left+1,right+1] (題目明確定義output必須是1-indexed的格式，但操作array時依舊是以0開始計算索引，故回傳時+1)；
+- 如果sum > target，移動右邊指針，使sum變小；
+- 如果sum < target，移動左邊指針，使sum變大。
 
 数组中的元素最多遍历一次，时间复杂度为 O(N)。只使用了两个额外变量，空间复杂度为  O(1)。
 
