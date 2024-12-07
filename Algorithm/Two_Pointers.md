@@ -1,7 +1,7 @@
 # Two_Pointers
 <!-- GFM-TOC -->
 * [Two Pointers](#Two_Pointers)
-    * [1. Two Sum - Input array is sorted](#1-167.-Two-Sum-/--Input-array-is-sorted)
+    * [1. Two Sum - Input array is sorted](#1-Two-Sum-/--Input-array-is-sorted)
     * [2. 两数平方和](#2-两数平方和)
     * [3. 反转字符串中的元音字符](#3-反转字符串中的元音字符)
     * [4. 回文字符串](#4-回文字符串)
@@ -13,7 +13,7 @@
 
 雙指針是一種高效的遍歷技巧，通過在排序數組中同時移動左右指針，根據條件縮小搜索範圍，以線性時間 O(n) 解決問題。
 
-## 1. 167. Two Sum - Input array is sorted
+## 1. Two Sum - Input array is sorted
 
 [Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
