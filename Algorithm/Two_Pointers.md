@@ -1,8 +1,8 @@
-# Two_Pointers
+# Two Pointers
 <!-- GFM-TOC -->
-* [Two Pointers](#Two_Pointers)
+* [Two Pointers](#Two-Pointers)
     * [1. Two Sum - Input array is sorted](#1-Two-Sum---Input-array-is-sorted)
-    * [2. 两数平方和](#2-Sum-of-Square-Numbers)
+    * [2. Sum of Square Numbers](#2-Sum-of-Square-Numbers)
     * [3. 反转字符串中的元音字符](#3-反转字符串中的元音字符)
     * [4. 回文字符串](#4-回文字符串)
     * [5. 归并两个有序数组](#5-归并两个有序数组)
@@ -48,9 +48,7 @@ class Solution:
 
 ## 2. Sum of Square Numbers
 
-633\. Sum of Square Numbers (Easy)
-
-[Leetcode](https://leetcode.com/problems/sum-of-square-numbers/description/) / [力扣](https://leetcode-cn.com/problems/sum-of-square-numbers/description/)
+[Leetcode](https://leetcode.com/problems/sum-of-square-numbers/description/)
 
 ```html
 Input: 5
