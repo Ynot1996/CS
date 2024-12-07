@@ -1,7 +1,7 @@
 # Two_Pointers
 <!-- GFM-TOC -->
 * [Two Pointers](#Two_Pointers)
-    * [1. Two Sum - Input array is sorted](#1-Two-Sum-/--Input-array-is-sorted)
+    * [1. Two Sum - Input array is sorted](#1.-Two-Sum-/--Input-array-is-sorted)
     * [2. 两数平方和](#2-两数平方和)
     * [3. 反转字符串中的元音字符](#3-反转字符串中的元音字符)
     * [4. 回文字符串](#4-回文字符串)
