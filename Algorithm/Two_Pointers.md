@@ -1,7 +1,7 @@
 # Two_Pointers
 <!-- GFM-TOC -->
 * [Two Pointers](#Two_Pointers)
-    * [1. 有序数组的 Two Sum](#1-有序数组的-two-sum)
+    * [1. Two Sum - Input array is sorted](#1-167.-Two-Sum-/--Input-array-is-sorted)
     * [2. 两数平方和](#2-两数平方和)
     * [3. 反转字符串中的元音字符](#3-反转字符串中的元音字符)
     * [4. 回文字符串](#4-回文字符串)
@@ -13,43 +13,37 @@
 
 雙指針是一種高效的遍歷技巧，通過在排序數組中同時移動左右指針，根據條件縮小搜索範圍，以線性時間 O(n) 解決問題。
 
-## 1. Two Sum - Input array is sorted
+## 1. 167. Two Sum - Input array is sorted
 
-167.[Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+[Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
 ```html
 Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 ```
 
-題目描述：在有序數组中找出两個數，兩數和為target。
+題目描述：在有序數组中找出兩個數，兩數和為 target。
 
 Use two pointers, left and right. The left pointer starts at the beginning and moves forward, while the right pointer starts at the end and moves backward.
 
-- 如果兩個指針sum == target，即可得到要求的结果:[left+1,right+1] (題目明確定義output必須是1-indexed的格式，但操作array時依舊是以0開始計算索引，故回傳時+1)；
-- 如果sum > target，移動右邊指針，使sum變小；
-- 如果sum < target，移動左邊指針，使sum變大。
+- 如果兩個指針sum == target，即可得到要求的结果: [ left+1 , right+1 ] (題目明確定義 output 必須是1-indexed的格式，但操作 array 時依舊是以0開始計算索引，故回傳時+1)；
+- 如果 sum > target，移動右邊指針，使 sum 變小；
+- 如果 sum < target，移動左邊指針，使 sum 變大。
 
-数组中的元素最多遍历一次，时间复杂度为 O(N)。只使用了两个额外变量，空间复杂度为  O(1)。
+數組中的元素最多遍歷一次，時間複雜度為 O(N)；只使用了兩個額外變量，空間複雜度為 O(1)。
 
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/437cb54c-5970-4ba9-b2ef-2541f7d6c81e.gif" width="200px"> </div><br>
-
-```java
-public int[] twoSum(int[] numbers, int target) {
-    if (numbers == null) return null;
-    int i = 0, j = numbers.length - 1;
-    while (i < j) {
-        int sum = numbers[i] + numbers[j];
-        if (sum == target) {
-            return new int[]{i + 1, j + 1};
-        } else if (sum < target) {
-            i++;
-        } else {
-            j--;
-        }
-    }
-    return null;
-}
+```Python
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]: 
+        left, right = 0, len(numbers)-1
+        while left < right:
+            current_sum = numbers[left] + numbers[right]
+            if current_sum == target:
+                return [left+1,right+1]
+            elif current_sum < target:
+                left += 1
+            else:
+                right -= 1
 ```
 
 ## 2. 两数平方和
