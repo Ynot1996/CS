@@ -6,7 +6,7 @@
 
 ## 算法思想
 
-- [Two Pointers](Two_Pointers.md)
+- [Two Pointers](Two-Pointers.md)
 - [排序](排序.md)
 - [贪心思想](Leetcode%20题解%20-%20贪心思想.md)
 - [Binary Search](Leetcode%20题解%20-%20二分查找.md)
