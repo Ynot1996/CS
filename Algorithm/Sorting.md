@@ -1,6 +1,6 @@
-# Leetcode 题解 - 排序
+# Sorting
 <!-- GFM-TOC -->
-* [Leetcode 题解 - 排序](#leetcode-题解---排序)
+* [Sorting](#Sorting)
     * [快速选择](#快速选择)
     * [堆](#堆)
         * [1. Kth Element](#1-kth-element)
