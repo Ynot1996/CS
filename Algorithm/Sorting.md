@@ -1,7 +1,7 @@
 # Sorting
 <!-- GFM-TOC -->
 * [Sorting](#Sorting)
-    * [快速选择](#快速选择)
+    * [Quick Select](#Quick Select)
     * [堆](#堆)
         * [1. Kth Element](#1-kth-element)
     * [桶排序](#桶排序)
@@ -12,7 +12,7 @@
 <!-- GFM-TOC -->
 
 
-## 快速选择
+## Quick Select
 
 用于求解   **Kth Element**   问题，也就是第 K 个元素的问题。
 
