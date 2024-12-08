@@ -1,8 +1,8 @@
 # Sorting
 <!-- GFM-TOC -->
 * [Sorting](#Sorting)
-    * [Quick Select](#Quick Select)
-    * [堆](#堆)
+    * [Quick Select](#Quick-Select)
+    * [Heap](#Heap)
         * [1. Kth Element](#1-kth-element)
     * [桶排序](#桶排序)
         * [1. 出现频率最多的 k 个元素](#1-出现频率最多的-k-个元素)
