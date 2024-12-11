@@ -1,4 +1,4 @@
-# Leetcode 題解
+# Leetcode
 
 ## 前言
 
