@@ -8,9 +8,9 @@
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
 
-| Algorithm | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | &nbsp;Java&nbsp; | Practice | &nbsp;Tools&nbsp; |  
+| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | &nbsp;Java&nbsp; | Practice | &nbsp;Tools&nbsp; |  
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| [:pencil:](#pencil-algorithm) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
+| [:pencil:](#pencil-algo_ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
 
 
 ## :pencil: Algorithm
@@ -21,7 +21,7 @@ blob：指向文件的具體內容。GitHub 使用 blob 來指示你正在訪問
 main：指的是 Git 專案的主分支名稱。
 -->
 
-- [Leetcode](https://github.com/Ynot1996/CS/blob/main/Algorithm/Leetcode.md)    
+- [Leetcode](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Leetcode.md)    
 - [剑指 Offer 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/剑指%20Offer%20题解%20-%20目录.md)
 - [算法](https://github.com/CyC2018/CS-Notes/blob/master/notes/算法%20-%20目录.md)
 
