@@ -10,10 +10,10 @@
 
 | Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | &nbsp;Java&nbsp; | Practice | &nbsp;Tools&nbsp; |  
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| [:pencil:](#pencil-algo-ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
+| [:pencil:](#pencil-algo) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
 
 
-## :pencil: Algo & DS
+## :pencil: Algo
 
 <!-- 
 採用完整網址較佳（其中一個保留使用相對路徑）
