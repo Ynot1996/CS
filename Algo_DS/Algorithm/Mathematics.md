@@ -1,7 +1,7 @@
 # Mathematics
 <!-- GFM-TOC -->
 * [Mathematics](#Mathematics)
-    * [最大公约数最小公倍数](#最大公约数最小公倍数)
+    * [Prime Numbers](#Prime-Numbers)
         * [1. 生成素数序列](#1-生成素数序列)
         * [2. 最大公约数](#2-最大公约数)
         * [3. 使用位操作和减法求解最大公约数](#3-使用位操作和减法求解最大公约数)
@@ -25,23 +25,14 @@
         * [4. 找出数组中的乘积最大的三个数](#4-找出数组中的乘积最大的三个数)
 <!-- GFM-TOC -->
 
-## 最大公约数最小公倍数
-
-x 和 y 的最大公约数为：gcd(x,y) =  2<sup>min(m0,n0)</sup> \* 3<sup>min(m1,n1)</sup> \* 5<sup>min(m2,n2)</sup> \* ...
-
-x 和 y 的最小公倍数为：lcm(x,y) =  2<sup>max(m0,n0)</sup> \* 3<sup>max(m1,n1)</sup> \* 5<sup>max(m2,n2)</sup> \* ...
-
-### 1. 生成素数序列
-
-204\. Count Primes (Easy)
-
-[Leetcode](https://leetcode.com/problems/count-primes/description/)
+## Prime Numbers
+Count Primes : [Leetcode](https://leetcode.com/problems/count-primes/description/)
 
 題目要求我們計算"小於"給定整數 𝑛 的質數數量。質數是指只能被 1 和它本身整除的數，例如 2、3、5、7 等。
  
 使用Sieve of Eratosthenes解決
 
-一種高效的算法，其基本概念如下：
+#一種高效的算法，其基本概念如下：
 
 1.創建一個從 2 到 𝑛 的列表。(0, 1 不為質數)
 
@@ -51,7 +42,7 @@ x 和 y 的最小公倍数为：lcm(x,y) =  2<sup>max(m0,n0)</sup> \* 3<sup>max(
 
 4.移動到列表中下一個質數。
 
-5.標記所有質數倍數為非質數。(可用i<spur>2</spur>，前面的數已檢查過，Ex:5)
+5.標記所有質數倍數為非質數。
 
 6.重複這個過程，直到處理到 √n 為止。(僅須遍歷至最大因數)
 
@@ -63,7 +54,7 @@ def countPrimes(n):
    is_prime[0] = is_prime[1] = False # 0 和 1 不是質數
    for i in range(2, int(n**0.5) + 1):
       if is_prime[i]:
-         for j in range(i * i, n, i):
+         for j in range(i * i, n, i): # i<sup>2</sup> 作為起點，Ex: i = 5 時,  i * 2, i * 3 都已變更為 False
             is_prime[j] = False
    return sum
 ```
