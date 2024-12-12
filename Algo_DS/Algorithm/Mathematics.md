@@ -29,13 +29,13 @@
 
 質數是指只能被 1 和它本身整除的數，例如 2、3、5、7 等。
 
-###Count Primes : [Leetcode](https://leetcode.com/problems/count-primes/description/)
+### Count Primes : [Leetcode](https://leetcode.com/problems/count-primes/description/)
 
 題目要求我們計算"小於"給定整數 𝑛 的質數數量。
  
 使用Sieve of Eratosthenes解決
 
-###一種高效的算法，其基本概念如下：
+### 一種高效的算法，其基本概念如下：
 
 1.創建一個從 2 到 𝑛 的列表。(0, 1 不為質數)
 
