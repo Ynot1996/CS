@@ -1,6 +1,6 @@
-# Leetcode 题解 - 数学
+# Mathematics
 <!-- GFM-TOC -->
-* [Leetcode 题解 - 数学](#leetcode-题解---数学)
+* [Mathematics](#Mathematics)
     * [最大公约数最小公倍数](#最大公约数最小公倍数)
         * [1. 生成素数序列](#1-生成素数序列)
         * [2. 最大公约数](#2-最大公约数)
