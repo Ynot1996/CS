@@ -34,29 +34,31 @@ Count Primes : [Leetcode](https://leetcode.com/problems/count-primes/description
 
 一種高效的算法，其基本概念如下：
 
-1.創建一個從 2 到 𝑛 的列表。(0, 1 不為質數)
+1. 創建一個從 2 到 𝑛 的列表。(0, 1 不為質數)
 
-2.從列表中的第一個質數（2）為起點開始。
+2. 從列表中的第一個質數（2）為起點開始。
 
-3.標記2的所有倍數為非質數。
+3. 標記2的所有倍數為非質數。
 
-4.移動到列表中下一個質數。
+4. 移動到列表中下一個質數。
 
-5.標記所有質數倍數為非質數。
+5. 標記所有質數倍數為非質數。
 
-6.重複這個過程，直到處理到 √n 為止。(僅須遍歷至最大因數)
+6. 重複這個過程，直到處理到 √n 為止。(僅須遍歷至最大因數)
 
 ```Python
 def countPrimes(n):
-   if n <= 2: # n = 0 or 1 or 2時，不包含自身的質數數量為 0
+   if n <= 2: # n = 0 or 1 or 2 時，不包含自身的質數數量為 0
       return 0
+
    is_prime = [True] * n
    is_prime[0] = is_prime[1] = False # 0 和 1 不是質數
    for i in range(2, int(n**0.5) + 1):
       if is_prime[i]:
-         for j in range(i * i, n, i): # i<sup>2</sup> \ 作為起點，Ex: i = 5 時,  i * 2, i * 3 都已變更為 False
+         for j in range(i * i, n, i): # i * i 作為起點，Ex: i = 5 時,  i * 2, i * 3 都已變更為 False
             is_prime[j] = False
-   return sum
+
+   return sum(is_prime)
 ```
 
 ### 2. 最大公约数
