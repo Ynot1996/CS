@@ -4,7 +4,7 @@
 
 從Leetcode中精選大約200題，其中包括面試經典題目。
 
-## 算法思想
+## Algorithm
 
 - [Sorting](Algorithm/Sorting.md)
 - [Two Pointers](Algorithm/Two-Pointers.md)
@@ -13,7 +13,7 @@
 - [Greedy](Algorithm/Greedy.md)
 - [Divide and Conquer](Algorithm.md)
 - [Dynamic Programming](Algorithm/Dynamic-Progrmamming.md)
-- [Mathematics](Algorithm/Mathematics.md)
+- [Mathematics](Algorithm/Mathematics.md):204
 
 ## Data Structures
 
