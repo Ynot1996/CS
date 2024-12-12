@@ -35,26 +35,32 @@ x 和 y 的最小公倍数为：lcm(x,y) =  2<sup>max(m0,n0)</sup> \* 3<sup>max(
 
 204\. Count Primes (Easy)
 
-[Leetcode](https://leetcode.com/problems/count-primes/description/) / [力扣](https://leetcode-cn.com/problems/count-primes/description/)
+[Leetcode](https://leetcode.com/problems/count-primes/description/)
 
-埃拉托斯特尼筛法在每次找到一个素数时，将能被素数整除的数排除掉。
+題目要求我們計算"小於"給定整數 𝑛 的質數數量。質數是指只能被 1 和它本身整除的數，例如 2、3、5、7 等。
+ 
+使用Sieve of Eratosthenes解決
 
-```java
-public int countPrimes(int n) {
-    boolean[] notPrimes = new boolean[n + 1];
-    int count = 0;
-    for (int i = 2; i < n; i++) {
-        if (notPrimes[i]) {
-            continue;
-        }
-        count++;
-        // 从 i * i 开始，因为如果 k < i，那么 k * i 在之前就已经被去除过了
-        for (long j = (long) (i) * i; j < n; j += i) {
-            notPrimes[(int) j] = true;
-        }
-    }
-    return count;
-}
+一種高效的算法，其基本概念如下：
+
+1.創建一個從 2 到 𝑛 的列表。(0, 1 不為質數)
+2.從列表中的第一個質數（2）為起點開始。
+3.標記2的所有倍數為非質數。
+4.移動到列表中下一個質數。
+5.標記所有質數倍數為非質數。(可用i<spur>2</spur>，前面的數已檢查過，Ex:5)
+6.重複這個過程，直到處理到 \sqrt 𝑛**0.5 為止。(僅須遍歷至最大因數)
+
+```Python
+def countPrimes(n):
+   if n <= 2: # n = 0 or 1 or 2時，不包含自身的質數數量為 0
+      return 0
+   is_prime = [True] * n
+   is_prime[0] = is_prime[1] = False # 0 和 1 不是質數
+   for i in range(2, int(n**0.5) + 1):
+      if is_prime[i]:
+         for j in range(i * i, n, i):
+            is_prime[j] = False
+   return sum
 ```
 
 ### 2. 最大公约数
