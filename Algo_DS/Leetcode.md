@@ -32,5 +32,4 @@
 
 ## Resources
 - [Leetcode Explore](https://leetcode.com/explore/)
-- [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
