@@ -1,4 +1,4 @@
-## Recommend Books for Algo & DS
+## Essential Reads: Algorithms and Data Structures
 
 - [Data Structures and Algorithm 
 Analysis in C](https://patilsai.wordpress.com/wp-content/uploads/2019/07/data_structures_and_algorithm_analysis_in_c.pdf)
