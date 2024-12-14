@@ -13,7 +13,7 @@
 - [Greedy](Algorithm/Greedy.md)
 - [Divide and Conquer](Algorithm.md)
 - [Dynamic Programming](Algorithm/Dynamic-Progrmamming.md)
-- [Mathematics](Algorithm/Mathematics.md):204
+- [Mathematics](Algorithm/Mathematics.md): 204
 
 ## Data Structures
 
