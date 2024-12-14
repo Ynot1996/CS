@@ -2,7 +2,7 @@
 
 ## 前言
 
-介紹Leetcode經典題目，並探討題目思想和解法，以達到從中學習演算法和資料結構。
+統整Leetcode 平台上的經典題目，並按照演算法和資料結構進行分類。每個分類重點介紹題目背後的解題思路和常見技巧，旨在幫助讀者系統性地學習演算法和資料結構，提升問題解決能力。
 
 ## Algorithm
 
@@ -29,3 +29,8 @@
 
 - [Hash Table](Data_Structures/Hash_Table.md)
 - [位运算](Leetcode%20题解%20-%20位运算.md)
+
+## Resources
+- [Leetcode Explore](https://leetcode.com/explore/)
+- [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
