@@ -19,7 +19,7 @@
 
 ### Linear
 - [String](Data_Structures/Linear/String.md)
-- [Array and Matrix](Data_Structures/Linear/Array%20&%20Matrix.md) <!--%20為空白鍵的URL編碼，&的URL編碼為%26。-->
+- [Array and Matrix](Data_Structures/Linear/Array%20&%20Matrix.md): 283, 566, 485, 240, 378, 645, 287, 667, 697, 766, 565, 769 <!--%20為空白鍵的URL編碼，&的URL編碼為%26。-->
 - [Linked List](Data_Structures/Linear/Linked_List.md)
 - [栈和队列](Leetcode%20题解%20-%20栈和队列.md)
 
@@ -35,6 +35,5 @@
 - Leetcode
 - Weiss M A, 冯舜玺. 数据结构与算法分析——C 语言描述[J]. 2004.
 - Sedgewick R. Algorithms[M]. Pearson Education India, 1988.
-- 何海涛, 软件工程师. 剑指 Offer: 名企面试官精讲典型编程题[M]. 电子工业出版社, 2014.
 - 《编程之美》小组. 编程之美[M]. 电子工业出版社, 2008.
 - 左程云. 程序员代码面试指南[M]. 电子工业出版社, 2015.
