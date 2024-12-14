@@ -19,7 +19,7 @@
 
 ### Linear
 - [String](Data_Structures/Linear/String.md)
-- [Array and Matrix](Data_Structures/Linear/Array%20&%20Matrix.md) `%20為空白鍵的URL編碼，&的URL編碼為%26。`
+- [Array and Matrix](Data_Structures/Linear/Array%20&%20Matrix.md) <!--%20為空白鍵的URL編碼，&的URL編碼為%26。-->
 - [Linked List](Data_Structures/Linear/Linked_List.md)
 - [栈和队列](Leetcode%20题解%20-%20栈和队列.md)
 
