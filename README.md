@@ -22,7 +22,6 @@ main：指的是 Git 專案的主分支名稱。
 -->
 
 - [Leetcode](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Leetcode.md)    
-- [劍指 Offer](https://github.com/Ynot1996/CS/blob/main/Algo_DS/劍指%20Offer.md)
 - [算法](https://github.com/CyC2018/CS-Notes/blob/master/notes/算法%20-%20目录.md)
 
 ## :file_folder: Database
