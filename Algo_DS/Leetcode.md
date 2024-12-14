@@ -2,7 +2,7 @@
 
 ## 前言
 
-從Leetcode中精選大約200題，其中包括面試經典題目。
+從Leetcode經典題目中學習演算法和資料結構基本觀念。
 
 ## Algorithm
 
@@ -33,7 +33,6 @@
 ## 参考资料
 
 - Leetcode
-- Weiss M A, 冯舜玺. 数据结构与算法分析——C 语言描述[J]. 2004.
 - Sedgewick R. Algorithms[M]. Pearson Education India, 1988.
 - 《编程之美》小组. 编程之美[M]. 电子工业出版社, 2008.
 - 左程云. 程序员代码面试指南[M]. 电子工业出版社, 2015.
