@@ -2,7 +2,7 @@
 
 ## 前言
 
-從Leetcode經典題目中學習演算法和資料結構基本觀念。
+介紹Leetcode經典題目，並探討題目思想和解法，以達到從中學習演算法和資料結構。
 
 ## Algorithm
 
@@ -29,10 +29,3 @@
 
 - [Hash Table](Data_Structures/Hash_Table.md)
 - [位运算](Leetcode%20题解%20-%20位运算.md)
-
-## 参考资料
-
-- Leetcode
-- Sedgewick R. Algorithms[M]. Pearson Education India, 1988.
-- 《编程之美》小组. 编程之美[M]. 电子工业出版社, 2008.
-- 左程云. 程序员代码面试指南[M]. 电子工业出版社, 2015.
