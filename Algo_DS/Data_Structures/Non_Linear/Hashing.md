@@ -1,7 +1,7 @@
 # Hashing
 <!-- GFM-TOC -->
 * [Hashing](#Hashing)
-    * [Hash Table](Hash-Table)
+    * [Hash Table](#Hash-Table)
     * [2. 判断数组是否含有重复元素](#2-判断数组是否含有重复元素)
     * [3. 最长和谐序列](#3-最长和谐序列)
     * [4. 最长连续序列](#4-最长连续序列)
