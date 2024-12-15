@@ -5,3 +5,9 @@
 - [Data Structures and Algorithm Analysis in C](https://patilsai.wordpress.com/wp-content/uploads/2019/07/data_structures_and_algorithm_analysis_in_c.pdf)
 - [29. 顺时针打印矩阵](29.%20顺时针打印矩阵.md)
 - [50. 第一个只出现一次的字符位置](50.%20第一个只出现一次的字符位置.md)
+
+## References
+1. Grokking Algorithms: Aditya Bhargava  
+2. Data Structures and Algorithms in Python: Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser  
+3. Data Structures and Algorithm Analysis in C: Mark Allen Weiss  
+4. 
