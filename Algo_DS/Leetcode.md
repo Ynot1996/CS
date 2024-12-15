@@ -7,24 +7,24 @@
 ## Algorithm
 
 - [Sorting](Algorithm/Sorting.md)
-- [Two Pointers](Algorithm/Two-Pointers.md)
-- [Binary Search](Algorithm/Binary-Search.md)
+- [Two Pointers](Algorithm/Two_Pointers.md)
+- [Binary Search](Algorithm/Binary_Search.md)
 - [Search](Algorithm/Search.md)
 - [Greedy](Algorithm/Greedy.md)
 - [Divide and Conquer](Algorithm.md)
-- [Dynamic Programming](Algorithm/Dynamic-Progrmamming.md)
+- [Dynamic Programming](Algorithm/Dynamic_Progrmamming.md)
 - [Mathematics](Algorithm/Mathematics.md): 204
 
 ## Data Structures
 
 ### Linear
 - [String](Data_Structures/Linear/String.md)
-- [Array and Matrix](Data_Structures/Linear/Array%20&%20Matrix.md): 283, 566, 485, 240, 378, 645, 287, 667, 697, 766, 565, 769 <!--%20為空白鍵的URL編碼，&的URL編碼為%26。-->
+- [Array and Matrix](Data_Structures/Linear/Array_Matrix.md): 283, 566, 485, 240, 378, 645, 287, 667, 697, 766, 565, 769 <!--%20為空白鍵的URL編碼，&的URL編碼為%26。-->
 - [Linked List](Data_Structures/Linear/Linked_List.md)
-- [Stack and Queue](Data_Structures/Linear/Stack%20&%20Queue.md)
+- [Stack and Queue](Data_Structures/Linear/Stack_Queue.md)
 
 ### Non-Linear
-- [Tree](Data_Structures/Non-Linear/Tree.md)
-- [Heap](Data_Structures/Non-Linear/Heap.md)
-- [Graph](Data_Structures/Non-Linear/Graph.md)
-- [Hashing](Data_Structures/Non-Linear/Hashing.md)
+- [Tree](Data_Structures/Non_Linear/Tree.md)
+- [Heap](Data_Structures/Non_Linear/Heap.md)
+- [Graph](Data_Structures/Non_Linear/Graph.md)
+- [Hashing](Data_Structures/Non_Linear/Hashing.md)
