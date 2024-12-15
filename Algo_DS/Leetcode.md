@@ -25,6 +25,6 @@
 
 ### Non-Linear
 - [Tree](Data_Structures/Non-Linear/Tree.md)
-- [Heap](Data_Structures/Heap.md)
+- [Heap](Data_Structures/Non-Linear/Heap.md)
 - [Graph](Data_Structures/Non-Linear/Graph.md)
-- [Hashing](Data_Structures/Hashing.md)
+- [Hashing](Data_Structures/Non-Linear/Hashing.md)
