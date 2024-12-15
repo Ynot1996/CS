@@ -25,11 +25,6 @@
 
 ### Non-Linear
 - [Tree](Data_Structures/Non-Linear/Tree.md)
+- [Heap](Data_Structures/Heap.md)
 - [Graph](Data_Structures/Non-Linear/Graph.md)
-
-- [Hash Table](Data_Structures/Hash_Table.md)
-- [位运算](Leetcode%20题解%20-%20位运算.md)
-
-## Resources
-- [Leetcode Explore](https://leetcode.com/explore/)
-- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+- [Hashing](Data_Structures/Hashing.md)
