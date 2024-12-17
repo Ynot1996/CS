@@ -1,29 +1,41 @@
 # Array and Matrix
 
-### Easy
-- [Move Zeroes](#Move-Zeroes)
-- [Reshape the Matrix](#Reshape-the-Matrix)
-- [Max Consecutive Ones](#Max-Consecutive-Ones)
-- [Set Mismatch](#Set-Mismatch)
-- [Degree of an Array](50.%20第一个只出现一次的字符位置.md)
-- [Toeplitz Matrix](50.%20第一个只出现一次的字符位置.md)
+### Array
+- [Move Zeroes (Easy)](#Move-Zeroes)
+- [Degree of an Array (Easy)](#Degree-of-an-Array)
+- [Max Consecutive Ones (Easy)](#Max-Consecutive-Ones)
+- [Find the Duplicate Number (Medium)](#Find-the-Duplicate-Number)
 
-### Medium
-- [Search a 2D Matrix II](29.%20顺时针打印矩阵.md)
-- [Kth Smallest Element in a Sorted Matrix](50.%20第一个只出现一次的字符位置.md)
-- [Find the Duplicate Number](50.%20第一个只出现一次的字符位置.md)
-- [Array Nesting](50.%20第一个只出现一次的字符位置.md)
-- [Max Chunks To Make Sortedg](50.%20第一个只出现一次的字符位置.md)
+### Matrix
+- [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
+- [Kth Smallest Element in a Sorted Matrix (Medium)](#Kth-Smallest-Element-in-a-Sorted-Matrix)
 
+`___________________________________________________________________________________________________________________________________________________________________________________________________`
+`Array`
 ## Move Zeroes
 [283](https://leetcode.com/problems/move-zeroes/)
 
-## Reshape the Matrix
-[566](https://leetcode.com/problems/reshape-the-matrix/)
+## Degree of an Array
+[](https://leetcode.com/problems/degree-of-an-array/)
 
 ## Max Consecutive Ones
+[](https://leetcode.com/problems/max-consecutive-ones/)
+
+## Find the Duplicate Number
+[](https://leetcode.com/problems/find-the-duplicate-number/)
+
+`___________________________________________________________________________________________________________________________________________________________________________________________________`
+`Matrix`
+## Search a 2D Matrix II
+[](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 ## Kth Smallest Element in a Sorted Matrix
+[](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
-## Set Mismatch
+
+
+
+
+
+
 
