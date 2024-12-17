@@ -30,7 +30,7 @@ Method: Two Pointers<br>
 One pointer starts at nums[0] (first pointer), while the other pointer traverses through the entire nums array. <br>
 Whenever the second pointer points to a non-zero value, swap the values at the first pointer's position and the second pointer's position. Then, move the first pointer one step forward and continue traversing the array until it is finished. <br>
 
-`i	nums	zero_index	說明
+`i	nums	zero_index	說明 <br>
 0	[0, 1, 0, 3, 12]	0	nums[0] 是 0，跳過
 1	[0, 1, 0, 3, 12]	0 → 1	nums[1] 非零，交換 nums[1] 和 nums[0]，zero_index += 1
 2	[1, 0, 0, 3, 12]	1	nums[2] 是 0，跳過
