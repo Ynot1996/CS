@@ -31,7 +31,7 @@ One pointer starts at nums[0] (first pointer), while the other pointer traverses
 Whenever the second pointer points to a non-zero value, swap the values at the first pointer's position and the second pointer's position. <br>
 Then, move the first pointer one step forward and continue traversing the array until it is finished. 
 
-```python=
+```python
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         zero_index = 0
