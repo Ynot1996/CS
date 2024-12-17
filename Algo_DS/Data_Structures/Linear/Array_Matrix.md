@@ -10,8 +10,7 @@
 - [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
 - [Kth Smallest Element in a Sorted Matrix (Medium)](#Kth-Smallest-Element-in-a-Sorted-Matrix)
 
-`___________________________________________________________________________________________________________________________________________________________________________________________________`
-`Array`
+<!--Array-->
 ## Move Zeroes
 [283](https://leetcode.com/problems/move-zeroes/)
 
@@ -24,8 +23,7 @@
 ## Find the Duplicate Number
 [](https://leetcode.com/problems/find-the-duplicate-number/)
 
-`___________________________________________________________________________________________________________________________________________________________________________________________________`
-`Matrix`
+<!--Matrix-->
 ## Search a 2D Matrix II
 [](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
