@@ -33,16 +33,16 @@ Then, move the first pointer one step forward and continue traversing the array 
 
 
 
-`python
+```python
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         zero_index = 0
         for i in range(len(nums)):
             if nums[i] != 0:  
                 nums[i], nums[zero_index] = nums[zero_index], nums[i]  
-                zero_index += 1`
+                zero_index += 1
+```
 
- 
 ![image](https://github.com/user-attachments/assets/a2b7228c-ea45-4b20-94e9-041d16cad170)
 
 ## Degree of an Array
