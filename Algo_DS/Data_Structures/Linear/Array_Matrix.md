@@ -28,7 +28,17 @@ Output: [0]
 
 Method: Two Pointers<br>
 One pointer starts at nums[0] (first pointer), while the other pointer traverses through the entire nums array. <br>
-Whenever the second pointer points to a non-zero value, swap the values at the first pointer's position and the second pointer's position. Then, move the first pointer one step forward and continue traversing the array until it is finished. <br>
+Whenever the second pointer points to a non-zero value, swap the values at the first pointer's position and the second pointer's position. <br>
+Then, move the first pointer one step forward and continue traversing the array until it is finished. 
+
+`class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        zero_index = 0`
+
+        for i in range(len(nums)):
+            if nums[i] != 0:  # 當前元素非零
+                nums[i], nums[zero_index] = nums[zero_index], nums[i]  # 交換位置
+                zero_index += 1  # 更新下一個 0 的位置`
 
  
 ![image](https://github.com/user-attachments/assets/a2b7228c-ea45-4b20-94e9-041d16cad170)
