@@ -21,9 +21,9 @@ blob：指向文件的具體內容。GitHub 使用 blob 來指示你正在訪問
 main：指的是 Git 專案的主分支名稱。
 -->
 
-- [Books, Courses, and Resources](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Guide.md)
 - [Leetcode](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Leetcode.md)    
 - [算法](https://github.com/CyC2018/CS-Notes/blob/master/notes/算法%20-%20目录.md)
+- [Books, Courses, and Resources](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Guide.md)
 
 ## :file_folder: Database
 
