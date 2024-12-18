@@ -44,20 +44,20 @@ class Solution:
 ![image](https://github.com/user-attachments/assets/a2b7228c-ea45-4b20-94e9-041d16cad170)
 
 ## Degree of an Array
-[1](https://leetcode.com/problems/degree-of-an-array/)
+[697](https://leetcode.com/problems/degree-of-an-array/)
 
 ## Max Consecutive Ones
-[1](https://leetcode.com/problems/max-consecutive-ones/)
+[485](https://leetcode.com/problems/max-consecutive-ones/)
 
 ## Find the Duplicate Number
-[1](https://leetcode.com/problems/find-the-duplicate-number/)
+[287](https://leetcode.com/problems/find-the-duplicate-number/)
 
 <!--Matrix-->
 ## Search a 2D Matrix II
-[1](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+[240](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 ## Kth Smallest Element in a Sorted Matrix
-[1](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+[378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 
 
