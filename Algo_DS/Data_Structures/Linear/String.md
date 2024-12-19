@@ -28,25 +28,25 @@
 [344](https://leetcode.com/problems/reverse-string/)
 
 Question: <br> 
-Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. <br>
-Note that you must do this in-place without making a copy of the array.
+Write a function that reverses a string. The input string is given as an array of characters s. <br>
+You must do this by modifying the input array in-place with O(1) extra memory.
 
-Example 1:<br>
-Input: nums = [0,1,0,3,12] <br>
-Output: [1,3,12,0,0]
+Example 1: <br>
+Input: s = ["h","e","l","l","o"] <br>
+Output: ["o","l","l","e","h"]
 
 Example 2: <br>
-Input: nums = [0] <br>
-Output: [0]
+Input: s = ["H","a","n","n","a","h"] <br>
+Output: ["h","a","n","n","a","H"]
 
-Method: Two Pointers<br>
-One pointer starts at nums[0] (first pointer), while the other pointer traverses through the entire nums array. <br>
-Whenever the second pointer points to a non-zero value, swap the values at the first pointer's position and the second pointer's position. <br>
-Then, move the first pointer one step forward and continue traversing the array until it is finished. 
+Method: Two Pointers
+
 ## Valid Anagram
 [242](https://leetcode.com/problems/valid-anagram/)
+
 ## Implement strStr()
 [28](https://leetcode.com/problems/implement-strStr()/)
+
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
