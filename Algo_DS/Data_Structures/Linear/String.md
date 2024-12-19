@@ -55,7 +55,7 @@ Example 2: <br>
 Input: s = "rat", t = "car" <br>
 Output: false
 
-Method 1: Hash Table
+Method 1: Hash Table <br>
 Method 2: Sorting
 
 ## Implement strStr()
