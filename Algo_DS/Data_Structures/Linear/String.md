@@ -44,6 +44,20 @@ Method: Two Pointers
 ## Valid Anagram
 [242](https://leetcode.com/problems/valid-anagram/)
 
+Question: <br> 
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+Example 1: <br>
+Input: s = "anagram", t = "nagaram" <br>
+Output: true
+
+Example 2: <br>
+Input: s = "rat", t = "car" <br>
+Output: false
+
+Method 1: Hash Table
+Method 2: Sorting
+
 ## Implement strStr()
 [28](https://leetcode.com/problems/implement-strStr()/)
 
