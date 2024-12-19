@@ -1,15 +1,29 @@
 # String
-
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ### Easy
 - [Reverse String](#Reverse-String)
 - [Valid Anagram](#Valid-Anagram)
 - [Implement strStr()](#Implement-strStr())
 
 ### Medium
-- [Find the Duplicate Number (Medium)](#Find-the-Duplicate-Number)
-- [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
-- [Kth Smallest Element in a Sorted Matrix (Medium)](#Kth-Smallest-Element-in-a-Sorted-Matrix)
+- [Longest Substring Without Repeating Characters](#Longest-Substring-Without-Repeating-Characters)
+- [Longest Palindromic Substring](#Longest-Palindromic-Substring)
+- [Group Anagrams](#Group-Anagrams)
+- [Add Strings](#Add-Strings)
+- [Group Anagrams](#Group-Anagrams)
+- [Longest Common Prefix](#Longest-Common-Prefix)
+- [Decode String](#Decode-String)
+- [String to Integer (atoi)](#String-to-Integer-(atoi))
 
+### Medium
+- [Minimum Window Substring](#Minimum-Window-Substring)
+- [Regular Expression Matching](#Regular-Expression-Matching)
+- [Wildcard Matching](#Wildcard-Matching)
+- [Longest Duplicate Substring](#Longest-Duplicate-Substring)
+- [Palindrome Partitioning II](#Palindrome-Partitioning-II)
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--Easy-->
 ## Reverse String
 [344](https://leetcode.com/problems/reverse-string/)
 
@@ -33,3 +47,34 @@ Then, move the first pointer one step forward and continue traversing the array 
 [242](https://leetcode.com/problems/valid-anagram/)
 ## Implement strStr()
 [28](https://leetcode.com/problems/implement-strStr()/)
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--Medium-->
+## Longest Substring Without Repeating Characters
+[3](https://leetcode.com/problems/longesr-substring-without-repeating-characters/)
+## Longest Palindromic Substring
+[5](https://leetcode.com/problems/longest-palindromic-substring/)
+## Group Anagrams
+[49](https://leetcode.com/problems/group-anagrams/)
+## Add Strings
+[415](https://leetcode.com/problems/add-strings/)
+## Longest Common Prefix
+[14](https://leetcode.com/problems/longest-common-prefix/)
+## Decode String
+[394](https://leetcode.com/problems/decode-string/)
+## String to Integer (atoi)
+[8](https://leetcode.com/problems/string-to-integer-(atoi)/)
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--Hard-->
+## Minimum Window Substring
+[76](https://leetcode.com/problems/valid-anagram/)
+## Regular Expression Matching
+[10](https://leetcode.com/problems/regular-expression-matching/)
+## Wildcard Matching
+[44](https://leetcode.com/problems/wildcard-matching/)
+## Longest Duplicate Substring
+[1044](https://leetcode.com/problems/longest-duplicate-substring/)
+## Palindrome Partitioning II
+[132](https://leetcode.com/problems/palindrome-partitioning-II/)
+
