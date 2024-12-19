@@ -15,4 +15,4 @@
 ## Valid Anagram
 [242](https://leetcode.com/problems/valid-anagram/)
 ## Implement strStr()
-[28](https://leetcode.com/problems/implement-strstr()/)
+[28](https://leetcode.com/problems/implement-strStr()/)
