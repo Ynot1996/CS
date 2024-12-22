@@ -1,4 +1,4 @@
-## Classic Algorithms Problem
+## Classic Algorithm Problem
 
 - [Tower of Hanoi](#Tower-of-Hanoi)
 - []()
