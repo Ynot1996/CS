@@ -22,7 +22,6 @@ main：指的是 Git 專案的主分支名稱。
 -->
 
 - [Algorithm](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Algorithm.md)
-- [算法](https://github.com/CyC2018/CS-Notes/blob/master/notes/算法%20-%20目录.md)
 - [Leetcode](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Leetcode.md)    
 - [Books, Courses, and Resources](https://github.com/Ynot1996/CS/blob/main/Algo_DS/Guide.md)
 
