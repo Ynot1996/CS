@@ -1,7 +1,7 @@
 ## Classic Algorithm Problem
 
 - [Tower of Hanoi](#Tower-of-Hanoi)
-- []()
+- [Tribonacci]()
 - []()
 - []()
   
