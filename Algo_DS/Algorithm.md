@@ -7,7 +7,12 @@
 - []()
   
 ### Tower of Hanoi
-<a href="https://youtu.be/gqTkx87r3do?si=5M43j8CH6fWyovrQ" target="_blank">Bonnie</a>
+<a href="https://youtu.be/gqTkx87r3do?si=5M43j8CH6fWyovrQ" target="_blank">Bonnie</a><br>
+The objective of the puzzle is to move the entire stack to one of the other rods, obeying the following rules:
+
+1. Only one disk may be moved at a time.
+2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
+3. No disk may be placed on top of a disk that is smaller than it.
 
 ### Fibonacci Sequenece
 <a href="https://zh.wikipedia.org/zh-tw/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91" target="_blank">Wiki Fibonacci</a><br>
