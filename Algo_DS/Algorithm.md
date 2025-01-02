@@ -3,7 +3,7 @@
 - [Tower of Hanoi](#Tower-of-Hanoi)
 - [Fibonacci Sequence](#Fibonacci-Sequence)
 - [Tribonacci Sequence](#Tribonacci)
-- []()
+- [N-Queens]()
   
 ### Tower of Hanoi
 <a href="https://youtu.be/gqTkx87r3do?si=5M43j8CH6fWyovrQ" target="_blank">Bonnie</a><br><br>
