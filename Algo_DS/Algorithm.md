@@ -4,6 +4,9 @@
 - [Fibonacci Sequence](#Fibonacci-Sequence)
 - [Tribonacci Sequence](#Tribonacci)
 - [N-Queens]()
+- []()
+- []()
+- []()
   
 ### Tower of Hanoi
 <a href="https://youtu.be/gqTkx87r3do?si=5M43j8CH6fWyovrQ" target="_blank">Bonnie</a><br><br>
@@ -20,3 +23,6 @@ In mathematics, the Fibonacci sequence is a sequence in which each term is the s
 
 ### Tribonacci Sequence
 <a href="https://www.youtube.com/watch?v=fNFcRT7Fswc" target="_blank">可愛小松鼠</a>
+
+### N-Queens
+
