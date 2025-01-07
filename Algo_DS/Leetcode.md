@@ -18,7 +18,7 @@
 ## Data Structures
 
 ### Linear
-- [String](Data_Structures/Linear/String.md): 3, 5, 8, 10
+- [String](Data_Structures/Linear/String.md): 3, 5, 8, 10, 344, 242
 - [Array and Matrix](Data_Structures/Linear/Array_Matrix.md): 240, 283, 287, 378, 485, 697 <!--%20為空白鍵的URL編碼，&的URL編碼為%26。-->
 - [Linked List](Data_Structures/Linear/Linked_List.md)
 - [Stack and Queue](Data_Structures/Linear/Stack_Queue.md)
