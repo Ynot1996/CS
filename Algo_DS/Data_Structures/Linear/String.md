@@ -24,7 +24,7 @@
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ## 基礎字串操作
-1. 字串方法
+1\. 字串方法
    
 str.lower() / str.upper()：轉小寫 / 大寫。
 
@@ -42,7 +42,7 @@ str.count(sub)：計算子字串出現次數。
 
 str.startswith(prefix) / str.endswith(suffix)：檢查是否以某子字串開頭或結尾。
 
-3. 字串切片
+2\. 字串切片
    
 string[start:end:step]：
 
@@ -50,7 +50,7 @@ string[start:end:step]：
 
 支援反向切片（step=-1）。
 
-5. 格式化字串
+3\. 格式化字串
    
 舊式格式化："Hello, %s!" % name
 
@@ -60,7 +60,7 @@ f-string：f"Hello, {name}!"（Python 3.6+）
 
 ## 進階字串操作
 
-1. 正規表達式（Regular Expression） 使用 re 模組處理複雜字串匹配與替換：
+1\. 正規表達式（Regular Expression） 使用 re 模組處理複雜字串匹配與替換：
 
 ```python
 import re
@@ -72,11 +72,11 @@ new_string = re.sub(r'\d+', '30', 'Age: 25')
 print(new_string)  # 'Age: 30'
 ```
 
-2. 字串翻轉
+2\. 字串翻轉
    
 使用切片：reversed_string = string[::-1]
 
-4. 字串檢查
+3\. 字串檢查
    
 字母或數字檢查：str.isalpha() / str.isdigit() / str.isalnum()
 
@@ -84,13 +84,13 @@ print(new_string)  # 'Age: 30'
 
 大小寫檢查：str.islower() / str.isupper()
 
-6. 處理多行字串
+4\. 處理多行字串
    
 使用三重引號（''' 或 """）定義多行字串。
 
 分割多行：str.splitlines()
 
-9. 轉換為列表或字元
+5\. 轉換為列表或字元
 
 ```python
 char_list = list(string)  
