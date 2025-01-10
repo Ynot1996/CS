@@ -23,6 +23,60 @@
 - [Palindrome Partitioning II](#Palindrome-Partitioning-II)
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
+## 基礎字串操作
+1. 字串方法
+str.lower() / str.upper()：轉小寫 / 大寫。
+str.strip()：移除頭尾空白或指定字符。
+str.replace(old, new)：取代子字串。
+str.split(separator)：拆分字串，預設用空白分隔。
+str.join(iterable)：以字串連結可迭代對象。
+str.find(sub) / str.index(sub)：查找子字串的索引（find 不存在時返回 -1，index 會報錯）。
+str.count(sub)：計算子字串出現次數。
+str.startswith(prefix) / str.endswith(suffix)：檢查是否以某子字串開頭或結尾。
+
+2. 字串切片
+string[start:end:step]：
+取得指定範圍的子字串。
+支援反向切片（step=-1）。
+
+3. 格式化字串
+舊式格式化："Hello, %s!" % name
+新式格式化："Hello, {}!".format(name)
+f-string：f"Hello, {name}!"（Python 3.6+）
+
+## 進階字串操作
+1. 正規表達式（Regular Expression） 使用 re 模組處理複雜字串匹配與替換：
+
+```python
+import re
+
+result = re.search(r'\d+', 'Age: 25')
+print(result.group())  # '25'
+
+new_string = re.sub(r'\d+', '30', 'Age: 25')
+print(new_string)  # 'Age: 30'
+```
+
+2. 字串翻轉
+使用切片：reversed_string = string[::-1]
+
+3. 字串檢查
+字母或數字檢查：str.isalpha() / str.isdigit() / str.isalnum()
+空白檢查：str.isspace()
+大小寫檢查：str.islower() / str.isupper()
+
+4. 處理多行字串
+使用三重引號（''' 或 """）定義多行字串。
+分割多行：str.splitlines()
+
+5. 轉換為列表或字元
+
+```python
+char_list = list(string)  
+new_string = ''.join(char_list)  
+```
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Easy-->
 ## Reverse String
 [344](https://leetcode.com/problems/reverse-string/)
