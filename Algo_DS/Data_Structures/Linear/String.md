@@ -26,20 +26,25 @@
 ## 基礎字串操作
 1. 字串方法
 str.lower() / str.upper()：轉小寫 / 大寫。
+
 str.strip()：移除頭尾空白或指定字符。
+
 str.replace(old, new)：取代子字串。
+
 str.split(separator)：拆分字串，預設用空白分隔。
+
 str.join(iterable)：以字串連結可迭代對象。
-str.find(sub) / str.index(sub)：查找子字串的索引（find 不存在時返回 -1，index 會報錯）。
+
+str.find(sub) / str.index(sub)：查找子字串的索引（find 不存在時返回 -1，index 會報錯）。<br>
 str.count(sub)：計算子字串出現次數。
 str.startswith(prefix) / str.endswith(suffix)：檢查是否以某子字串開頭或結尾。
 
-2. 字串切片
+3. 字串切片
 string[start:end:step]：
 取得指定範圍的子字串。
 支援反向切片（step=-1）。
 
-3. 格式化字串
+4. 格式化字串
 舊式格式化："Hello, %s!" % name
 新式格式化："Hello, {}!".format(name)
 f-string：f"Hello, {name}!"（Python 3.6+）
