@@ -82,7 +82,7 @@ Method 2: Sorting
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Hard-->
 ## Minimum Window Substring
-[76](https://leetcode.com/problems/valid-anagram/)
+[76](https://leetcode.com/problems/minimum-window-substring/)
 ## Regular Expression Matching
 [10](https://leetcode.com/problems/regular-expression-matching/)
 ## Wildcard Matching
