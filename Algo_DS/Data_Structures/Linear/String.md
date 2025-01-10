@@ -117,7 +117,7 @@ Output: ["h","a","n","n","a","H"]
 Method 1 (切片翻轉)
 
 ```python
-s[:] == s[::-1] //注意 s = s[::-1] 不會改變原本的字串s，而是產生新對象；s[:]才是就地修改(in-place modification)的操作。
+s[:] == s[::-1] # 注意 s = s[::-1] 不會改變原本的字串s，而是產生新對象；s[:]才是就地修改(in-place modification)的操作。
 ```
 
 Method 2 (Two Pointers)
