@@ -11,7 +11,7 @@
 - [Binary Search](Algorithm/Binary_Search.md)
 - [Search](Algorithm/Search.md)
 - [Greedy](Algorithm/Greedy.md)
-- [Divide and Conquer](Algorithm.md)
+- [Divide and Conquer](Algorithm/Divide_and_Conquer.md)
 - [Dynamic Programming](Algorithm/Dynamic_Progrmamming.md)
 - [Mathematics](Algorithm/Mathematics.md): 204
 
