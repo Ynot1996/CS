@@ -114,7 +114,13 @@ Example 2: <br>
 Input: s = ["H","a","n","n","a","h"] <br>
 Output: ["h","a","n","n","a","H"]
 
-Method: Two Pointers
+Method 1 (切片翻轉)
+
+```python
+s[:] == s[::-1] //注意 s = s[::-1] 不會改變原本的字串s，而是產生新對象；s[:]才是就地修改(in-place modification)的操作。
+```
+
+Method 2 (Two Pointers)
 
 ## Valid Anagram
 [242](https://leetcode.com/problems/valid-anagram/)
