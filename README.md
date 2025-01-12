@@ -44,7 +44,7 @@ main：指的是 Git 專案的主分支名稱。
 
 ## :bulb: SD 
 
-- [系统设计基础](https://github.com/CyC2018/CS-Notes/blob/master/notes/系统设计基础.md)
+- [系统設計基礎](https://github.com/CyC2018/CS-Notes/blob/master/notes/系统设计基础.md)
 - [分布式](https://github.com/CyC2018/CS-Notes/blob/master/notes/分布式.md)
 - [集群](https://github.com/CyC2018/CS-Notes/blob/master/notes/集群.md)
 - [攻击技术](https://github.com/CyC2018/CS-Notes/blob/master/notes/攻击技术.md)
