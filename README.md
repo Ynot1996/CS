@@ -49,7 +49,7 @@ main：指的是 Git 專案的主分支名稱。
 - [集群](https://github.com/CyC2018/CS-Notes/blob/master/notes/集群.md)
 - [攻擊技術](https://github.com/CyC2018/CS-Notes/blob/master/notes/攻击技术.md)
 - [缓存](https://github.com/CyC2018/CS-Notes/blob/master/notes/缓存.md)
-- [消息队列](https://github.com/CyC2018/CS-Notes/blob/master/notes/消息队列.md)
+- [消息隊列](https://github.com/CyC2018/CS-Notes/blob/master/notes/消息队列.md)
 
 ## :art: OOP
 
