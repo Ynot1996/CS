@@ -67,7 +67,7 @@ main：指的是 Git 專案的主分支名稱。
 ## :1st_place_medal: Practice 
 
 - [代碼可讀性](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码可读性.md)
-- [代码风格规范](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码风格规范.md)
+- [代碼風格規範](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码风格规范.md)
   
 ## :wrench: Tools 
 
