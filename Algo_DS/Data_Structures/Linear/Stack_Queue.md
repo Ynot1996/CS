@@ -11,7 +11,7 @@
 
 <!--Array-->
 ## Binary Tree Inorder Traversal
-[283]([https://leetcode.com/problems/move-zeroes/])
+[283](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 Question: <br> 
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
@@ -40,20 +40,12 @@ class Solution {
 }
 ```
 
-![image](https://github.com/user-attachments/assets/a2b7228c-ea45-4b20-94e9-041d16cad170)
+## 
+[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
-## Degree of an Array
-[697](https://leetcode.com/problems/degree-of-an-array/)
+## 
+[145](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
-## Max Consecutive Ones
-[485](https://leetcode.com/problems/max-consecutive-ones/)
 
-## Find the Duplicate Number
-[287](https://leetcode.com/problems/find-the-duplicate-number/)
 
-<!--Matrix-->
-## Search a 2D Matrix II
-[240](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
-## Kth Smallest Element in a Sorted Matrix
-[378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
