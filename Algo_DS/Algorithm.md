@@ -2,8 +2,8 @@
 
 - [Tower of Hanoi](#Tower-of-Hanoi)
 - [Fibonacci Sequence](#Fibonacci-Sequence)
-- [Tribonacci Sequence](#Tribonacci)
-- [N-Queens]()
+- [Tribonacci Sequence](#Tribonacci-Sequence)
+- [N-Queens](#N-Queens)
 - []()
 - []()
 - []()
