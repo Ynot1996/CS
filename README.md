@@ -8,9 +8,9 @@
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
 
-| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | &nbsp;Java&nbsp; | Practice | &nbsp;Tools&nbsp; |  
-| :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:coffee:](#coffee-java) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
+| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | Practice | &nbsp;Tools&nbsp; |  
+| :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | 
+| [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
 
 
 ## :pencil: Algo & DS
@@ -55,14 +55,6 @@ main：指的是 Git 專案的主分支名稱。
 
 - [面相對象思想](https://github.com/CyC2018/CS-Notes/blob/master/notes/面向对象思想.md)
 - [設計模式](https://github.com/CyC2018/CS-Notes/blob/master/notes/设计模式%20-%20目录.md)
-
-## :coffee: Java
-
-- [Java Basic](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20基础.md)
-- [Java 容器](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20容器.md)
-- [Java 開發](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20并发.md)
-- [Java 虛擬機](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20虚拟机.md)
-- [Java I/O](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20IO.md)
 
 ## :1st_place_medal: Practice 
 
