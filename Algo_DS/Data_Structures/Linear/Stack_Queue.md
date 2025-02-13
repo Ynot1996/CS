@@ -40,10 +40,10 @@ class Solution {
 }
 ```
 
-## 
+## Binary Tree Preorder Traversal
 [144](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
-## 
+## Binary Tree Postorder Traversal
 [145](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 
