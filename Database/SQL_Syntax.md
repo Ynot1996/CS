@@ -105,7 +105,7 @@ INSERT INTO mytable(col1, col2)
 VALUES(val1, val2);
 ```
 
-插入检索出来的数据
+插入檢索出來的數據
 
 ```sql
 INSERT INTO mytable1(col1, col2)
