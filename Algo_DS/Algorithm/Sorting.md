@@ -2,7 +2,7 @@
 <!-- GFM-TOC -->
 * [Fundamental Sorting Concepts]
     * [Bubble Sort](#Bubble-Sort-(Medium))
-      * [88. Merge Sorted Array](#Merge-Sorted-Array)
+      * [88. Merge Sorted Array (Medium)](#Merge-Sorted-Array)
     * [Selection Sort](#Selection-Sort)
         * [215. Kth Largest](#1-kth-element)
          
@@ -24,7 +24,7 @@
 
 Repeatedly swaps adjacent elements if they are in the wrong order.
 
-### Merge Sorted Array (Medium)
+#### Merge Sorted Array
 
 [Leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
