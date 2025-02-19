@@ -1,9 +1,17 @@
 # Sorting
 <!-- GFM-TOC -->
-* [Fundamental Sorting Concepts](#Sorting)
-    * [Quick Select](#Quick-Select)
-    * [Heap](#Heap)
-        * [1. Kth Element](#1-kth-element)
+* [Fundamental Sorting Concepts]
+    * [Bubble Sort](#Quick-Select)
+      * [88. Merge Sorted Array](#Merge-Sorted-Array)
+    * [Selection Sort](#Selection-Sort)
+        * [215. Kth Largest](#1-kth-element)
+         
+* [Efficient Sorting Algorithms]
+    * [Merge Sort](#Merge-Sort)
+      * [21. Merge Sorted Array](#Merge-Sorted-Array)
+    * [Selection Sort](#Selection-Sort)
+        * [215. Kth Largest](#1-kth-element)
+                 
     * [桶排序](#桶排序)
         * [1. 出现频率最多的 k 个元素](#1-出现频率最多的-k-个元素)
         * [2. 按照字符出现次数对字符串排序](#2-按照字符出现次数对字符串排序)
@@ -12,15 +20,11 @@
 <!-- GFM-TOC -->
 
 
-## Quick Select
+## Bubble Sort
 
-用於解決 Kth Element 問題，即查找無序數組中第 K 小或第 K 大的元素。
+Repeatedly swaps adjacent elements if they are in the wrong order.
 
-可以使用快速排序的 partition() 進行實現。
-
-- 選擇一個 pivot（樞軸），並分區分為「小於 pivot 的部分」和「大於 pivot 的部分」。
-- 如果 pivot 正好是第 K 個元素，那麼直接返回。
-- 否則根據 K 的大小，選擇繼續在左邊或右邊遞迴查找。
+### Merge Sorted Array
 
 ## Heap
 
