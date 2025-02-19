@@ -1,6 +1,6 @@
 # Sorting
 <!-- GFM-TOC -->
-* [Sorting](#Sorting)
+* [Fundamental Sorting Concepts](#Sorting)
     * [Quick Select](#Quick-Select)
     * [Heap](#Heap)
         * [1. Kth Element](#1-kth-element)
