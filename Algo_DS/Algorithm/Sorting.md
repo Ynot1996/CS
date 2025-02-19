@@ -1,6 +1,6 @@
 # Sorting
 <!-- GFM-TOC -->
-* Fundamental Sorting Concepts
+* [Fundamental Sorting Concepts](#Fundamental-Sorting-Concepts)
     * [Bubble Sort](#Bubble-Sort)
       * [88. Merge Sorted Array (Easy)](#88-Merge-Sorted-Array)
     * [Selection Sort](#Selection-Sort)
@@ -8,7 +8,7 @@
     * [Insertion Sort](#Insertion-Sort)
         * [147. Insertion Sort List](#147-Insertion-Sort-List)   
          
-* Efficient Sorting Algorithms
+* [Efficient Sorting Algorithms](#Efficient-Sorting-Algorithms)
     * [Merge Sort](#Merge-Sort)
       * [21. Merge Sorted Array](#21-Merge-Sorted-Array)
     * [Quick Sort](#Quick-Sort)
@@ -24,6 +24,8 @@
     * [Bucket Sort](#Bocket-Sort)
         * [164. Maximum Gap](#164-Maximum-Gap)   
 
+# Fundamental Sorting Concepts
+
 ## Bubble Sort
 
 Repeatedly swaps adjacent elements if they are in the wrong order.
@@ -37,6 +39,8 @@ Repeatedly swaps adjacent elements if they are in the wrong order.
 Selects the smallest (or largest) element from the unsorted portion and swaps it with the first unsorted element.
 
 #### 215. Kth Largest Element in an Array
+
+[Leetcode](https://leetcode.com/problems/Kth-Largest-Element-in-an-Array/description/)
 
 ## Insertion Sort
 
