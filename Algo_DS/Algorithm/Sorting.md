@@ -25,6 +25,9 @@
 Repeatedly swaps adjacent elements if they are in the wrong order.
 
 ### Merge Sorted Array
+88\. Merge Sorted Array (Medium)
+
+[Leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
 ## Heap
 
