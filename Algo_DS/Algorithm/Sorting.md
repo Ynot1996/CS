@@ -1,7 +1,7 @@
 # Sorting
 <!-- GFM-TOC -->
 * [Fundamental Sorting Concepts]
-    * [Bubble Sort](#Quick-Select)
+    * [Bubble Sort](#Bubble-Sort)
       * [88. Merge Sorted Array](#Merge-Sorted-Array)
     * [Selection Sort](#Selection-Sort)
         * [215. Kth Largest](#1-kth-element)
