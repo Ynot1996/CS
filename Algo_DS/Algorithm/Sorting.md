@@ -6,7 +6,7 @@
     * [Selection Sort](#Selection-Sort)
         * [215. Kth Largest Element in an Array (Medium)](#215-Kth-Largest-Element-in-an-Array)
     * [Insertion Sort](#Insertion-Sort)
-        * [147. Insertion Sort List](#147-Insertion-Sort-List)   
+        * [147. Insertion Sort List (Medium)](#147-Insertion-Sort-List)   
          
 * [Efficient Sorting Algorithms](#Efficient-Sorting-Algorithms)
     * [Merge Sort](#Merge-Sort)
@@ -40,7 +40,7 @@ Selects the smallest (or largest) element from the unsorted portion and swaps it
 
 #### 215. Kth Largest Element in an Array
 
-[Leetcode](https://leetcode.com/problems/Kth-Largest-Element-in-an-Array/description/)
+[Leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
 ## Insertion Sort
 
@@ -48,6 +48,30 @@ Builds the sorted array one element at a time by inserting elements into their c
 
 #### 147. Insertion Sort List
 
-[Leetcode](https://leetcode.com/problems/Insertion-Sort-List/description/)
+[Leetcode](https://leetcode.com/problems/insertion-sort-list/description/)
 
 # Efficient Sorting Algorithms
+
+## Merge Sort
+
+Divide-and-conquer strategy that splits the array in half, recursively sorts them, and merges them back together.
+
+#### 21. Merge Two Sorted Lists
+
+[Leetcode](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+
+## Quick Sort
+
+Choose a pivot, partition the array around the pivot, and recursively sort the subarrays.
+
+#### 75. Sort Colors
+
+[Leetcode](https://leetcode.com/problems/sort-colors/description/)
+
+## Heap Sort
+
+Builds a heap (max or min) and repeatedly extracts the largest (or smallest) element.
+
+#### 215. Kth Largest Element in an Array
+
+[Leetcode](https://leetcode.com/problems/Kth-Largest-Element-in-an-Array/description/)
