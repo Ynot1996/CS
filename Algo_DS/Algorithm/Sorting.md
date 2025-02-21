@@ -18,11 +18,11 @@
      
 * [Advanced Sorting Algorithms](#Advanced-Sorting-Algorithms)
     * [Counting Sort](#Counting-Sort)
-      * [912. Sort an Array](#912-Sort-an-Array)
+      * [912. Sort an Array (Medium)](#912-Sort-an-Array)
     * [Radix Sort](#Radix-Sort)
-        * [164. Maximum Gap](#164-Maximum-Gap)
+        * [164. Maximum Gap (Medium)](#164-Maximum-Gap---Bucket-Sort)
     * [Bucket Sort](#Bucket-Sort)
-        * [164. Maximum Gap](#164-Maximum-Gap)   
+        * [164. Maximum Gap (Medium)](#164-Maximum-Gap---Bucket-Sort)   
 
 # Fundamental Sorting Concepts
 
@@ -90,7 +90,7 @@ Sorts integers by counting the frequency of each value and uses this to place th
 
 Sorts numbers by processing digits from least significant to most significant.
 
-#### 164. Maximum Gap
+#### 164. Maximum Gap - Bucket Sort
 
 [Leetcode](https://leetcode.com/problems/maximum-gap/description/)
 
@@ -98,6 +98,6 @@ Sorts numbers by processing digits from least significant to most significant.
 
 Divides the input into several "buckets," sorts each bucket, and combines the results.
 
-#### 164. Maximum Gap
+#### 164. Maximum Gap - Bucket Sort
 
 [Leetcode](https://leetcode.com/problems/maximum-gap/description/)
