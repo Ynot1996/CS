@@ -10,11 +10,11 @@
          
 * [Efficient Sorting Algorithms](#Efficient-Sorting-Algorithms)
     * [Merge Sort](#Merge-Sort)
-      * [21. Merge Sorted Array](#21-Merge-Sorted-Array)
+      * [21. Merge Two Sorted Lists (Easy)](#21-Merge-Two-Sorted-Lists)
     * [Quick Sort](#Quick-Sort)
-        * [75. Sort Colors](#75-Sort-Colors)
+        * [75. Sort Colors (Medium)](#75-Sort-Colors)
     * [Heap Sort](#Heap-Sort)
-        * [215. Kth Largest Element in an Array](#215-Kth-Largest-Element-in-an-Array)
+        * [215. Kth Largest Element in an Array (Medium)](#215-Kth-Largest-Element-in-an-Array)
      
 * [Advanced Sorting Algorithms](#Advanced-Sorting-Algorithms)
     * [Counting Sort](#Counting-Sort)
