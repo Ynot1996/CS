@@ -4,7 +4,7 @@
     * [Bubble Sort](#Bubble-Sort)
       * [88. Merge Sorted Array (Easy)](#88-Merge-Sorted-Array)
     * [Selection Sort](#Selection-Sort)
-        * [215. Kth Largest Element in an Array (Medium)](#215-Kth-Largest-Element-in-an-Array)
+        * [215. Kth Largest Element in an Array (Medium)](#215-Kth-Largest-Element-in-an-Array-(Selection-Sort))
     * [Insertion Sort](#Insertion-Sort)
         * [147. Insertion Sort List (Medium)](#147-Insertion-Sort-List)   
          
@@ -38,7 +38,7 @@ Repeatedly swaps adjacent elements if they are in the wrong order.
 
 Selects the smallest (or largest) element from the unsorted portion and swaps it with the first unsorted element.
 
-#### 215. Kth Largest Element in an Array
+#### 215. Kth Largest Element in an Array (Selection Sort)
 
 [Leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
