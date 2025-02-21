@@ -18,10 +18,10 @@
      
 * [Advanced Sorting Algorithms](#Advanced-Sorting-Algorithms)
     * [Counting Sort](#Counting-Sort)
-      * [912. Sort an Array](#912-Merge-Sorted-Array)
+      * [912. Sort an Array](#912-Sort-an-Array)
     * [Radix Sort](#Radix-Sort)
         * [164. Maximum Gap](#164-Maximum-Gap)
-    * [Bucket Sort](#Bocket-Sort)
+    * [Bucket Sort](#Bucket-Sort)
         * [164. Maximum Gap](#164-Maximum-Gap)   
 
 # Fundamental Sorting Concepts
