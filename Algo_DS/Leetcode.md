@@ -6,7 +6,7 @@
 
 ## Algorithm
 
-- [Sorting](Algorithm/Sorting.md)
+- [Sorting](Algorithm/Sorting.md): 21, 75, 88, 147, 164, 215, 912
 - [Two Pointers](Algorithm/Two_Pointers.md)
 - [Binary Search](Algorithm/Binary_Search.md)
 - [Search](Algorithm/Search.md)
