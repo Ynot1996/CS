@@ -20,7 +20,7 @@
     * [Counting Sort](#Counting-Sort)
       * [912. Sort an Array (Medium)](#912-Sort-an-Array)
     * [Radix Sort](#Radix-Sort)
-        * [164. Maximum Gap (Medium)](#164-Maximum-Gap---Bucket-Sort)
+        * [164. Maximum Gap (Medium)](#164-Maximum-Gap---Radix-Sort)
     * [Bucket Sort](#Bucket-Sort)
         * [164. Maximum Gap (Medium)](#164-Maximum-Gap---Bucket-Sort)   
 
@@ -90,7 +90,7 @@ Sorts integers by counting the frequency of each value and uses this to place th
 
 Sorts numbers by processing digits from least significant to most significant.
 
-#### 164. Maximum Gap - Bucket Sort
+#### 164. Maximum Gap - Radix Sort
 
 [Leetcode](https://leetcode.com/problems/maximum-gap/description/)
 
