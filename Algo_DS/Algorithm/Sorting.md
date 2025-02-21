@@ -16,7 +16,7 @@
     * [Heap Sort](#Heap-Sort)
         * [215. Kth Largest Element in an Array](#215-Kth-Largest-Element-in-an-Array)
      
-* Advanced Sorting Algorithms
+* [Advanced Sorting Algorithms](#Advanced-Sorting-Algorithms)
     * [Counting Sort](#Counting-Sort)
       * [912. Sort an Array](#912-Merge-Sorted-Array)
     * [Radix Sort](#Radix-Sort)
@@ -75,3 +75,29 @@ Builds a heap (max or min) and repeatedly extracts the largest (or smallest) ele
 #### 215. Kth Largest Element in an Array
 
 [Leetcode](https://leetcode.com/problems/Kth-Largest-Element-in-an-Array/description/)
+
+# Advanced Sorting Algorithms
+
+## Counting Sort
+
+Sorts integers by counting the frequency of each value and uses this to place them in the correct position.
+
+#### 912. Sort an Array
+
+[Leetcode](https://leetcode.com/problems/sort-an-array/description/)
+
+## Radix Sort
+
+Sorts numbers by processing digits from least significant to most significant.
+
+#### 164. Maximum Gap
+
+[Leetcode](https://leetcode.com/problems/maximum-gap/description/)
+
+## Bucket Sort
+
+Divides the input into several "buckets," sorts each bucket, and combines the results.
+
+#### 164. Maximum Gap
+
+[Leetcode](https://leetcode.com/problems/maximum-gap/description/)
