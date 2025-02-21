@@ -74,7 +74,7 @@ Builds a heap (max or min) and repeatedly extracts the largest (or smallest) ele
 
 #### 215. Kth Largest Element in an Array
 
-[Leetcode](https://leetcode.com/problems/Kth-Largest-Element-in-an-Array/description/)
+[Leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
 # Advanced Sorting Algorithms
 
