@@ -4,10 +4,7 @@
 - [Fibonacci Sequence](#Fibonacci-Sequence)
 - [Tribonacci Sequence](#Tribonacci-Sequence)
 - [N-Queens](#N-Queens)
-- []()
-- []()
-- []()
-  
+
 ### Tower of Hanoi
 <a href="https://youtu.be/gqTkx87r3do?si=5M43j8CH6fWyovrQ" target="_blank">Bonnie</a><br><br>
 The objective of the puzzle is to move the entire stack to one of the other rods, obeying the following rules:
