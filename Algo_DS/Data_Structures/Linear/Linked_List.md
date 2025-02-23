@@ -73,6 +73,7 @@ prev_node.next = prev_node.next.next
 
 - Iterative 
 
+Python
 ```python
 def reverse_list(head):
     prev, curr = None, head
@@ -84,6 +85,7 @@ def reverse_list(head):
     return prev
 ```
 
+Java
 ```java
 public ListNode reverseList(ListNode head) {
         ListNode prev = null;
