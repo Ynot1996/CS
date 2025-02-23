@@ -66,9 +66,12 @@ prev_node.next = new_node
 prev_node.next = prev_node.next.next
 ```
 
-3\. 反轉鏈表
-   
-- 雙指針法
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--Easy-->
+## Reverse Linked List
+[206](https://leetcode.com/problems/Reverse-Linked-List/)
+
+- Iterative 
 
 ```python
 def reverse_list(head):
@@ -81,11 +84,28 @@ def reverse_list(head):
     return prev
 ```
 
-<!------------------------------------------------------------------------------------------------------------------------------------------------------>
-<!--Easy-->
-## Reverse Linked List
-[206](https://leetcode.com/problems/Reverse-Linked-List/)
+```java
+public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
 
+        while (curr != null) {
+            ListNode Nxt = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = Nxt;
+        }
+        
+        return prev;
+    }
+}
+```
+
+- Recursive
+
+```python
+
+```
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
 ## Add Two Numbers
