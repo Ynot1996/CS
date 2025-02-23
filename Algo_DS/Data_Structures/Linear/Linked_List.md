@@ -71,9 +71,9 @@ prev_node.next = prev_node.next.next
 ## Reverse Linked List
 [206](https://leetcode.com/problems/Reverse-Linked-List/)
 
-- Iterative 
+1\. Iterative Method
 
-Python
+- Python
 ```python
 def reverse_list(head):
     prev, curr = None, head
@@ -85,7 +85,7 @@ def reverse_list(head):
     return prev
 ```
 
-Java
+- Java
 ```java
 public ListNode reverseList(ListNode head) {
         ListNode prev = null;
@@ -101,7 +101,7 @@ public ListNode reverseList(ListNode head) {
 }
 ```
 
-- Recursive
+2\. Recursive Method
 
 ```python
 
