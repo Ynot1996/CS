@@ -19,7 +19,7 @@
 - [Linked List Cycle II](#Linked-List-Cycle-II)
 - [Intersection of Two Linked Lists](#Intersection-of-Two-Linked-Lists)
 
-### Medium
+### Hard
 - [Merge K Sorted Lists](#Merge-K-Sorted-Lists)
 - [Reverse Nodes in k-Group](#Reverse-Nodes-in-k-Group)
 - [LRU Cache](#LRU-Cache)
@@ -111,6 +111,9 @@ public ListNode reverseList(ListNode head) {
 ## Add Two Numbers
 [2](https://leetcode.com/problems/Add-Two-Numbers/)
 
+```java
+
+```
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Hard-->
 ## Merge K Sorted Lists
