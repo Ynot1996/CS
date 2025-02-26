@@ -28,45 +28,6 @@
 - [Linked List in Binary Tree](#Linked-List-in-Binary-Tree)
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
-## Basic
-1\. 創建與遍歷節點
-
-- 創建節點
-  
-```python
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-```
-
-- 遍歷鏈表
-   
-```python
-def traverse(head):
-    while head:
-        print(head.val, end=' -> ')
-        head = head.next
-    print("None")
-```
-
-2\. 插入與刪除節點 
-   
-- 在鏈表中間插入節點
-
-```python
-new_node = ListNode(5)
-new_node.next = prev_node.next
-prev_node.next = new_node
-```
-
-- 刪除節點
-  
-```python
-prev_node.next = prev_node.next.next
-```
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Easy-->
 ## Reverse Linked List
 [206](https://leetcode.com/problems/Reverse-Linked-List/)
