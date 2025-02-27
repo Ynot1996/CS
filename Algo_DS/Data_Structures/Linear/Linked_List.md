@@ -64,8 +64,18 @@ public ListNode reverseList(ListNode head) {
 
 2\. Recursive Method
 
-```python
-
+```java
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        if (head==null||head.next==null){
+            return head;
+        }
+        ListNode reversedListHead = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return reversedListHead;
+    }
+}
 ```
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
