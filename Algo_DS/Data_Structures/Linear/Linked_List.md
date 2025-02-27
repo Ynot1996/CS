@@ -104,6 +104,17 @@ class Solution {
     }
 }
 ```
+## Delete Node in a Linked List
+[237](https://leetcode.com/problems/Delete-Node-in-a-Linked-List/)
+
+```java
+class Solution {
+    public void deleteNode(ListNode node) {
+        node.val = node.next.val;
+        node.next = node.next.next;
+    }
+}
+```
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Hard-->
 ## Merge K Sorted Lists
