@@ -1,9 +1,9 @@
 # Stack and Queue
 
 ### Stack
-- [Binary Tree Inorder Traversal (Easy)](#Binary-Tree-Inorder-Traversal)
-- [Binary Tree Preorder Traversal (Easy)](#Binary-Tree-Preorder-Traversal)
-- [Binary Tree Postorder Traversal (Easy)](#Binary-Tree-Postorder-Traversal)
+- [283. Binary Tree Inorder Traversal (Easy)](#Binary-Tree-Inorder-Traversal)
+- [144. Binary Tree Preorder Traversal (Easy)](#Binary-Tree-Preorder-Traversal)
+- [145. Binary Tree Postorder Traversal (Easy)](#Binary-Tree-Postorder-Traversal)
 
 ### Queue
 - [](#)
