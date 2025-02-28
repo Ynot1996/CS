@@ -107,6 +107,8 @@ class Solution {
 ## Linked List Cycle
 [141](https://leetcode.com/problems/Linked-List-Cycle/)
 
+This code implements Floyd’s Cycle Detection Algorithm, which uses two pointers—slow moving one step at a time and fast moving two steps—to traverse the linked list, ensuring that if a cycle exists, fast will inevitably catch up to slow within the loop, while if no cycle exists, fast will eventually reach null, making this an efficient O(n) time and O(1) space solution.
+
 ```java
 public class Solution {
     public boolean hasCycle(ListNode head) {
