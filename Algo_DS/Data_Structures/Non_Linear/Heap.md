@@ -31,9 +31,6 @@ class KthLargest:
             heapq.heappop(self.minHeap)
         return self.minHeap[0]
 ```
-- __init__() Method
-  1. Stores
-  -- self.minHeap
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
 ## K Closest Points to Origin
