@@ -4,7 +4,7 @@
 - [206. Reverse Linked List](#Reverse-Linked-List)
 - [21. Merge Two Sorted Lists](#Merge-Two-Sorted-Lists)
 - [141. Linked List Cycle](#Linked-List-Cycle)
-- [Remove Linked List Elements](#Remove-Linked-List-Elements)
+- [203. Remove Linked List Elements](#Remove-Linked-List-Elements)
 - [Palindrome Linked List](#Palindrome-Linked-List)
 
 ### Medium
@@ -129,6 +129,28 @@ public class Solution {
         }
         
         return false; 
+    }
+}
+```
+## Remove Linked List Elements
+[203](https://leetcode.com/problems/Remove-Linked-List-Elements/)
+
+```java
+class Solution {
+    public ListNode removeElements(ListNode head, int val) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+
+        while (head!=null){
+            if (head.val != val){
+                curr.next = head;
+                curr = curr.next;
+            }
+            head = head.next;
+        }
+        curr.next = null;
+        
+        return dummy.next;
     }
 }
 ```
