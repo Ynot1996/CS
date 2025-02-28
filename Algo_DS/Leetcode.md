@@ -1,10 +1,10 @@
 # Leetcode
 
-## 前言
+## Introduction
 
-統整Leetcode 平台上的經典題目，並按照演算法和資料結構進行分類。每個分類重點介紹題目背後的解題思路和常見技巧，旨在幫助讀者系統性地學習演算法和資料結構，提升問題解決能力。
+Organize classic problems from the Leetcode platform and categorize them based on algorithms and data structures. For each category, focus on key problem-solving approaches and common techniques. The goal is to help readers systematically learn algorithms and data structures, enhancing their problem-solving skills.
 
-## Algorithm
+## Algorithms
 
 - [Sorting](Algorithm/Sorting.md): 21, 75, 88, 147, 164, 215, 912
 - [Two Pointers](Algorithm/Two_Pointers.md)
