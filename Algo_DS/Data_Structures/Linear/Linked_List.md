@@ -1,16 +1,16 @@
 # Linked List
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ### Easy
-- [Reverse Linked List](#Reverse-Linked-List)
-- [Merge Two Sorted Lists](#Merge-Two-Sorted-Lists)
-- [Linked List Cycle](#Linked-List-Cycle)
+- [206. Reverse Linked List](#Reverse-Linked-List)
+- [21. Merge Two Sorted Lists](#Merge-Two-Sorted-Lists)
+- [141. Linked List Cycle](#Linked-List-Cycle)
 - [Remove Linked List Elements](#Remove-Linked-List-Elements)
 - [Palindrome Linked List](#Palindrome-Linked-List)
 
 ### Medium
-- [Add Two Numbers](#Add-Two-Numbers)
-- [Odd Even Linked List](#Odd-Even-Linked-List)
-- [Delete Node in a Linked List](#Delete-Node-in-a-Linked-List)
+- [2. Add Two Numbers](#Add-Two-Numbers)
+- [328. Odd Even Linked List](#Odd-Even-Linked-List)
+- [237. Delete Node in a Linked List](#Delete-Node-in-a-Linked-List)
 - [Remove Nth Node From End of List](#Remove-Nth-Node-From-End-of-List)
 - [Rotate List](#Rotate-List)
 - [Partition List](#Partition-List)
@@ -20,7 +20,7 @@
 - [Intersection of Two Linked Lists](#Intersection-of-Two-Linked-Lists)
 
 ### Hard
-- [Merge K Sorted Lists](#Merge-K-Sorted-Lists)
+- [23. Merge K Sorted Lists](#Merge-K-Sorted-Lists)
 - [Reverse Nodes in k-Group](#Reverse-Nodes-in-k-Group)
 - [LRU Cache](#LRU-Cache)
 - [Copy List with Random Pointer](#Copy-List-with-Random-Pointer)
@@ -101,6 +101,32 @@ class Solution {
         tail.next = (list1 != null) ? list1 : list2;
 
         return dummy.next;
+    }
+}
+```
+## Linked List Cycle
+[141](https://leetcode.com/problems/Linked-List-Cycle/)
+
+```java
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if (head == null || head.next == null) {
+            return false; 
+        }
+        
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;     
+            fast = fast.next.next;  
+
+            if (slow == fast) { 
+                return true;
+            }
+        }
+        
+        return false; 
     }
 }
 ```
