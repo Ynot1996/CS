@@ -25,6 +25,7 @@ These problems combine hashing with other structures like heaps, linked lists, t
 <!--Easy-->
 ## Two Sum
 [1](https://leetcode.com/problems/Two-Sum/)
+
 Using HashMap to store indices for O(N) solution
 ```java
 
