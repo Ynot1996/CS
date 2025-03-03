@@ -38,7 +38,7 @@ main：指的是 Git 專案的主分支名稱。
 
 ## :cloud: Network 
 
-- [計算機網路](https://github.com/CyC2018/CS-Notes/blob/master/notes/计算机网络%20-%20目录.md)
+- [計算機網路]()
 - [HTTP](https://github.com/Ynot1996/CS/blob/main/Network/HTTP.md)
 - [Socket](https://github.com/CyC2018/CS-Notes/blob/master/notes/Socket.md)
 
