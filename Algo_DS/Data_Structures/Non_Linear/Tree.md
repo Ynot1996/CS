@@ -18,7 +18,7 @@ BFS
 [94](https://leetcode.com/problems/Binary-Tree-Inorder-Traversal/)
 
 ## Binary Tree Preorder Traversal
-[94](https://leetcode.com/problems/Binary-Tree-Preorder-Traversal/)
+[144](https://leetcode.com/problems/Binary-Tree-Preorder-Traversal/)
 
 ## Binary Tree Postorder Traversal
-[94](https://leetcode.com/problems/Binary-Tree-Postorder-Traversal/)
+[145](https://leetcode.com/problems/Binary-Tree-Postorder-Traversal/)
