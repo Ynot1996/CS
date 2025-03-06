@@ -16,9 +16,47 @@ BFS
 
 ## Binary Tree Inorder Traversal
 [94](https://leetcode.com/problems/Binary-Tree-Inorder-Traversal/)
+```python
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        result = []
+        def inorder(node):
+            if not node:
+                return
+            inorder(node.left)
+            result.append(node.val)
+            inorder(node.right)
+        inorder(root)
+        return result
+```
 
 ## Binary Tree Preorder Traversal
 [144](https://leetcode.com/problems/Binary-Tree-Preorder-Traversal/)
-
+```python
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        result = []
+        def inorder(node):
+            if not node:
+                return
+            result.append(node.val)
+            inorder(node.left)
+            inorder(node.right)
+        inorder(root)
+        return result
+```
 ## Binary Tree Postorder Traversal
 [145](https://leetcode.com/problems/Binary-Tree-Postorder-Traversal/)
+```python
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        result = []
+        def inorder(node):
+            if not node:
+                return
+            inorder(node.left)
+            inorder(node.right)
+            result.append(node.val)
+        inorder(root)
+        return result
+```
