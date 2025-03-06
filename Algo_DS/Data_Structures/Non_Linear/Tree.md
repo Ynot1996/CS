@@ -11,8 +11,6 @@ BFS
 - [102. Binary Tree Level Order Traversal (Medium)](#Binary-Tree-Level-Order-Traversal)
 - [103. Binary Tree Zigzag Level Order Traversal (Medium)](#Binary-Tree-Zigzag-Level-Order-Traversal)
 - [107. Binary Tree Level Order Traversal II (Medium)](#Binary-Tree-Level-Order-Traversal-II)
-  
-### Binary Tree
 
 ### Trie
 
