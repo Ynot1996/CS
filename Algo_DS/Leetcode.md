@@ -25,7 +25,7 @@ Organize classic problems from the Leetcode platform and categorize them based o
 - [Stack and Queue](Data_Structures/Linear/Stack_Queue.md): 144, 145, 283
 
 ### Non-Linear
-- [Tree](Data_Structures/Non_Linear/Tree.md)
+- [Tree](Data_Structures/Non_Linear/Tree.md): 94, 144, 145
 - [Heap](Data_Structures/Non_Linear/Heap.md): 23, 215, 237, 298, 378, 703
 - [Graph](Data_Structures/Non_Linear/Graph.md)
 - [Hashing](Data_Structures/Non_Linear/Hashing.md): 1
