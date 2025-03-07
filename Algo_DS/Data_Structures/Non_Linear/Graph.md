@@ -1,19 +1,31 @@
-# Heap
+# Graph
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
-### Easy
-- [323. Number of Connected Components in an Undirected Graph](#Number-of-Connected-Components-in-an-Undirected-Graph)
+### Graph Traversal: DFS & BFS
+- [200. Number of Islands (Medium)](#Number-of-Islands)
+- [695. Max Area of Island (Medium)](#Max-Area-of-Island)
+  
+### Topological Sorting
+- [207. Course Schedule (Medium)](#Course-Schedule)
+- [210. Course Schedule II (Medium)](#Course-Schedule-II)
 
-### Medium
-- [207. Course Schedule](#Course-Schedule)
-- [1091. Shortest Path in Binary Matrix](#Shortest-Path-in-Binary-Matrix)
+### Shortest Path
+- [743. Network Delay Time (Medium)](#Network-Delay-Time)
+- [787. Cheapest Flights Within K Stops (Medium)](#Cheapest-Flights-Within-K-Stops)
 
-### Hard
-- [787. Cheapest Flights Within K Stops](#Cheapest-Flights-Within-K-Stops)
-- [1498. Find Critical and Pseudo-Critical Edges in a Minimum Spanning Tree](#Find-Critical-and-Pseudo-Critical-Edges-in-a-Minimum-Spanning-Tree)
+### Connected Components
+- [547. Number of Provinces (Medium)](#Number-of-Provinces)
+- [684. Redundant Connection (Medium)](#Redundant-Connection)
+
+### MST
+- [1135. Connecting Cities With Minimum Cost (Medium)](#Connecting-Cities-With-Minimum-Cost)
+- [1584. Min Cost to Connect All Points (Medium)](#Min-Cost-to-Connect-All-Points)
+
+
+### Bipartite Graph
+- [785. Is Graph Bipartite? (Medium)](#Is-Graph-Bipartite?)
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
-<!--Easy-->
-## Number of Connected Components in an Undirected Graph
-[323](https://leetcode.com/problems/Number-of-Connected-Components-in-an-Undirected-Graph/)
+## Number of Islands
+[200](https://leetcode.com/problems/Number-of-Islands/)
 ```python
 ```
