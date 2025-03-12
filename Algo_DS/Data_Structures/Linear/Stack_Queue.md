@@ -1,15 +1,32 @@
 # Stack and Queue
 
 ### Stack
-- [283. Binary Tree Inorder Traversal (Easy)](#Binary-Tree-Inorder-Traversal)
-- [144. Binary Tree Preorder Traversal (Easy)](#Binary-Tree-Preorder-Traversal)
-- [145. Binary Tree Postorder Traversal (Easy)](#Binary-Tree-Postorder-Traversal)
+Easy
+- [144. Binary Tree Preorder Traversal](#Binary-Tree-Preorder-Traversal)
+- [145. Binary Tree Postorder Traversal](#Binary-Tree-Postorder-Traversal)
+- [283. Binary Tree Inorder Traversal](#Binary-Tree-Inorder-Traversal)
+
 
 ### Queue
-- [](#)
-- [](#)
+Easy
+- [232. Implement Queue using Stacks](#Implement-Queue-using-Stacks)
+- [346. Moving Average from Data Stream](#Moving-Average-from-Data-Stream)
+- [933. Number of Recent Calls](#Number-of-Recent-Calls)
+Medium
+- [622. Design Circular Queue](#Design-Circular-Queue)
+- [752. Open the Lock](#Open-the-Lock)
+- [994. Rotting Oranges](#Rotting-Oranges)
+Hard   
+- [239. Sliding Window Maximum](#Sliding-Window-Maximum)
+- [460. LFU Cache](#LFU-Cache)
+- [1293. Shortest Path in a Grid](#Shortest-Path-in-a-Grid)
 
-<!--Array-->
+## Binary Tree Preorder Traversal
+[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+
+## Binary Tree Postorder Traversal
+[145](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+
 ## Binary Tree Inorder Traversal
 [283](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
@@ -39,13 +56,3 @@ class Solution {
     }
 }
 ```
-
-## Binary Tree Preorder Traversal
-[144](https://leetcode.com/problems/binary-tree-preorder-traversal/)
-
-## Binary Tree Postorder Traversal
-[145](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-
-
-
-
