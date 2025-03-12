@@ -39,8 +39,8 @@ class Solution:
 
         def bfs(r,c):
             q = collections.deque()
-            visit.add((r,c))
-            q.append((r,c))
+            visit.add((r, c))
+            q.append((r, c))
             while q:
                 row, col = q.popleft()
                 directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
@@ -52,8 +52,8 @@ class Solution:
                         
         for r in range(rows):
             for c in range(cols):
-                if grid[r][c] == "1", and (r,c) not in visit:
-                    bfs(r,c)
+                if grid[r][c] == "1", and (r, c) not in visit:
+                    bfs(r, c)
                     islands += 1
         return islands
 ```
