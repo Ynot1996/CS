@@ -52,7 +52,7 @@ class Solution:
                         
         for r in range(rows):
             for c in range(cols):
-                if grid[r][c] == "1", and (r, c) not in visit:
+                if grid[r][c] == "1" and (r, c) not in visit:
                     bfs(r, c)
                     islands += 1
         return islands
