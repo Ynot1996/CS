@@ -26,7 +26,6 @@ Hard
 ## Binary Tree Preorder Traversal
 [144](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
-Question: <br> 
 Given the root of a binary tree, return the preorder traversal of its nodes' values.
 
 Method: Stack<br>
@@ -38,7 +37,6 @@ Method: Stack<br>
 ## Binary Tree Postorder Traversal
 [145](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
-Question: <br> 
 Given the root of a binary tree, return the postorder traversal of its nodes' values.
 
 Method: Stack<br>
@@ -50,7 +48,6 @@ Method: Stack<br>
 ## Binary Tree Inorder Traversal
 [283](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
-Question: <br> 
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
 Method: Stack<br>
