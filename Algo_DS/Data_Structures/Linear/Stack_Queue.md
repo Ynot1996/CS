@@ -113,3 +113,10 @@ class MyQueue:
     def empty(self) -> bool:
         return max(len(self.s1), len(self.s2)) == 0
 ```
+
+## Moving Average from Data Stream
+[346](https://leetcode.com/problems/Moving-Average-from-Data-Stream/)
+
+```python
+
+```
