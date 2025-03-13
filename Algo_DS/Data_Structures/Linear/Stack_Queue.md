@@ -10,7 +10,6 @@ Easy
 ### Queue
 Easy
 - [232. Implement Queue using Stacks](#Implement-Queue-using-Stacks)
-- [346. Moving Average from Data Stream](#Moving-Average-from-Data-Stream)
 - [933. Number of Recent Calls](#Number-of-Recent-Calls)
   
 Medium
@@ -114,8 +113,8 @@ class MyQueue:
         return max(len(self.s1), len(self.s2)) == 0
 ```
 
-## Moving Average from Data Stream
-[346](https://leetcode.com/problems/Moving-Average-from-Data-Stream/)
+## 
+[](https://leetcode.com/problems//)
 
 ```python
 
