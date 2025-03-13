@@ -113,8 +113,8 @@ class MyQueue:
         return max(len(self.s1), len(self.s2)) == 0
 ```
 
-## 
-[](https://leetcode.com/problems//)
+## Number of Recent Calls
+[933](https://leetcode.com/problems/Number-of-Recent-Calls/)
 
 ```python
 
