@@ -28,10 +28,22 @@ Hard
 
 Given the root of a binary tree, return the preorder traversal of its nodes' values.
 
-Method: Stack<br>
+Method: Recursive<br>
 
 ```java
-
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        dfs(root, result);
+        return result;
+    }
+    private void dfs(TreeNode node, List<Integer> result){
+        if (node ==null) return;
+        result.add(node.val);
+        dfs(node.left, result);
+        dfs(node.right, result);
+    }
+}
 ```
 
 ## Binary Tree Postorder Traversal
