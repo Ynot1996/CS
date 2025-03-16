@@ -47,8 +47,16 @@ class Solution {
 ## Contains Duplicate
 [217](https://leetcode.com/problems/Contains-Duplicate/)
 
-```java
-
+```python
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        a = set()
+        for i in nums:
+            if i in a:
+                return True
+            
+            a.add(i)
+        return False
 ```
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
