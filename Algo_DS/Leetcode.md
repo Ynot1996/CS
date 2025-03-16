@@ -28,4 +28,4 @@ Organize classic problems from the Leetcode platform and categorize them based o
 - [Tree](Data_Structures/Non_Linear/Tree.md): 94, 144, 145
 - [Heap](Data_Structures/Non_Linear/Heap.md): 23, 215, 237, 298, 378, 703
 - [Graph](Data_Structures/Non_Linear/Graph.md): 200
-- [Hashing](Data_Structures/Non_Linear/Hashing.md): 1
+- [Hashing](Data_Structures/Non_Linear/Hashing.md): 1, 217
