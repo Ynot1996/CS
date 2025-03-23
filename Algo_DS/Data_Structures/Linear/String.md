@@ -15,7 +15,7 @@
 - [Decode String](#Decode-String)
 - [String to Integer (atoi)](#String-to-Integer-(atoi))
 
-### Medium
+### Hard
 - [Minimum Window Substring](#Minimum-Window-Substring)
 - [Regular Expression Matching](#Regular-Expression-Matching)
 - [Wildcard Matching](#Wildcard-Matching)
