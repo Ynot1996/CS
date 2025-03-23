@@ -7,7 +7,7 @@ Organize classic problems from the Leetcode platform and categorize them based o
 ## Algorithms
 
 - [Sorting](Algorithm/Sorting.md): 21, 75, 88, 147, 164, 215, 912
-- [Two Pointers](Algorithm/Two_Pointers.md)
+- [Two Pointers](Algorithm/Two_Pointers.md): 11, 283, 392, 1697
 - [Binary Search](Algorithm/Binary_Search.md)
 - [Search](Algorithm/Search.md)
 - [Greedy](Algorithm/Greedy.md)
