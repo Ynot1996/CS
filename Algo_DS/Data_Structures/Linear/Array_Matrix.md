@@ -1,13 +1,14 @@
 # Array and Matrix
 
 ### Array
-- [Move Zeroes (Easy)](#Move-Zeroes)
+- [283. Move Zeroes (Easy)](#Move-Zeroes)
 - [Degree of an Array (Easy)](#Degree-of-an-Array)
 - [Max Consecutive Ones (Easy)](#Max-Consecutive-Ones)
 - [Find the Duplicate Number (Medium)](#Find-the-Duplicate-Number)
 
 ### Matrix
-- [Flipping an Image (Easy)](#Flipping-an-Image)
+- [832. Flipping an Image (Easy)](#Flipping-an-Image)
+- [867. Transpose Matrix (Easy)](#Transpose-Matrix)
 - [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
 - [Kth Smallest Element in a Sorted Matrix (Medium)](#Kth-Smallest-Element-in-a-Sorted-Matrix)
 
@@ -76,6 +77,23 @@ Advanced Syntax
 class Solution:
     def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
         return [[1 - i for i in row[::-1]] for row in image]
+```
+
+## Transpose Matrix
+[867](https://leetcode.com/problems/Transpose-Matrix/)
+
+```python
+class Solution:
+    def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
+        result = []
+
+        for i in range(len(matrix[0])):
+            new_row = []
+            for j in range(len(matrix)):
+                new_row.append(matrix[j][i])
+            result.append(new_row)
+        
+        return result
 ```
 
 ## Search a 2D Matrix II
