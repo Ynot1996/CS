@@ -7,6 +7,7 @@
 - [Find the Duplicate Number (Medium)](#Find-the-Duplicate-Number)
 
 ### Matrix
+- [Flipping an Image (Easy)](#Flipping-an-Image)
 - [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
 - [Kth Smallest Element in a Sorted Matrix (Medium)](#Kth-Smallest-Element-in-a-Sorted-Matrix)
 
@@ -53,6 +54,30 @@ class Solution:
 [287](https://leetcode.com/problems/find-the-duplicate-number/)
 
 <!--Matrix-->
+## Flipping an Image
+[832](https://leetcode.com/problems/Flipping-an-Image/)
+
+```python
+class Solution:
+    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
+        n = len(image)
+
+        for i in range(n):
+            image[i] = image[i][::-1]
+
+            for j in range(n):
+                image[i][j] = 1 - image[i][j]
+
+        return image
+```
+
+Advanced Syntax
+```python
+class Solution:
+    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
+        return [[1 - i for i in row[::-1]] for row in image]
+```
+
 ## Search a 2D Matrix II
 [240](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
