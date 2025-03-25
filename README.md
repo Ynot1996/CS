@@ -1,9 +1,3 @@
-<div align="left">
-    <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/2125032?icon=github&color=4ab8a1"></a>
-    <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/stars/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
-    <a href="https://github.com/Ynot1996/CS-Notes"> <img src="https://badgen.net/github/forks/Ynot1996/CS-Notes?icon=github&color=4ab8a1"></a>
-</div><br>
-
 <!-- 因排版需要，使用"&nbsp;"(不間斷空格)來調整間距 -->
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
