@@ -6,7 +6,9 @@ Easy
 - [145. Binary Tree Postorder Traversal](#Binary-Tree-Postorder-Traversal)
 - [283. Binary Tree Inorder Traversal](#Binary-Tree-Inorder-Traversal)
 
-
+Medium
+- [2390. Removing Stars From a String](#Removing-Stars-From-a-String)
+  
 ### Queue
 Easy
 - [232. Implement Queue using Stacks](#Implement-Queue-using-Stacks)
@@ -84,6 +86,23 @@ class Solution {
     }
 }
 ```
+
+## Removing Stars From a String
+[2390](https://leetcode.com/problems/Removing-Stars-From-a-String/)
+
+```python
+class Solution:
+    def removeStars(self, s: str) -> str:
+        x = list()
+        for i in s:
+            if i != "*":
+                x.append(i)
+            elif i == "*":
+                x.pop()
+        
+        return "".join(x)
+```
+
 ## Implement Queue using Stacks
 [232](https://leetcode.com/problems/Implement-Queue-using-Stacks/)
 
