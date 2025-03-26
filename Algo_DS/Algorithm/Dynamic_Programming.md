@@ -11,6 +11,7 @@
 <!--Easy-->
 ## Unique Paths
 [62](https://leetcode.com/problems/Unique-Paths/)
+![image](https://github.com/user-attachments/assets/8819c630-f086-4598-b86a-86fd0dde6df1)
 
 ```python
 class Solution:
