@@ -59,5 +59,4 @@ main：指的是 Git 專案的主分支名稱。
 
 - [Git](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)
 - [Docker](https://github.com/CyC2018/CS-Notes/blob/master/notes/Docker.md)
-- [構建工具](https://github.com/CyC2018/CS-Notes/blob/master/notes/构建工具.md)
 
