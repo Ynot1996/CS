@@ -2,9 +2,9 @@
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
 
-| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | Practice | &nbsp;Tools&nbsp; |  
-| :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | 
-| [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | [:1st_place_medal:](#1st_place_medal-practice) | [:wrench:](#wrench-tools) | 
+| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | 
+| :---: | :----: | :---: | :----: | :----: | :----: |
+| [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | 
 
 
 ## :pencil: Algo & DS
@@ -49,14 +49,3 @@ main：指的是 Git 專案的主分支名稱。
 
 - [面相對象思想](https://github.com/CyC2018/CS-Notes/blob/master/notes/面向对象思想.md)
 - [設計模式](https://github.com/CyC2018/CS-Notes/blob/master/notes/设计模式%20-%20目录.md)
-
-## :1st_place_medal: Practice 
-
-- [代碼可讀性](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码可读性.md)
-- [代碼風格規範](https://github.com/CyC2018/CS-Notes/blob/master/notes/代码风格规范.md)
-  
-## :wrench: Tools 
-
-- [Git](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)
-- [Docker](https://github.com/CyC2018/CS-Notes/blob/master/notes/Docker.md)
-
