@@ -1,7 +1,7 @@
 # Two Pointers
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ### Easy
-- [136. Singer Number](#Singer-Number)
+- [136. Single Number](#Single-Number)
 - [](#)
 
 ### Medium
@@ -10,8 +10,8 @@
 
 ### Hard
 
-## Singer Number
-[136](https://leetcode.com/problems/Singer-Number/)
+## Single Number
+[136](https://leetcode.com/problems/Single-Number/)
 
 ## 
 [](https://leetcode.com/problems//)
