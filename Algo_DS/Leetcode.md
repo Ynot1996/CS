@@ -12,7 +12,7 @@ Organize classic problems from the Leetcode platform and categorize them based o
 - [Greedy](Algorithm/Greedy.md)
 - [Divide and Conquer](Algorithm/Divide_and_Conquer.md)
 - [Dynamic Programming](Algorithm/Dynamic_Programming.md): 62
-- [Bit Manipulation](Algorithm/Bit_Manipulation.md): 338
+- [Bit Manipulation](Algorithm/Bit_Manipulation.md): 136, 338
 - [Mathematics](Algorithm/Mathematics.md)
 
 ## Data Structures
