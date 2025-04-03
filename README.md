@@ -2,9 +2,9 @@
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
 
-| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OOP&nbsp;&nbsp; | 
-| :---: | :----: | :---: | :----: | :----: | :----: |
-| [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) | [:art:](#art-oop) | 
+| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | 
+| :---: | :----: | :---: | :----: | :----: | 
+| [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) |
 
 
 ## :pencil: Algo & DS
