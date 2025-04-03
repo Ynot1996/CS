@@ -18,7 +18,7 @@ You are also given an integer success. A spell and potion pair is considered suc
 Return an integer array pairs of length n where pairs[i] is the number of potions that will form a successful pair with the ith spell.
 
 Method 1: Brute Force
->>> Time Limit Exceeded
+>Time Limit Exceeded
 ```python
 class Solution:
     def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:
