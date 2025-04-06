@@ -1,5 +1,12 @@
-# Binary_Search
+# Search 
+
+* [Binary Search](#Binary-Search)
+* [DFS](#DFS)
+* [BFS](#BFS)
+  
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
+# Binary Search
+
 ### Easy
 
 ### Medium
@@ -30,3 +37,32 @@ class Solution:
         return res
 ```
 Method 2: Binary Search 
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
+# DFS
+
+### Easy
+
+### Medium
+- [236. Lowest Common Ancestor of a Binary Search Tree](#Lowest-Common-Ancestor-of-a-Binary-Search-Tree)
+
+### Hard
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
+## Lowest Common Ancestor of a Binary Search Tree
+[236](https://leetcode.com/problems/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/)
+
+```python
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root or root == p or root == q:
+            return root
+        
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
+
+        if left and right:
+            return root
+        
+        return left if left else right 
+```
