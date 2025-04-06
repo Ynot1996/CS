@@ -106,8 +106,8 @@ class Solution:
 <!---------------------------------------------------------------------------------------------->
 ## Trie
 
-### Implement Trie (Prefix Tree)
-[208](https://leetcode.com/problems/Implement-Trie-(Prefix-Tree)/)
+### Implement Trie 
+[208](https://leetcode.com/problems/Implement-Trie-Prefix-Tree/)
 ```python
 
 ```
