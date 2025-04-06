@@ -12,8 +12,13 @@ BFS
 - [103. Binary Tree Zigzag Level Order Traversal (Medium)](#Binary-Tree-Zigzag-Level-Order-Traversal)
 - [107. Binary Tree Level Order Traversal II (Medium)](#Binary-Tree-Level-Order-Traversal-II)
 
+### BST
+- [700. Search in a Binary Search Tree (Easy)](#Search-in-a-Binary-Search-Tree)
+  
 ### Trie
 
+<!--Tree Traversal>
+<!---------------------------------------------------------------------------------------------->
 ## Binary Tree Inorder Traversal
 [94](https://leetcode.com/problems/Binary-Tree-Inorder-Traversal/)
 ```python
@@ -59,4 +64,12 @@ class Solution:
             result.append(node.val)
         inorder(root)
         return result
+```
+
+<!--BST>
+<!---------------------------------------------------------------------------------------------->
+## Search in a Binary Search Tree
+[700](https://leetcode.com/problems/Search-in-a-Binary-Search-Tree/)
+```python
+
 ```
