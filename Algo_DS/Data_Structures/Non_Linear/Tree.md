@@ -19,6 +19,8 @@ BFS
 
 <!--Tree Traversal>
 <!---------------------------------------------------------------------------------------------->
+# Tree Traversal
+
 ## Binary Tree Inorder Traversal
 [94](https://leetcode.com/problems/Binary-Tree-Inorder-Traversal/)
 ```python
