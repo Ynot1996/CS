@@ -19,9 +19,9 @@ BFS
 
 <!--Tree Traversal>
 <!---------------------------------------------------------------------------------------------->
-# Tree Traversal
+## Tree Traversal
 
-## Binary Tree Inorder Traversal
+### Binary Tree Inorder Traversal
 [94](https://leetcode.com/problems/Binary-Tree-Inorder-Traversal/)
 ```python
 class Solution:
@@ -37,7 +37,7 @@ class Solution:
         return result
 ```
 
-## Binary Tree Preorder Traversal
+### Binary Tree Preorder Traversal
 [144](https://leetcode.com/problems/Binary-Tree-Preorder-Traversal/)
 ```python
 class Solution:
@@ -52,7 +52,7 @@ class Solution:
         inorder(root)
         return result
 ```
-## Binary Tree Postorder Traversal
+### Binary Tree Postorder Traversal
 [145](https://leetcode.com/problems/Binary-Tree-Postorder-Traversal/)
 ```python
 class Solution:
@@ -70,7 +70,9 @@ class Solution:
 
 <!--BST>
 <!---------------------------------------------------------------------------------------------->
-## Search in a Binary Search Tree
+## BST
+
+### Search in a Binary Search Tree
 [700](https://leetcode.com/problems/Search-in-a-Binary-Search-Tree/)
 - Recursive
 ```python
