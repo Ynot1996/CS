@@ -16,7 +16,8 @@ BFS
 - [700. Search in a Binary Search Tree (Easy)](#Search-in-a-Binary-Search-Tree)
   
 ### Trie
-
+- [208. Implement Trie (Medium)](#Implement-Trie)
+  
 <!--Tree Traversal>
 <!---------------------------------------------------------------------------------------------->
 ## Tree Traversal
@@ -100,3 +101,14 @@ class Solution:
                 root = root.right
         return None
 ```
+
+<!--Trie>
+<!---------------------------------------------------------------------------------------------->
+## Trie
+
+### Implement Trie (Prefix Tree)
+[208](https://leetcode.com/problems/Implement-Trie-(Prefix-Tree)/)
+```python
+
+```
+
