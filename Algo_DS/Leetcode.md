@@ -8,8 +8,7 @@ Organize classic problems from the Leetcode platform and categorize them based o
 
 - [Sorting](Algorithm/Sorting.md): 21, 75, 88, 147, 164, 215, 912
 - [Two Pointers](Algorithm/Two_Pointers.md): 11, 283, 392, 1697
-- [Search](Algorithm/Search.md): 236
-- [Binary Search](Algorithm/Binary_Search.md): 2300
+- [Search](Algorithm/Search.md): 236, 2300
 - [Greedy](Algorithm/Greedy.md)
 - [Divide and Conquer](Algorithm/Divide_and_Conquer.md)
 - [Dynamic Programming](Algorithm/Dynamic_Programming.md): 62
