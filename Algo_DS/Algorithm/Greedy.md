@@ -21,24 +21,26 @@
 ## Longest Palindrome
 [409](https://leetcode.com/problems/Longest-Palindrome/)
 
+Even counts can always form symmetric pairs in a palindrome. (e.g., 2×'a' → "aa")
+
+Odd counts can still contribute: use count - 1 to make pairs, and at most one odd character can be placed in the center.
+
+Example:
+For "aabbc", counts = {a:2, b:2, c:1}
+→ Use 2+2 as pairs, and keep 'c' in the center → Result: "abcba" (length = 5)
+
 ```python
 class Solution:
     def longestPalindrome(self, s: str) -> int:
-        
         total = 0
         checkodd = False
 
         for i in Counter(s).values():
-            if i % 2 == 0: 
+            if i % 2 == 0:
                 total += i
-            elif i % 2 == 1:
+            else:
                 checkodd = True
-                if i > 1:
-                    total += (i - 1) 
+                total += (i - 1)
         
-        if checkodd:
-            return total + 1
-        
-        else:
-            return total
+        return total + 1 if checkodd else total
 ```
