@@ -2,10 +2,14 @@
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
 
-| Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | Network | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | 
+| Network | Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | 
 | :---: | :----: | :---: | :----: | :----: | 
-| [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:cloud:](#cloud-network) | [:bulb:](#bulb-sd) |
+| [:cloud:](#cloud-network) | [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:bulb:](#bulb-sd) |
 
+
+## :cloud: Network 
+
+- [Network](https://github.com/Ynot1996/CS/blob/main/Network/Network.md)
 
 ## :pencil: Algo & DS
 
@@ -29,10 +33,6 @@ main：指的是 Git 專案的主分支名稱。
 
 - [計算機操作系统]()
 - [Linux]()
-
-## :cloud: Network 
-
-- [Network](https://github.com/Ynot1996/CS/blob/main/Network/Network.md)
 
 ## :bulb: SD 
 
