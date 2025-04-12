@@ -2,7 +2,7 @@
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ### Easy
 - [136. Single Number](#Single-Number)
-- [](#)
+- [191. Number of 1 Bits](#Number-of-1-Bits)
 
 ### Medium
 - [](#)
@@ -18,4 +18,4 @@
 ```
 
 ## 
-[](https://leetcode.com/problems//)
+[191](https://leetcode.com/problems/Number-of-1-Bits/)
