@@ -69,5 +69,10 @@ Method 2: O(n), by DP
 ```python
 class Solution:
     def countBits(self, n: int) -> List[int]:
-
+        dp = [0] * (n + 1)
+        for i in range(1, n + 1):
+            dp[i] = dp[i >> 1] + (i & 1)
+        return dp
 ```
+
+![image](https://github.com/user-attachments/assets/0b64cf30-18b7-4bbd-ba5b-5744ac820a25)
