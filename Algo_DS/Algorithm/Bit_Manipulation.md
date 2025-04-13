@@ -3,7 +3,8 @@
 ### Easy
 - [136. Single Number](#Single-Number)
 - [191. Number of 1 Bits](#Number-of-1-Bits)
-
+- [338. Counting Bits](#Counting-Bits)
+  
 ### Medium
 - [](#)
 - [](#)
@@ -41,4 +42,11 @@ class Solution:
             count += n & 1
             n >>= 1
         return count 
+```
+
+## Counting Bits
+[338](https://leetcode.com/problems/Counting-Bits/)
+
+```python
+
 ```
