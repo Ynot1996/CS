@@ -1,7 +1,5 @@
 # Bit Manipulation
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
-https://github.com/user-attachments/files/19724182/DCC_DecBiHex_Chart.pdf
-
 ### Easy
 - [136. Single Number](#Single-Number)
 - [191. Number of 1 Bits](#Number-of-1-Bits)
