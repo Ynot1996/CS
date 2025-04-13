@@ -47,6 +47,27 @@ class Solution:
 ## Counting Bits
 [338](https://leetcode.com/problems/Counting-Bits/)
 
+Method 1: O(n log n), by hammingWeight
 ```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+
+        def hammingWeight(number):
+            count = 0
+            while number:
+                count += number & 1
+                number >>= 1
+            return count
+
+        ans = []
+        for i in range(n+1):
+            ans.append(hammingWeight(i))
+        return ans
+```
+
+Method 2: O(n), by DP
+```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
 
 ```
