@@ -1,6 +1,6 @@
 # Bit Manipulation
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
-https://tonystrains.com/download/DCC_DecBiHex_Chart.pdf
+[DecBiHex_Chart.pdf](https://github.com/user-attachments/files/19724182/DCC_DecBiHex_Chart.pdf)
 
 ### Easy
 - [136. Single Number](#Single-Number)
