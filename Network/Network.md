@@ -95,12 +95,4 @@
 
 ---
 
-## 8️⃣ 延伸閱讀資源
-
-- [How the Internet Works - MDN](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
-- 《Computer Networking: A Top-Down Approach》（經典教材）
-- [Wireshark 教學 - Practical Networking](https://www.practicalnetworking.net/series/wireshark/)
-
----
-
 > 📌 本講義由 Wen-Teng Kang 製作，內容可自由引用，請註明出處或 GitHub 連結 🙌
