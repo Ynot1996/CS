@@ -11,7 +11,7 @@ Organize classic problems from the Leetcode platform and categorize them based o
 - [Greedy](Algorithm/Greedy.md): 409
 - [Divide and Conquer](Algorithm/Divide_and_Conquer.md): 53
 - [Dynamic Programming](Algorithm/Dynamic_Programming.md): 62
-- [Backtracking](Algorithm/Backtracking.md)
+- [Backtracking](Algorithm/Backtracking.md): 17, 216
 - [Bit Manipulation](Algorithm/Bit_Manipulation.md): 136, 191
 - [Mathematics](Algorithm/Mathematics.md): 7, 9
 
