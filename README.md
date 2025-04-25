@@ -31,7 +31,6 @@ main：指的是 Git 專案的主分支名稱。
 
 ## :computer: OS
 
-- [計算機操作系统]()
 - [Linux]()
 
 ## :bulb: SD 
