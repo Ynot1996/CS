@@ -4,7 +4,8 @@
 - [7. Reverse Integer](#Reverse-Integer)
 - [9. Palindrome Number](#Palindrome-Number)
 - [231. Power of Two](#Power-of-Two)
-- [326. Power of Three](#Power-of-Three) 
+- [326. Power of Three](#Power-of-Three)
+- [412. Fizz Buzz](#Fizz-Buzz)
 
 ### GCD / LCM
 - [1071. Greatest Common Divisor of Strings](#Greatest-Common-Divisor-of-Strings)
