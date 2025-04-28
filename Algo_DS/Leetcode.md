@@ -13,7 +13,7 @@ Organize classic problems from the Leetcode platform and categorize them based o
 - [Dynamic Programming](Algorithm/Dynamic_Programming.md): 62
 - [Backtracking](Algorithm/Backtracking.md): 17, 216
 - [Bit Manipulation](Algorithm/Bit_Manipulation.md): 136, 191
-- [Mathematics](Algorithm/Mathematics.md): 7, 9
+- [Mathematics](Algorithm/Mathematics.md): 7, 9, 412
 
 ## Data Structures
 
