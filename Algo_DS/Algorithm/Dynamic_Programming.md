@@ -1,7 +1,7 @@
 # Dynamic Programming
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ### Easy
-- [118. Pascal's Triangle](#Pascal's-Triangle)
+- [118. Pascal's Triangle](#Pascal-Triangle)
   
 ### Medium
 - [62. Unique Paths](#Unique-Paths)
@@ -11,7 +11,7 @@
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Easy-->
-## Pascal's Triangle
+## Pascal Triangle
 [118](https://leetcode.com/problems/Pascal's-Triangle/)
 
 ```python
