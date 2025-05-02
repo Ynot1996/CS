@@ -1,7 +1,7 @@
 # Dynamic Programming
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ### Easy
-- [118. Pascal's Triangle](#Pascal's-Triangle)
+- [118. Pascal's Triangle](#Pascal-s-Triangle)
   
 ### Medium
 - [62. Unique Paths](#Unique-Paths)
