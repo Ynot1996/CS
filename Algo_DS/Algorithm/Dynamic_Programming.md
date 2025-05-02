@@ -12,7 +12,7 @@
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Easy-->
 ## Pascal's Triangle
-[118](https://leetcode.com/problems/Pascal's-Triangle/)
+[118](https://leetcode.com/problems/Pascals-Triangle/)
 
 ```python
 class Solution:
