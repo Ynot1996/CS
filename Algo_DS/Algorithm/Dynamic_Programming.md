@@ -1,14 +1,32 @@
 # Dynamic Programming
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
+### Easy
+- [118. Pascal's Triangle](#Pascal's-Triangle)
+  
 ### Medium
 - [62. Unique Paths](#Unique-Paths)
-
 
 ### Hard
 
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Easy-->
+## Pascal's Triangle
+[118](https://leetcode.com/problems/Pascal's-Triangle/)
+
+```python
+class Solution:
+    def generate(self, numRows: int) -> List[List[int]]:
+        triangle = []
+        for i in range(numRows):
+            row = [1] * (i+1)
+            for j in range(1 , i):
+                row[j] = triangle[i-1][j-1] + triangle[i-1][j]
+            triangle.append(row)
+        return triangle
+```
+
+<!--Meidum-->
 ## Unique Paths
 [62](https://leetcode.com/problems/Unique-Paths/)
 
