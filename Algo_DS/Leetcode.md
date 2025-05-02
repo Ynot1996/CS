@@ -8,9 +8,9 @@ Organize classic problems from the Leetcode platform and categorize them based o
 
 - [Sorting](Algorithm/Sorting.md): 21, 75, 88, 147, 164, 215, 912
 - [Search](Algorithm/Search.md): 236, 2300
-- [Greedy](Algorithm/Greedy.md): 122, 409
+- [Greedy](Algorithm/Greedy.md): 409
 - [Divide and Conquer](Algorithm/Divide_and_Conquer.md): 53
-- [Dynamic Programming](Algorithm/Dynamic_Programming.md): 62
+- [Dynamic Programming](Algorithm/Dynamic_Programming.md): 62, 118
 - [Backtracking](Algorithm/Backtracking.md): 17, 216
 - [Bit Manipulation](Algorithm/Bit_Manipulation.md): 136, 191
 - [Mathematics](Algorithm/Mathematics.md): 7, 9, 412
