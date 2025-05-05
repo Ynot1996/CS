@@ -2,9 +2,9 @@
 <!-- [:img:](#subject_name) 前面[]為圖示;後面()為索引,索引須小寫 -->
 
 
-| Network | Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;SD&nbsp;&nbsp;&nbsp; | 
-| :---: | :----: | :---: | :----: | :----: | 
-| [:cloud:](#cloud-network) | [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | [:bulb:](#bulb-sd) |
+| Network | Algo & DS | Database | &nbsp;&nbsp;&nbsp;OS&nbsp;&nbsp;&nbsp; |
+| :---: | :----: | :---: | :----: |
+| [:cloud:](#cloud-network) | [:pencil:](#pencil-algo--ds) | [:file_folder:](#file_folder-database) | [:computer:](#computer-os) | 
 
 
 ## :cloud: Network 
@@ -34,7 +34,3 @@ main：指的是 Git 專案的主分支名稱。
 ## :computer: OS
 
 - [Linux]()
-
-## :bulb: SD 
-
-- [集群](https://github.com/CyC2018/CS-Notes/blob/master/notes/集群.md)
