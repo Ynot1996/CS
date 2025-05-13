@@ -22,9 +22,15 @@
 
 https://leetcode.com/problems/big-countries/description/
 
-### Description
+Write a solution to find the name, population, and area of the big countries.
 
-```html
+A country is big if:
+
+it has an area of at least three million (i.e., 3000000 km2), or
+it has a population of at least twenty-five million (i.e., 25000000).
+
+Input
+```
 +-----------------+------------+------------+--------------+---------------+
 | name            | continent  | area       | population   | gdp           |
 +-----------------+------------+------------+--------------+---------------+
@@ -36,9 +42,8 @@ https://leetcode.com/problems/big-countries/description/
 +-----------------+------------+------------+--------------+---------------+
 ```
 
-查找面积超过 3,000,000 或者人口数超过 25,000,000 的国家。
-
-```html
+Output
+```
 +--------------+-------------+--------------+
 | name         | population  | area         |
 +--------------+-------------+--------------+
@@ -58,24 +63,6 @@ FROM
 WHERE
     area > 3000000
     OR population > 25000000;
-```
-
-### SQL Schema
-
-SQL Schema 用于在本地环境下创建表结构并导入数据，从而方便在本地环境调试。
-
-```sql
-DROP TABLE
-IF
-    EXISTS World;
-CREATE TABLE World ( NAME VARCHAR ( 255 ), continent VARCHAR ( 255 ), area INT, population INT, gdp INT );
-INSERT INTO World ( NAME, continent, area, population, gdp )
-VALUES
-    ( 'Afghanistan', 'Asia', '652230', '25500100', '203430000' ),
-    ( 'Albania', 'Europe', '28748', '2831741', '129600000' ),
-    ( 'Algeria', 'Africa', '2381741', '37100000', '1886810000' ),
-    ( 'Andorra', 'Europe', '468', '78115', '37120000' ),
-    ( 'Angola', 'Africa', '1246700', '20609294', '1009900000' );
 ```
 
 ## 627. Swap Salary
