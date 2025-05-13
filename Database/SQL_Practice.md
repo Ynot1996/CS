@@ -1,6 +1,8 @@
 # SQL Practice
 
+### Easy
 * [595. Big Countries](#595-big-countries)
+  
 * [627. Swap Salary](#627-swap-salary)
 * [620. Not Boring Movies](#620-not-boring-movies)
 * [596. Classes More Than 5 Students](#596-classes-more-than-5-students)
