@@ -1,22 +1,22 @@
 # SQL Practice
 
 ### Easy
-* [595. Big Countries](#595-big-countries)
+- [595. Big Countries](#595-big-countries)
   
-* [627. Swap Salary](#627-swap-salary)
-* [620. Not Boring Movies](#620-not-boring-movies)
-* [596. Classes More Than 5 Students](#596-classes-more-than-5-students)
-* [182. Duplicate Emails](#182-duplicate-emails)
-* [196. Delete Duplicate Emails](#196-delete-duplicate-emails)
-* [175. Combine Two Tables](#175-combine-two-tables)
-* [181. Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
-* [183. Customers Who Never Order](#183-customers-who-never-order)
-* [184. Department Highest Salary](#184-department-highest-salary)
-* [176. Second Highest Salary](#176-second-highest-salary)
-* [177. Nth Highest Salary](#177-nth-highest-salary)
-* [178. Rank Scores](#178-rank-scores)
-* [180. Consecutive Numbers](#180-consecutive-numbers)
-* [626. Exchange Seats](#626-exchange-seats)
+- [627. Swap Salary](#627-swap-salary)
+- [620. Not Boring Movies](#620-not-boring-movies)
+- [596. Classes More Than 5 Students](#596-classes-more-than-5-students)
+- [182. Duplicate Emails](#182-duplicate-emails)
+- [196. Delete Duplicate Emails](#196-delete-duplicate-emails)
+- [175. Combine Two Tables](#175-combine-two-tables)
+- [181. Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
+- [183. Customers Who Never Order](#183-customers-who-never-order)
+- [184. Department Highest Salary](#184-department-highest-salary)
+- [176. Second Highest Salary](#176-second-highest-salary)
+- [177. Nth Highest Salary](#177-nth-highest-salary)
+- [178. Rank Scores](#178-rank-scores)
+- [180. Consecutive Numbers](#180-consecutive-numbers)
+- [626. Exchange Seats](#626-exchange-seats)
 
 ## 595. Big Countries
 
@@ -26,10 +26,10 @@ Write a solution to find the name, population, and area of the big countries.
 
 A country is big if:
 
-it has an area of at least three million (i.e., 3000000 km2), or
-it has a population of at least twenty-five million (i.e., 25000000).
+- it has an area of at least three million (i.e., 3000000 km2), or
+- it has a population of at least twenty-five million (i.e., 25000000).
 
-Input
+#### Input:
 ```
 +-----------------+------------+------------+--------------+---------------+
 | name            | continent  | area       | population   | gdp           |
@@ -42,7 +42,7 @@ Input
 +-----------------+------------+------------+--------------+---------------+
 ```
 
-Output
+#### Output:
 ```
 +--------------+-------------+--------------+
 | name         | population  | area         |
@@ -52,7 +52,7 @@ Output
 +--------------+-------------+--------------+
 ```
 
-### Solution
+#### Solution:
 
 ```sql
 SELECT name,
