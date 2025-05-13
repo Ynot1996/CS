@@ -1,9 +1,11 @@
 # SQL Practice
 
-### Easy
-- [595. Big Countries](#595-big-countries)
-  
-- [627. Swap Salary](#627-swap-salary)
+### Select
+- [595. Big Countries (Easy)](#595-big-countries)
+
+### Update
+- [627. Swap Salary (Easy)](#627-swap-salary)
+
 - [620. Not Boring Movies](#620-not-boring-movies)
 - [596. Classes More Than 5 Students](#596-classes-more-than-5-students)
 - [182. Duplicate Emails](#182-duplicate-emails)
@@ -69,9 +71,10 @@ WHERE
 
 https://leetcode.com/problems/swap-salary/description/
 
-### Description
+Write a solution to swap all 'f' and 'm' values (i.e., change all 'f' values to 'm' and vice versa) with a single update statement and no intermediate temporary tables.
 
-```html
+#### Input:
+```
 | id | name | sex | salary |
 |----|------|-----|--------|
 | 1  | A    | m   | 2500   |
@@ -80,9 +83,8 @@ https://leetcode.com/problems/swap-salary/description/
 | 4  | D    | f   | 500    |
 ```
 
-只用一个 SQL 查询，将 sex 字段反转。
-
-```html
+#### Output:
+```
 | id | name | sex | salary |
 |----|------|-----|--------|
 | 1  | A    | f   | 2500   |
@@ -91,37 +93,14 @@ https://leetcode.com/problems/swap-salary/description/
 | 4  | D    | m   | 500    |
 ```
 
-### Solution
-
-两个相等的数异或的结果为 0，而 0 与任何一个数异或的结果为这个数。
-
-sex  字段只有两个取值：'f' 和 'm'，并且有以下规律：
-
-```
-'f' ^ ('m' ^ 'f') = 'm' ^ ('f' ^ 'f') = 'm'
-'m' ^ ('m' ^ 'f') = 'f' ^ ('m' ^ 'm') = 'f'
-```
-
-因此将 sex 字段和 'm' ^ 'f' 进行异或操作，最后就能反转 sex 字段。
+#### Solution
 
 ```sql
-UPDATE salary
-SET sex = CHAR ( ASCII(sex) ^ ASCII( 'm' ) ^ ASCII( 'f' ) );
-```
-
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS salary;
-CREATE TABLE salary ( id INT, NAME VARCHAR ( 100 ), sex CHAR ( 1 ), salary INT );
-INSERT INTO salary ( id, NAME, sex, salary )
-VALUES
-    ( '1', 'A', 'm', '2500' ),
-    ( '2', 'B', 'f', '1500' ),
-    ( '3', 'C', 'm', '5500' ),
-    ( '4', 'D', 'f', '500' );
+UPDATE Salary
+SET sex = CASE 
+             WHEN sex = 'm' THEN 'f'
+             ELSE 'm'
+          END;
 ```
 
 ## 620. Not Boring Movies
