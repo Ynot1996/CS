@@ -29,7 +29,6 @@ main：指的是 Git 專案的主分支名稱。
 - [SQL Syntax](https://github.com/Ynot1996/CS/blob/main/Database/SQL_Syntax.md)
 - [SQL Practice](https://github.com/Ynot1996/CS/blob/main/Database/SQL_Practice.md)
 - [SQL Practice](https://github.com/CyC2018/CS-Notes/blob/master/notes/SQL%20练习.md)
-- [MySQL](https://github.com/CyC2018/CS-Notes/blob/master/notes/MySQL.md)
 
 ## :computer: OS
 
