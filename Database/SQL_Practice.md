@@ -2,11 +2,12 @@
 
 ### Select
 - [595. Big Countries (Easy)](#595-big-countries)
+- [620. Not Boring Movies (Easy)](#620-not-boring-movies)
 
 ### Update
 - [627. Swap Salary (Easy)](#627-swap-salary)
 
-- [620. Not Boring Movies](#620-not-boring-movies)
+
 - [596. Classes More Than 5 Students](#596-classes-more-than-5-students)
 - [182. Duplicate Emails](#182-duplicate-emails)
 - [196. Delete Duplicate Emails](#196-delete-duplicate-emails)
@@ -93,7 +94,7 @@ Write a solution to swap all 'f' and 'm' values (i.e., change all 'f' values to 
 | 4  | D    | m   | 500    |
 ```
 
-#### Solution
+#### Solution:
 
 ```sql
 UPDATE Salary
@@ -107,10 +108,12 @@ SET sex = CASE
 
 https://leetcode.com/problems/not-boring-movies/description/
 
-### Description
+Write a solution to report the movies with an odd-numbered ID and a description that is not "boring".
 
+Return the result table ordered by rating in descending order.
 
-```html
+#### Input:
+```
 +---------+-----------+--------------+-----------+
 |   id    | movie     |  description |  rating   |
 +---------+-----------+--------------+-----------+
@@ -122,9 +125,8 @@ https://leetcode.com/problems/not-boring-movies/description/
 +---------+-----------+--------------+-----------+
 ```
 
-查找 id 为奇数，并且 description 不是 boring 的电影，按 rating 降序。
-
-```html
+#### Output:
+```
 +---------+-----------+--------------+-----------+
 |   id    | movie     |  description |  rating   |
 +---------+-----------+--------------+-----------+
@@ -133,7 +135,7 @@ https://leetcode.com/problems/not-boring-movies/description/
 +---------+-----------+--------------+-----------+
 ```
 
-### Solution
+#### Solution:
 
 ```sql
 SELECT
@@ -145,22 +147,6 @@ WHERE
     AND description != 'boring'
 ORDER BY
     rating DESC;
-```
-
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS cinema;
-CREATE TABLE cinema ( id INT, movie VARCHAR ( 255 ), description VARCHAR ( 255 ), rating FLOAT ( 2, 1 ) );
-INSERT INTO cinema ( id, movie, description, rating )
-VALUES
-    ( 1, 'War', 'great 3D', 8.9 ),
-    ( 2, 'Science', 'fiction', 8.5 ),
-    ( 3, 'irish', 'boring', 6.2 ),
-    ( 4, 'Ice song', 'Fantacy', 8.6 ),
-    ( 5, 'House card', 'Interesting', 9.1 );
 ```
 
 ## 596. Classes More Than 5 Students
