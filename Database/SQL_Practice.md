@@ -1,16 +1,18 @@
 # SQL Practice
 
-### Select
+### Select 
 - [595. Big Countries (Easy)](#595-big-countries)
 - [620. Not Boring Movies (Easy)](#620-not-boring-movies)
-
+- [596. Classes More Than 5 Students (Easy)](#596-classes-more-than-5-students)
+- [182. Duplicate Emails (Easy)](#182-duplicate-emails)
+  
 ### Update
 - [627. Swap Salary (Easy)](#627-swap-salary)
 
-
-- [596. Classes More Than 5 Students](#596-classes-more-than-5-students)
-- [182. Duplicate Emails](#182-duplicate-emails)
+### Delete
 - [196. Delete Duplicate Emails](#196-delete-duplicate-emails)
+
+
 - [175. Combine Two Tables](#175-combine-two-tables)
 - [181. Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
 - [183. Customers Who Never Order](#183-customers-who-never-order)
@@ -56,7 +58,6 @@ A country is big if:
 ```
 
 #### Solution:
-
 ```sql
 SELECT name,
     population,
@@ -95,7 +96,6 @@ Write a solution to swap all 'f' and 'm' values (i.e., change all 'f' values to 
 ```
 
 #### Solution:
-
 ```sql
 UPDATE Salary
 SET sex = CASE 
@@ -136,7 +136,6 @@ Return the result table ordered by rating in descending order.
 ```
 
 #### Solution:
-
 ```sql
 SELECT
     *
@@ -153,9 +152,10 @@ ORDER BY
 
 https://leetcode.com/problems/classes-more-than-5-students/description/
 
-### Description
+Write a solution to find all the classes that have at least five students.
 
-```html
+#### Input:
+```
 +---------+------------+
 | student | class      |
 +---------+------------+
@@ -171,9 +171,8 @@ https://leetcode.com/problems/classes-more-than-5-students/description/
 +---------+------------+
 ```
 
-查找有五名及以上 student 的 class。
-
-```html
+#### Output:
+```
 +---------+
 | class   |
 +---------+
@@ -181,10 +180,7 @@ https://leetcode.com/problems/classes-more-than-5-students/description/
 +---------+
 ```
 
-### Solution
-
-对 class 列进行分组之后，再使用 count 汇总函数统计每个分组的记录个数，之后使用 HAVING 进行筛选。HAVING  针对分组进行筛选，而 WHERE 针对每个记录（行）进行筛选。
-
+#### Solution:
 ```sql
 SELECT
     class
@@ -193,38 +189,17 @@ FROM
 GROUP BY
     class
 HAVING
-    count( DISTINCT student ) >= 5;
-```
-
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS courses;
-CREATE TABLE courses ( student VARCHAR ( 255 ), class VARCHAR ( 255 ) );
-INSERT INTO courses ( student, class )
-VALUES
-    ( 'A', 'Math' ),
-    ( 'B', 'English' ),
-    ( 'C', 'Math' ),
-    ( 'D', 'Biology' ),
-    ( 'E', 'Math' ),
-    ( 'F', 'Computer' ),
-    ( 'G', 'Math' ),
-    ( 'H', 'Math' ),
-    ( 'I', 'Math' );
+    count( student ) >= 5;
 ```
 
 ## 182. Duplicate Emails
 
 https://leetcode.com/problems/duplicate-emails/description/
 
-### Description
+Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL.
 
-邮件地址表：
-
-```html
+#### Input:
+```
 +----+---------+
 | Id | Email   |
 +----+---------+
@@ -234,9 +209,8 @@ https://leetcode.com/problems/duplicate-emails/description/
 +----+---------+
 ```
 
-查找重复的邮件地址：
-
-```html
+#### Output:
+```
 +---------+
 | Email   |
 +---------+
@@ -244,10 +218,7 @@ https://leetcode.com/problems/duplicate-emails/description/
 +---------+
 ```
 
-### Solution
-
-对 Email 进行分组，如果并使用 COUNT 进行计数统计，结果大于等于 2 的表示 Email  重复。
-
+#### Solution:
 ```sql
 SELECT
     Email
@@ -259,30 +230,13 @@ HAVING
     COUNT( * ) >= 2;
 ```
 
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS Person;
-CREATE TABLE Person ( Id INT, Email VARCHAR ( 255 ) );
-INSERT INTO Person ( Id, Email )
-VALUES
-    ( 1, 'a@b.com' ),
-    ( 2, 'c@d.com' ),
-    ( 3, 'a@b.com' );
-```
-
-
 ## 196. Delete Duplicate Emails
 
 https://leetcode.com/problems/delete-duplicate-emails/description/
 
-### Description
 
-邮件地址表：
 
-```html
+```
 +----+---------+
 | Id | Email   |
 +----+---------+
@@ -292,9 +246,7 @@ https://leetcode.com/problems/delete-duplicate-emails/description/
 +----+---------+
 ```
 
-删除重复的邮件地址：
-
-```html
+```
 +----+------------------+
 | Id | Email            |
 +----+------------------+
