@@ -5,21 +5,27 @@
 - [620. Not Boring Movies (Easy)](#620-not-boring-movies)
 - [596. Classes More Than 5 Students (Easy)](#596-classes-more-than-5-students)
 - [182. Duplicate Emails (Easy)](#182-duplicate-emails)
+- [175. Combine Two Tables (Easy)](#175-combine-two-tables)
+- [181. Employees Earning More Than Their Managers (Easy)](#181-employees-earning-more-than-their-managers)
+- [183. Customers Who Never Order (Easy)](#183-customers-who-never-order)
+- [184. Department Highest Salary (Medium)](#184-department-highest-salary)
+- [176. Second Highest Salary (Medium)](#176-second-highest-salary)
+- [178. Rank Scores (Medium)](#178-rank-scores)
   
 ### Update
 - [627. Swap Salary (Easy)](#627-swap-salary)
 
 ### Delete
-- [196. Delete Duplicate Emails](#196-delete-duplicate-emails)
+- [196. Delete Duplicate Emails (Easy)](#196-delete-duplicate-emails)
 
 
-- [175. Combine Two Tables](#175-combine-two-tables)
-- [181. Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
-- [183. Customers Who Never Order](#183-customers-who-never-order)
-- [184. Department Highest Salary](#184-department-highest-salary)
-- [176. Second Highest Salary](#176-second-highest-salary)
+
+
+
+
+
 - [177. Nth Highest Salary](#177-nth-highest-salary)
-- [178. Rank Scores](#178-rank-scores)
+
 - [180. Consecutive Numbers](#180-consecutive-numbers)
 - [626. Exchange Seats](#626-exchange-seats)
 
@@ -234,8 +240,9 @@ HAVING
 
 https://leetcode.com/problems/delete-duplicate-emails/description/
 
+Write a solution to delete all duplicate emails, keeping only one unique email with the smallest id.
 
-
+#### Input:
 ```
 +----+---------+
 | Id | Email   |
@@ -246,6 +253,7 @@ https://leetcode.com/problems/delete-duplicate-emails/description/
 +----+---------+
 ```
 
+#### Output:
 ```
 +----+------------------+
 | Id | Email            |
@@ -255,12 +263,7 @@ https://leetcode.com/problems/delete-duplicate-emails/description/
 +----+------------------+
 ```
 
-### Solution
-
-只保留相同 Email 中 Id 最小的那一个，然后删除其它的。
-
-连接查询：
-
+#### Solution:
 ```sql
 DELETE p1
 FROM
@@ -271,48 +274,14 @@ WHERE
     AND p1.Id > p2.Id
 ```
 
-子查询：
-
-```sql
-DELETE
-FROM
-    Person
-WHERE
-    id NOT IN (
-        SELECT id 
-        FROM ( 
-            SELECT min( id ) AS id 
-            FROM Person
-            GROUP BY email
-        ) AS m
-    );
-```
-
-应该注意的是上述解法额外嵌套了一个 SELECT 语句，如果不这么做，会出现错误：You can't specify target table 'Person' for update in FROM clause。以下演示了这种错误解法。
-
-```sql
-DELETE
-FROM
-    Person
-WHERE
-    id NOT IN ( 
-        SELECT min( id ) AS id 
-        FROM Person 
-        GROUP BY email 
-    );
-```
-
-参考：[pMySQL Error 1093 - Can't specify target table for update in FROM clause](https://stackoverflow.com/questions/45494/mysql-error-1093-cant-specify-target-table-for-update-in-from-clause)
-
 ## 175. Combine Two Tables
 
 https://leetcode.com/problems/combine-two-tables/description/
 
-### Description
+Write a solution to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.
 
-Person 表：
-
-```html
+#### Person：
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -323,9 +292,8 @@ Person 表：
 PersonId is the primary key column for this table.
 ```
 
-Address 表：
-
-```html
+#### Address：
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -337,12 +305,7 @@ Address 表：
 AddressId is the primary key column for this table.
 ```
 
-查找 FirstName, LastName, City, State 数据，而不管一个用户有没有填地址信息。
-
-### Solution
-
-涉及到 Person 和 Address 两个表，在对这两个表执行连接操作时，因为要保留 Person 表中的信息，即使在 Address 表中没有关联的信息也要保留。此时可以用左外连接，将 Person 表放在 LEFT JOIN 的左边。
-
+#### Solution:
 ```sql
 SELECT
     FirstName,
@@ -359,11 +322,10 @@ FROM
 
 https://leetcode.com/problems/employees-earning-more-than-their-managers/description/
 
-### Description
+Write a solution to find the employees who earn more than their managers.
 
-Employee 表：
-
-```html
+#### Employee：
+```
 +----+-------+--------+-----------+
 | Id | Name  | Salary | ManagerId |
 +----+-------+--------+-----------+
@@ -374,10 +336,7 @@ Employee 表：
 +----+-------+--------+-----------+
 ```
 
-查找薪资大于其经理薪资的员工信息。
-
-### Solution
-
+#### Solution:
 ```sql
 SELECT
     E1.NAME AS Employee
@@ -392,11 +351,10 @@ FROM
 
 https://leetcode.com/problems/customers-who-never-order/description/
 
-### Description
+Write a solution to find all customers who never order anything.
 
-Customers 表：
-
-```html
+#### Customers：
+```
 +----+-------+
 | Id | Name  |
 +----+-------+
@@ -407,9 +365,8 @@ Customers 表：
 +----+-------+
 ```
 
-Orders 表：
-
-```html
+#### Orders：
+```
 +----+------------+
 | Id | CustomerId |
 +----+------------+
@@ -418,9 +375,8 @@ Orders 表：
 +----+------------+
 ```
 
-查找没有订单的顾客信息：
-
-```html
+#### Output:
+```
 +-----------+
 | Customers |
 +-----------+
@@ -429,10 +385,7 @@ Orders 表：
 +-----------+
 ```
 
-### Solution
-
-左外链接
-
+#### Solution:
 ```sql
 SELECT
     C.Name AS Customers
@@ -444,29 +397,13 @@ WHERE
     O.CustomerId IS NULL;
 ```
 
-子查询
-
-```sql
-SELECT
-    Name AS Customers
-FROM
-    Customers
-WHERE
-    Id NOT IN ( 
-        SELECT CustomerId 
-        FROM Orders 
-    );
-```
-
 ## 184. Department Highest Salary
 
 https://leetcode.com/problems/department-highest-salary/description/
 
-### Description
+Employee：
 
-Employee 表：
-
-```html
+```
 +----+-------+--------+--------------+
 | Id | Name  | Salary | DepartmentId |
 +----+-------+--------+--------------+
@@ -477,9 +414,9 @@ Employee 表：
 +----+-------+--------+--------------+
 ```
 
-Department 表：
+Department：
 
-```html
+```
 +----+----------+
 | Id | Name     |
 +----+----------+
@@ -526,9 +463,7 @@ WHERE
 
 https://leetcode.com/problems/second-highest-salary/description/
 
-### Description
-
-```html
+```
 +----+--------+
 | Id | Salary |
 +----+--------+
@@ -540,7 +475,7 @@ https://leetcode.com/problems/second-highest-salary/description/
 
 查找工资第二高的员工。
 
-```html
+```
 +---------------------+
 | SecondHighestSalary |
 +---------------------+
@@ -590,11 +525,9 @@ END
 
 https://leetcode.com/problems/rank-scores/description/
 
-### Description
-
 得分表：
 
-```html
+```
 +----+-------+
 | Id | Score |
 +----+-------+
@@ -609,7 +542,7 @@ https://leetcode.com/problems/rank-scores/description/
 
 将得分排序，并统计排名。
 
-```html
+```
 +-------+------+
 | Score | Rank |
 +-------+------+
