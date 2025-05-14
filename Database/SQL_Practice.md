@@ -304,10 +304,6 @@ WHERE
 
 参考：[pMySQL Error 1093 - Can't specify target table for update in FROM clause](https://stackoverflow.com/questions/45494/mysql-error-1093-cant-specify-target-table-for-update-in-from-clause)
 
-### SQL Schema
-
-与 182 相同。
-
 ## 175. Combine Two Tables
 
 https://leetcode.com/problems/combine-two-tables/description/
@@ -359,25 +355,6 @@ FROM
     ON P.PersonId = A.PersonId;
 ```
 
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS Person;
-CREATE TABLE Person ( PersonId INT, FirstName VARCHAR ( 255 ), LastName VARCHAR ( 255 ) );
-DROP TABLE
-IF
-    EXISTS Address;
-CREATE TABLE Address ( AddressId INT, PersonId INT, City VARCHAR ( 255 ), State VARCHAR ( 255 ) );
-INSERT INTO Person ( PersonId, LastName, FirstName )
-VALUES
-    ( 1, 'Wang', 'Allen' );
-INSERT INTO Address ( AddressId, PersonId, City, State )
-VALUES
-    ( 1, 2, 'New York City', 'New York' );
-```
-
 ## 181. Employees Earning More Than Their Managers
 
 https://leetcode.com/problems/employees-earning-more-than-their-managers/description/
@@ -409,21 +386,6 @@ FROM
     INNER JOIN Employee E2
     ON E1.ManagerId = E2.Id
     AND E1.Salary > E2.Salary;
-```
-
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS Employee;
-CREATE TABLE Employee ( Id INT, NAME VARCHAR ( 255 ), Salary INT, ManagerId INT );
-INSERT INTO Employee ( Id, NAME, Salary, ManagerId )
-VALUES
-    ( 1, 'Joe', 70000, 3 ),
-    ( 2, 'Henry', 80000, 4 ),
-    ( 3, 'Sam', 60000, NULL ),
-    ( 4, 'Max', 90000, NULL );
 ```
 
 ## 183. Customers Who Never Order
@@ -496,29 +458,6 @@ WHERE
     );
 ```
 
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS Customers;
-CREATE TABLE Customers ( Id INT, NAME VARCHAR ( 255 ) );
-DROP TABLE
-IF
-    EXISTS Orders;
-CREATE TABLE Orders ( Id INT, CustomerId INT );
-INSERT INTO Customers ( Id, NAME )
-VALUES
-    ( 1, 'Joe' ),
-    ( 2, 'Henry' ),
-    ( 3, 'Sam' ),
-    ( 4, 'Max' );
-INSERT INTO Orders ( Id, CustomerId )
-VALUES
-    ( 1, 3 ),
-    ( 2, 1 );
-```
-
 ## 184. Department Highest Salary
 
 https://leetcode.com/problems/department-highest-salary/description/
@@ -583,26 +522,6 @@ WHERE
     AND E.Salary = M.Salary;
 ```
 
-### SQL Schema
-
-```sql
-DROP TABLE IF EXISTS Employee;
-CREATE TABLE Employee ( Id INT, NAME VARCHAR ( 255 ), Salary INT, DepartmentId INT );
-DROP TABLE IF EXISTS Department;
-CREATE TABLE Department ( Id INT, NAME VARCHAR ( 255 ) );
-INSERT INTO Employee ( Id, NAME, Salary, DepartmentId )
-VALUES
-    ( 1, 'Joe', 70000, 1 ),
-    ( 2, 'Henry', 80000, 2 ),
-    ( 3, 'Sam', 60000, 2 ),
-    ( 4, 'Max', 90000, 1 );
-INSERT INTO Department ( Id, NAME )
-VALUES
-    ( 1, 'IT' ),
-    ( 2, 'Sales' );
-```
-
-
 ## 176. Second Highest Salary
 
 https://leetcode.com/problems/second-highest-salary/description/
@@ -643,20 +562,6 @@ SELECT
      LIMIT 1, 1 ) SecondHighestSalary;
 ```
 
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS Employee;
-CREATE TABLE Employee ( Id INT, Salary INT );
-INSERT INTO Employee ( Id, Salary )
-VALUES
-    ( 1, 100 ),
-    ( 2, 200 ),
-    ( 3, 300 );
-```
-
 ## 177. Nth Highest Salary
 
 ### Description
@@ -680,11 +585,6 @@ RETURN (
 
 END
 ```
-
-### SQL Schema
-
-同 176。
-
 
 ## 178. Rank Scores
 
@@ -826,23 +726,6 @@ ORDER BY
     S1.score DESC;
 ```
 
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS Scores;
-CREATE TABLE Scores ( Id INT, Score DECIMAL ( 3, 2 ) );
-INSERT INTO Scores ( Id, Score )
-VALUES
-    ( 1, 4.1 ),
-    ( 2, 4.1 ),
-    ( 3, 4.2 ),
-    ( 4, 4.2 ),
-    ( 5, 4.3 ),
-    ( 6, 4.3 );
-```
-
 ## 180. Consecutive Numbers
 
 https://leetcode.com/problems/consecutive-numbers/description/
@@ -888,24 +771,6 @@ WHERE L1.id = l2.id - 1
     AND L2.id = L3.id - 1
     AND L1.num = L2.num
     AND l2.num = l3.num;
-```
-
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS LOGS;
-CREATE TABLE LOGS ( Id INT, Num INT );
-INSERT INTO LOGS ( Id, Num )
-VALUES
-    ( 1, 1 ),
-    ( 2, 1 ),
-    ( 3, 1 ),
-    ( 4, 2 ),
-    ( 5, 1 ),
-    ( 6, 2 ),
-    ( 7, 2 );
 ```
 
 ## 626. Exchange Seats
@@ -977,20 +842,4 @@ WHERE
     AND s4.id = ( SELECT max( s5.id ) FROM seat s5 )
 ORDER BY
     id;
-```
-
-### SQL Schema
-
-```sql
-DROP TABLE
-IF
-    EXISTS seat;
-CREATE TABLE seat ( id INT, student VARCHAR ( 255 ) );
-INSERT INTO seat ( id, student )
-VALUES
-    ( '1', 'Abbot' ),
-    ( '2', 'Doris' ),
-    ( '3', 'Emerson' ),
-    ( '4', 'Green' ),
-    ( '5', 'Jeames' );
 ```
