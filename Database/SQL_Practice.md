@@ -1,278 +1,26 @@
 # SQL Practice
 
 ### Select 
-- [595. Big Countries (Easy)](#595-big-countries)
-- [620. Not Boring Movies (Easy)](#620-not-boring-movies)
-- [596. Classes More Than 5 Students (Easy)](#596-classes-more-than-5-students)
-- [182. Duplicate Emails (Easy)](#182-duplicate-emails)
+<!-- Easy -->
 - [175. Combine Two Tables (Easy)](#175-combine-two-tables)
 - [181. Employees Earning More Than Their Managers (Easy)](#181-employees-earning-more-than-their-managers)
+- [182. Duplicate Emails (Easy)](#182-duplicate-emails)
 - [183. Customers Who Never Order (Easy)](#183-customers-who-never-order)
-- [184. Department Highest Salary (Medium)](#184-department-highest-salary)
+- [595. Big Countries (Easy)](#595-big-countries)
+- [596. Classes More Than 5 Students (Easy)](#596-classes-more-than-5-students)
+- [620. Not Boring Movies (Easy)](#620-not-boring-movies)
+<!-- Medium -->
 - [176. Second Highest Salary (Medium)](#176-second-highest-salary)
 - [178. Rank Scores (Medium)](#178-rank-scores)
-  
+- [180. Consecutive Numbers (Medium)](#180-consecutive-numbers)
+- [184. Department Highest Salary (Medium)](#184-department-highest-salary)
+- [626. Exchange Seats (Medium)](#626-exchange-seats)
+    
 ### Update
 - [627. Swap Salary (Easy)](#627-swap-salary)
 
 ### Delete
 - [196. Delete Duplicate Emails (Easy)](#196-delete-duplicate-emails)
-
-
-
-
-
-
-
-- [177. Nth Highest Salary](#177-nth-highest-salary)
-
-- [180. Consecutive Numbers](#180-consecutive-numbers)
-- [626. Exchange Seats](#626-exchange-seats)
-
-## 595. Big Countries
-
-https://leetcode.com/problems/big-countries/description/
-
-Write a solution to find the name, population, and area of the big countries.
-
-A country is big if:
-
-- it has an area of at least three million (i.e., 3000000 km2), or
-- it has a population of at least twenty-five million (i.e., 25000000).
-
-#### Input:
-```
-+-----------------+------------+------------+--------------+---------------+
-| name            | continent  | area       | population   | gdp           |
-+-----------------+------------+------------+--------------+---------------+
-| Afghanistan     | Asia       | 652230     | 25500100     | 20343000      |
-| Albania         | Europe     | 28748      | 2831741      | 12960000      |
-| Algeria         | Africa     | 2381741    | 37100000     | 188681000     |
-| Andorra         | Europe     | 468        | 78115        | 3712000       |
-| Angola          | Africa     | 1246700    | 20609294     | 100990000     |
-+-----------------+------------+------------+--------------+---------------+
-```
-
-#### Output:
-```
-+--------------+-------------+--------------+
-| name         | population  | area         |
-+--------------+-------------+--------------+
-| Afghanistan  | 25500100    | 652230       |
-| Algeria      | 37100000    | 2381741      |
-+--------------+-------------+--------------+
-```
-
-#### Solution:
-```sql
-SELECT name,
-    population,
-    area
-FROM
-    World
-WHERE
-    area > 3000000
-    OR population > 25000000;
-```
-
-## 627. Swap Salary
-
-https://leetcode.com/problems/swap-salary/description/
-
-Write a solution to swap all 'f' and 'm' values (i.e., change all 'f' values to 'm' and vice versa) with a single update statement and no intermediate temporary tables.
-
-#### Input:
-```
-| id | name | sex | salary |
-|----|------|-----|--------|
-| 1  | A    | m   | 2500   |
-| 2  | B    | f   | 1500   |
-| 3  | C    | m   | 5500   |
-| 4  | D    | f   | 500    |
-```
-
-#### Output:
-```
-| id | name | sex | salary |
-|----|------|-----|--------|
-| 1  | A    | f   | 2500   |
-| 2  | B    | m   | 1500   |
-| 3  | C    | f   | 5500   |
-| 4  | D    | m   | 500    |
-```
-
-#### Solution:
-```sql
-UPDATE Salary
-SET sex = CASE 
-             WHEN sex = 'm' THEN 'f'
-             ELSE 'm'
-          END;
-```
-
-## 620. Not Boring Movies
-
-https://leetcode.com/problems/not-boring-movies/description/
-
-Write a solution to report the movies with an odd-numbered ID and a description that is not "boring".
-
-Return the result table ordered by rating in descending order.
-
-#### Input:
-```
-+---------+-----------+--------------+-----------+
-|   id    | movie     |  description |  rating   |
-+---------+-----------+--------------+-----------+
-|   1     | War       |   great 3D   |   8.9     |
-|   2     | Science   |   fiction    |   8.5     |
-|   3     | irish     |   boring     |   6.2     |
-|   4     | Ice song  |   Fantacy    |   8.6     |
-|   5     | House card|   Interesting|   9.1     |
-+---------+-----------+--------------+-----------+
-```
-
-#### Output:
-```
-+---------+-----------+--------------+-----------+
-|   id    | movie     |  description |  rating   |
-+---------+-----------+--------------+-----------+
-|   5     | House card|   Interesting|   9.1     |
-|   1     | War       |   great 3D   |   8.9     |
-+---------+-----------+--------------+-----------+
-```
-
-#### Solution:
-```sql
-SELECT
-    *
-FROM
-    cinema
-WHERE
-    id % 2 = 1
-    AND description != 'boring'
-ORDER BY
-    rating DESC;
-```
-
-## 596. Classes More Than 5 Students
-
-https://leetcode.com/problems/classes-more-than-5-students/description/
-
-Write a solution to find all the classes that have at least five students.
-
-#### Input:
-```
-+---------+------------+
-| student | class      |
-+---------+------------+
-| A       | Math       |
-| B       | English    |
-| C       | Math       |
-| D       | Biology    |
-| E       | Math       |
-| F       | Computer   |
-| G       | Math       |
-| H       | Math       |
-| I       | Math       |
-+---------+------------+
-```
-
-#### Output:
-```
-+---------+
-| class   |
-+---------+
-| Math    |
-+---------+
-```
-
-#### Solution:
-```sql
-SELECT
-    class
-FROM
-    courses
-GROUP BY
-    class
-HAVING
-    count( student ) >= 5;
-```
-
-## 182. Duplicate Emails
-
-https://leetcode.com/problems/duplicate-emails/description/
-
-Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL.
-
-#### Input:
-```
-+----+---------+
-| Id | Email   |
-+----+---------+
-| 1  | a@b.com |
-| 2  | c@d.com |
-| 3  | a@b.com |
-+----+---------+
-```
-
-#### Output:
-```
-+---------+
-| Email   |
-+---------+
-| a@b.com |
-+---------+
-```
-
-#### Solution:
-```sql
-SELECT
-    Email
-FROM
-    Person
-GROUP BY
-    Email
-HAVING
-    COUNT( * ) >= 2;
-```
-
-## 196. Delete Duplicate Emails
-
-https://leetcode.com/problems/delete-duplicate-emails/description/
-
-Write a solution to delete all duplicate emails, keeping only one unique email with the smallest id.
-
-#### Input:
-```
-+----+---------+
-| Id | Email   |
-+----+---------+
-| 1  | john@example.com |
-| 2  | bob@example.com |
-| 3  | john@example.com |
-+----+---------+
-```
-
-#### Output:
-```
-+----+------------------+
-| Id | Email            |
-+----+------------------+
-| 1  | john@example.com |
-| 2  | bob@example.com  |
-+----+------------------+
-```
-
-#### Solution:
-```sql
-DELETE p1
-FROM
-    Person p1,
-    Person p2
-WHERE
-    p1.Email = p2.Email
-    AND p1.Id > p2.Id
-```
 
 ## 175. Combine Two Tables
 
@@ -347,6 +95,44 @@ FROM
     AND E1.Salary > E2.Salary;
 ```
 
+## 182. Duplicate Emails
+
+https://leetcode.com/problems/duplicate-emails/description/
+
+Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL.
+
+#### Input:
+```
++----+---------+
+| Id | Email   |
++----+---------+
+| 1  | a@b.com |
+| 2  | c@d.com |
+| 3  | a@b.com |
++----+---------+
+```
+
+#### Output:
+```
++---------+
+| Email   |
++---------+
+| a@b.com |
++---------+
+```
+
+#### Solution:
+```sql
+SELECT
+    Email
+FROM
+    Person
+GROUP BY
+    Email
+HAVING
+    COUNT( * ) >= 2;
+```
+
 ## 183. Customers Who Never Order
 
 https://leetcode.com/problems/customers-who-never-order/description/
@@ -397,66 +183,138 @@ WHERE
     O.CustomerId IS NULL;
 ```
 
-## 184. Department Highest Salary
+## 595. Big Countries
 
-https://leetcode.com/problems/department-highest-salary/description/
+https://leetcode.com/problems/big-countries/description/
 
-Employee：
+Write a solution to find the name, population, and area of the big countries.
 
+A country is big if:
+
+- it has an area of at least three million (i.e., 3000000 km2), or
+- it has a population of at least twenty-five million (i.e., 25000000).
+
+#### Input:
 ```
-+----+-------+--------+--------------+
-| Id | Name  | Salary | DepartmentId |
-+----+-------+--------+--------------+
-| 1  | Joe   | 70000  | 1            |
-| 2  | Henry | 80000  | 2            |
-| 3  | Sam   | 60000  | 2            |
-| 4  | Max   | 90000  | 1            |
-+----+-------+--------+--------------+
-```
-
-Department：
-
-```
-+----+----------+
-| Id | Name     |
-+----+----------+
-| 1  | IT       |
-| 2  | Sales    |
-+----+----------+
++-----------------+------------+------------+--------------+---------------+
+| name            | continent  | area       | population   | gdp           |
++-----------------+------------+------------+--------------+---------------+
+| Afghanistan     | Asia       | 652230     | 25500100     | 20343000      |
+| Albania         | Europe     | 28748      | 2831741      | 12960000      |
+| Algeria         | Africa     | 2381741    | 37100000     | 188681000     |
+| Andorra         | Europe     | 468        | 78115        | 3712000       |
+| Angola          | Africa     | 1246700    | 20609294     | 100990000     |
++-----------------+------------+------------+--------------+---------------+
 ```
 
-查找一个 Department 中收入最高者的信息：
-
-```html
-+------------+----------+--------+
-| Department | Employee | Salary |
-+------------+----------+--------+
-| IT         | Max      | 90000  |
-| Sales      | Henry    | 80000  |
-+------------+----------+--------+
+#### Output:
+```
++--------------+-------------+--------------+
+| name         | population  | area         |
++--------------+-------------+--------------+
+| Afghanistan  | 25500100    | 652230       |
+| Algeria      | 37100000    | 2381741      |
++--------------+-------------+--------------+
 ```
 
-### Solution
+#### Solution:
+```sql
+SELECT name,
+    population,
+    area
+FROM
+    World
+WHERE
+    area > 3000000
+    OR population > 25000000;
+```
 
-创建一个临时表，包含了部门员工的最大薪资。可以对部门进行分组，然后使用 MAX() 汇总函数取得最大薪资。
+## 596. Classes More Than 5 Students
 
-之后使用连接找到一个部门中薪资等于临时表中最大薪资的员工。
+https://leetcode.com/problems/classes-more-than-5-students/description/
 
+Write a solution to find all the classes that have at least five students.
+
+#### Input:
+```
++---------+------------+
+| student | class      |
++---------+------------+
+| A       | Math       |
+| B       | English    |
+| C       | Math       |
+| D       | Biology    |
+| E       | Math       |
+| F       | Computer   |
+| G       | Math       |
+| H       | Math       |
+| I       | Math       |
++---------+------------+
+```
+
+#### Output:
+```
++---------+
+| class   |
++---------+
+| Math    |
++---------+
+```
+
+#### Solution:
 ```sql
 SELECT
-    D.NAME Department,
-    E.NAME Employee,
-    E.Salary
+    class
 FROM
-    Employee E,
-    Department D,
-    ( SELECT DepartmentId, MAX( Salary ) Salary 
-     FROM Employee 
-     GROUP BY DepartmentId ) M
+    courses
+GROUP BY
+    class
+HAVING
+    count( student ) >= 5;
+```
+
+## 620. Not Boring Movies
+
+https://leetcode.com/problems/not-boring-movies/description/
+
+Write a solution to report the movies with an odd-numbered ID and a description that is not "boring".
+
+Return the result table ordered by rating in descending order.
+
+#### Input:
+```
++---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   1     | War       |   great 3D   |   8.9     |
+|   2     | Science   |   fiction    |   8.5     |
+|   3     | irish     |   boring     |   6.2     |
+|   4     | Ice song  |   Fantacy    |   8.6     |
+|   5     | House card|   Interesting|   9.1     |
++---------+-----------+--------------+-----------+
+```
+
+#### Output:
+```
++---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   5     | House card|   Interesting|   9.1     |
+|   1     | War       |   great 3D   |   8.9     |
++---------+-----------+--------------+-----------+
+```
+
+#### Solution:
+```sql
+SELECT
+    *
+FROM
+    cinema
 WHERE
-    E.DepartmentId = D.Id
-    AND E.DepartmentId = M.DepartmentId
-    AND E.Salary = M.Salary;
+    id % 2 = 1
+    AND description != 'boring'
+ORDER BY
+    rating DESC;
 ```
 
 ## 176. Second Highest Salary
@@ -495,30 +353,6 @@ SELECT
      FROM Employee 
      ORDER BY Salary DESC 
      LIMIT 1, 1 ) SecondHighestSalary;
-```
-
-## 177. Nth Highest Salary
-
-### Description
-
-查找工资第 N 高的员工。
-
-### Solution
-
-```sql
-CREATE FUNCTION getNthHighestSalary ( N INT ) RETURNS INT BEGIN
-
-SET N = N - 1;
-RETURN ( 
-    SELECT ( 
-        SELECT DISTINCT Salary 
-        FROM Employee 
-        ORDER BY Salary DESC 
-        LIMIT N, 1 
-    ) 
-);
-
-END
 ```
 
 ## 178. Rank Scores
@@ -663,8 +497,6 @@ ORDER BY
 
 https://leetcode.com/problems/consecutive-numbers/description/
 
-### Description
-
 数字表：
 
 ```html
@@ -706,13 +538,75 @@ WHERE L1.id = l2.id - 1
     AND l2.num = l3.num;
 ```
 
+## 184. Department Highest Salary
+
+https://leetcode.com/problems/department-highest-salary/description/
+
+Employee：
+
+```
++----+-------+--------+--------------+
+| Id | Name  | Salary | DepartmentId |
++----+-------+--------+--------------+
+| 1  | Joe   | 70000  | 1            |
+| 2  | Henry | 80000  | 2            |
+| 3  | Sam   | 60000  | 2            |
+| 4  | Max   | 90000  | 1            |
++----+-------+--------+--------------+
+```
+
+Department：
+
+```
++----+----------+
+| Id | Name     |
++----+----------+
+| 1  | IT       |
+| 2  | Sales    |
++----+----------+
+```
+
+查找一个 Department 中收入最高者的信息：
+
+```html
++------------+----------+--------+
+| Department | Employee | Salary |
++------------+----------+--------+
+| IT         | Max      | 90000  |
+| Sales      | Henry    | 80000  |
++------------+----------+--------+
+```
+
+### Solution
+
+创建一个临时表，包含了部门员工的最大薪资。可以对部门进行分组，然后使用 MAX() 汇总函数取得最大薪资。
+
+之后使用连接找到一个部门中薪资等于临时表中最大薪资的员工。
+
+```sql
+SELECT
+    D.NAME Department,
+    E.NAME Employee,
+    E.Salary
+FROM
+    Employee E,
+    Department D,
+    ( SELECT DepartmentId, MAX( Salary ) Salary 
+     FROM Employee 
+     GROUP BY DepartmentId ) M
+WHERE
+    E.DepartmentId = D.Id
+    AND E.DepartmentId = M.DepartmentId
+    AND E.Salary = M.Salary;
+```
+
 ## 626. Exchange Seats
 
 https://leetcode.com/problems/exchange-seats/description/
 
-### Description
+Write a solution to swap the seat id of every two consecutive students. If the number of students is odd, the id of the last student is not swapped.
 
-seat 表存储着座位对应的学生。
+Return the result table ordered by id in ascending order.
 
 ```html
 +---------+---------+
@@ -775,4 +669,77 @@ WHERE
     AND s4.id = ( SELECT max( s5.id ) FROM seat s5 )
 ORDER BY
     id;
+```
+
+## 627. Swap Salary
+
+https://leetcode.com/problems/swap-salary/description/
+
+Write a solution to swap all 'f' and 'm' values (i.e., change all 'f' values to 'm' and vice versa) with a single update statement and no intermediate temporary tables.
+
+#### Input:
+```
+| id | name | sex | salary |
+|----|------|-----|--------|
+| 1  | A    | m   | 2500   |
+| 2  | B    | f   | 1500   |
+| 3  | C    | m   | 5500   |
+| 4  | D    | f   | 500    |
+```
+
+#### Output:
+```
+| id | name | sex | salary |
+|----|------|-----|--------|
+| 1  | A    | f   | 2500   |
+| 2  | B    | m   | 1500   |
+| 3  | C    | f   | 5500   |
+| 4  | D    | m   | 500    |
+```
+
+#### Solution:
+```sql
+UPDATE Salary
+SET sex = CASE 
+             WHEN sex = 'm' THEN 'f'
+             ELSE 'm'
+          END;
+```
+
+## 196. Delete Duplicate Emails
+
+https://leetcode.com/problems/delete-duplicate-emails/description/
+
+Write a solution to delete all duplicate emails, keeping only one unique email with the smallest id.
+
+#### Input:
+```
++----+---------+
+| Id | Email   |
++----+---------+
+| 1  | john@example.com |
+| 2  | bob@example.com |
+| 3  | john@example.com |
++----+---------+
+```
+
+#### Output:
+```
++----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
++----+------------------+
+```
+
+#### Solution:
+```sql
+DELETE p1
+FROM
+    Person p1,
+    Person p2
+WHERE
+    p1.Email = p2.Email
+    AND p1.Id > p2.Id
 ```
