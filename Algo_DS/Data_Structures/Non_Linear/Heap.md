@@ -2,7 +2,8 @@
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 ### Easy
 - [703. Kth Largest Element in a Stream](#Kth-Largest-Element-in-a-Stream)
-
+- [1046. Last Stone Weight](#Last-Stone-Weight)
+  
 ### Medium
 - [215. Kth Largest Element in an Array](#Kth-Largest-Element-in-an-Array)
 - [237. K Closest Points to Origin](#K-Closest-Points-to-Origin)
@@ -31,6 +32,10 @@ class KthLargest:
             heapq.heappop(self.minHeap)
         return self.minHeap[0]
 ```
+
+## Last Stone Weight
+[1046](https://leetcode.com/problems/Last-Stone-Weight/)
+
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
 ## Kth Largest Element in an Array
