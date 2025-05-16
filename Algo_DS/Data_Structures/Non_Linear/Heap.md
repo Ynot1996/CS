@@ -6,8 +6,9 @@
   
 ### Medium
 - [215. Kth Largest Element in an Array](#Kth-Largest-Element-in-an-Array)
-- [237. K Closest Points to Origin](#K-Closest-Points-to-Origin)
 - [378. Kth Smallest Element in a Sorted Matrix](#Kth-Smallest-Element-in-a-Sorted-Matrix)
+- [973. K Closest Points to Origin](#K-Closest-Points-to-Origin)
+
 
 ### Hard
 - [23. Merge k Sorted Lists](#Merge-k-Sorted-Lists)
@@ -84,11 +85,11 @@ class Solution {
 }
 ```
 
-## K Closest Points to Origin
-[237](https://leetcode.com/problems/K-Closest-Points-to-Origin/)
-
 ## Kth Smallest Element in a Sorted Matrix
 [378](https://leetcode.com/problems/Kth-Smallest-Element-in-a-Sorted-Matrix/)
+
+## K Closest Points to Origin
+[973](https://leetcode.com/problems/K-Closest-Points-to-Origin/)
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Hard-->
