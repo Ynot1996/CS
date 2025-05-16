@@ -25,6 +25,6 @@ Organize classic problems from the Leetcode platform and categorize them based o
 
 ### Non-Linear
 - [Tree](Data_Structures/Non_Linear/Tree.md): 94, 144, 145, 700
-- [Heap](Data_Structures/Non_Linear/Heap.md): 703, 1046
+- [Heap](Data_Structures/Non_Linear/Heap.md): 703, 1046, 215
 - [Graph](Data_Structures/Non_Linear/Graph.md): 200
 - [Hashing](Data_Structures/Non_Linear/Hashing.md): 1, 217
