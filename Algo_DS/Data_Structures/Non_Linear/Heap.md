@@ -69,6 +69,21 @@ class Solution {
 ## Kth Largest Element in an Array
 [215](https://leetcode.com/problems/Kth-Largest-Element-in-an-Array/)
 
+```java
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        for (int num : nums) {
+            maxHeap.add(num);
+        }
+        for (int i = 1; i < k; i++) {
+            maxHeap.poll();
+        }
+        return maxHeap.peek();
+    }
+}
+```
+
 ## K Closest Points to Origin
 [237](https://leetcode.com/problems/K-Closest-Points-to-Origin/)
 
