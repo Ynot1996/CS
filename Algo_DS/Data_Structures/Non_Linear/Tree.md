@@ -5,6 +5,7 @@ DFS
 - [94. Binary Tree Inorder Traversal (Easy)](#Binary-Tree-Inorder-Traversal)
 - [144. Binary Tree Preorder Traversal (Easy)](#Binary-Tree-Preorder-Traversal)
 - [145. Binary Tree Postorder Traversal (Easy)](#Binary-Tree-Postorder-Traversal)
+- [572. Subtree of Another Tree (Easy)](#Subtree-of-Another-Tree)
 - [98. Validate Binary Search Tree (Medium)](#Validate-Binary-Search-Tree)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal (Medium)](#Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) 
 
@@ -69,6 +70,31 @@ class Solution:
             result.append(node.val)
         inorder(root)
         return result
+```
+
+### Subtree of Another Tree
+[572](https://leetcode.com/problems/Subtree-of-Another-Tree/)
+
+NeetCode: https://youtu.be/E36O5SWp-LE?si=WRBqpMDRwc1CXwhK
+```python
+class Solution:
+    def sameTree(self, s, t):
+        if not s and not t:
+            return True
+        if s and t and s.val == t.val:
+            return (self.sameTree(s.left, t.left) and self.sameTree(s.right, t.right))
+        return False
+
+    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        if not subRoot:
+            return True
+        if not root: 
+            return False
+        
+        if self.sameTree(root, subRoot):
+            return True
+        
+        return (self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot))
 ```
 
 ### Validate Binary Search Tree
