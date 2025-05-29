@@ -74,7 +74,7 @@ class Solution:
 ### Validate Binary Search Tree
 [98](https://leetcode.com/problems/Validate-Binary-Search-Tree/)
 
-https://www.youtube.com/watch?v=s6ATEkipzow
+NeetCode: https://youtu.be/s6ATEkipzow?si=H7kzTt12JvOQmqCu
 ```python
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
