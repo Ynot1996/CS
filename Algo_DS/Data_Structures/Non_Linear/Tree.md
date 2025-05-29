@@ -5,6 +5,7 @@ DFS
 - [94. Binary Tree Inorder Traversal (Easy)](#Binary-Tree-Inorder-Traversal)
 - [144. Binary Tree Preorder Traversal (Easy)](#Binary-Tree-Preorder-Traversal)
 - [145. Binary Tree Postorder Traversal (Easy)](#Binary-Tree-Postorder-Traversal)
+- [98. Validate Binary Search Tree (Medium)](#Validate-Binary-Search-Tree)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal (Medium)](#Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) 
 
 BFS
@@ -53,6 +54,7 @@ class Solution:
         inorder(root)
         return result
 ```
+
 ### Binary Tree Postorder Traversal
 [145](https://leetcode.com/problems/Binary-Tree-Postorder-Traversal/)
 ```python
@@ -67,6 +69,27 @@ class Solution:
             result.append(node.val)
         inorder(root)
         return result
+```
+
+### Validate Binary Search Tree
+[98](https://leetcode.com/problems/Validate-Binary-Search-Tree/)
+
+https://www.youtube.com/watch?v=s6ATEkipzow
+```python
+class Solution:
+    def isValidBST(self, root: Optional[TreeNode]) -> bool:
+
+        def valid(node, left, right):
+            if not node:
+                return True
+
+            if not (left < node.val < right):
+                return False
+
+            return (valid(node.left, left, node.val) and 
+                    valid(node.right, node.val, right))
+
+        return valid(root, float('-inf'), float('inf'))
 ```
 
 <!--BST>
