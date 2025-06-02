@@ -47,6 +47,14 @@ class Solution {
 ## Contains Duplicate
 [217](https://leetcode.com/problems/Contains-Duplicate/)
 
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+- Approach 1 (Preferred)
+
+Use a set to track seen elements
+
+Pros: Clean, efficient, and optimal for this problem
+
 ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
@@ -58,6 +66,25 @@ class Solution:
             a.add(i)
         return False
 ```
+
+- Approach 2 (2025/06/02)
+
+Use a dict to record seen numbers
+
+Also correct, but unnecessarily stores values — less concise than using a set
+
+```python
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        dic = {}
+        for num in nums:
+            if num not in dic:
+                dic[num] = 1 
+            else:
+                return True
+        return False
+```
+
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
 
