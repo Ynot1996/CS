@@ -51,6 +51,16 @@ class Solution:
 ## Word Search II
 [212](https://leetcode.com/problems/Word-Search-II/)
 
+Before starting this question, it's important to understand the concepts of prefix tree (Trie) and basic backtracking.
+
+Prerequisites:
+
+79. Word Search – introduces backtracking on a grid
+
+208. Implement Trie (Prefix Tree) – covers Trie data structure
+
+This problem is essentially a combination of the techniques from the two problems above. Understanding both is crucial to solving it efficiently.
+
 ```python
 
 ```
