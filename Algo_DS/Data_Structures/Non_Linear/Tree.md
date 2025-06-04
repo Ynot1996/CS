@@ -2,12 +2,15 @@
 
 ### Tree Traversal 
 DFS
-- [94. Binary Tree Inorder Traversal (Easy)](#Binary-Tree-Inorder-Traversal)
-- [144. Binary Tree Preorder Traversal (Easy)](#Binary-Tree-Preorder-Traversal)
-- [145. Binary Tree Postorder Traversal (Easy)](#Binary-Tree-Postorder-Traversal)
-- [572. Subtree of Another Tree (Easy)](#Subtree-of-Another-Tree)
-- [98. Validate Binary Search Tree (Medium)](#Validate-Binary-Search-Tree)
-- [105. Construct Binary Tree from Preorder and Inorder Traversal (Medium)](#Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) 
+- Easy
+- [94. Binary Tree Inorder Traversal](#Binary-Tree-Inorder-Traversal)
+- [144. Binary Tree Preorder Traversal](#Binary-Tree-Preorder-Traversal)
+- [145. Binary Tree Postorder Traversal](#Binary-Tree-Postorder-Traversal)
+- [226. Invert Binary Tree)](#Invert-Binary-Tree)
+- [572. Subtree of Another Tree](#Subtree-of-Another-Tree)
+- Medium
+- [98. Validate Binary Search Tree](#Validate-Binary-Search-Tree)
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](#Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) 
 
 BFS
 - [102. Binary Tree Level Order Traversal (Medium)](#Binary-Tree-Level-Order-Traversal)
@@ -70,6 +73,23 @@ class Solution:
             result.append(node.val)
         inorder(root)
         return result
+```
+
+### Invert Binary Tree
+[226](https://leetcode.com/problems/Invert-Binary-Tree/)
+
+```python
+class Solution:
+    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        if root is None:
+            return None
+
+        root.left, root.right = root.right, root.left
+
+        self.invertTree(root.left)
+        self.invertTree(root.right)
+
+        return root
 ```
 
 ### Subtree of Another Tree
