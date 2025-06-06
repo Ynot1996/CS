@@ -10,6 +10,7 @@
 Easy
 - [832. Flipping an Image (Easy)](#Flipping-an-Image)
 - [867. Transpose Matrix (Easy)](#Transpose-Matrix)
+  
 Medium
 - [48. Rotate Image](#Rotate-Image)
 - [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
