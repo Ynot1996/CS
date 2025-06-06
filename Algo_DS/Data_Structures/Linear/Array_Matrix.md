@@ -7,8 +7,11 @@
 - [Find the Duplicate Number (Medium)](#Find-the-Duplicate-Number)
 
 ### Matrix
+Easy
 - [832. Flipping an Image (Easy)](#Flipping-an-Image)
 - [867. Transpose Matrix (Easy)](#Transpose-Matrix)
+Medium
+- [48. Rotate Image](#Rotate-Image)
 - [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
 - [Kth Smallest Element in a Sorted Matrix (Medium)](#Kth-Smallest-Element-in-a-Sorted-Matrix)
 
@@ -94,6 +97,25 @@ class Solution:
             result.append(new_row)
         
         return result
+```
+
+## Rotate Image
+[48](https://leetcode.com/problems/Rotate-Image/)
+
+```python
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        new_matrix = []
+        n = len(matrix)
+        for i in range(n):
+            matrix_row = []
+            for j in range(n-1,-1,-1):
+                matrix_row.append(matrix[j][i])
+            new_matrix.append(matrix_row)            
+        
+        for i in range(n):
+            for j in range(n):
+                matrix[i][j] = new_matrix[i][j]
 ```
 
 ## Search a 2D Matrix II
