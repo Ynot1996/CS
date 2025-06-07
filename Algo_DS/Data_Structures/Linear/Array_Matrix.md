@@ -13,6 +13,7 @@ Easy
   
 Medium
 - [48. Rotate Image](#Rotate-Image)
+- [417. Pacific Atlantic Water Flow](#Pacific-Atlantic-Water-Flow)
 - [Search a 2D Matrix II (Medium)](#Search-a-2D-Matrix-II)
 - [Kth Smallest Element in a Sorted Matrix (Medium)](#Kth-Smallest-Element-in-a-Sorted-Matrix)
 
@@ -117,6 +118,44 @@ class Solution:
         for i in range(n):
             for j in range(n):
                 matrix[i][j] = new_matrix[i][j]
+```
+
+## Pacific Atlantic Water Flow
+[417](https://leetcode.com/problems/Pacific-Atlantic-Water-Flow/)
+
+```python
+class Solution:
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        m, n = len(heights), len(heights[0])
+        pacific = [[False] * n for _ in range(m)]
+        atlantic = [[False] * n for _ in range(m)]
+
+        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+
+        def dfs(r, c, visited, prev_height):
+            if (r < 0 or r >= m or c < 0 or c >= n or 
+                visited[r][c] or heights[r][c] < prev_height):
+                return
+            visited[r][c] = True
+            for dr, dc in directions:
+                dfs(r + dr, c + dc, visited, heights[r][c])
+
+        for i in range(m):
+            dfs(i, 0, pacific, heights[i][0])
+        for j in range(n):
+            dfs(0, j, pacific, heights[0][j])
+
+        for i in range(m):
+            dfs(i, n - 1, atlantic, heights[i][n - 1])
+        for j in range(n):
+            dfs(m - 1, j, atlantic, heights[m - 1][j])
+
+        result = []
+        for i in range(m):
+            for j in range(n):
+                if pacific[i][j] and atlantic[i][j]:
+                    result.append([i, j])
+        return result
 ```
 
 ## Search a 2D Matrix II
