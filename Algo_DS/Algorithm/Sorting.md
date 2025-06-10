@@ -20,9 +20,9 @@
     * [Counting Sort](#Counting-Sort)
       * [912. Sort an Array (Medium)](#912-Sort-an-Array)
     * [Radix Sort](#Radix-Sort)
-        * [164. Maximum Gap (Medium)](#164-Maximum-Gap---Radix-Sort)
+        * [164. Maximum Gap (Medium)](#164-Maximum-Gap)
     * [Bucket Sort](#Bucket-Sort)
-        * [164. Maximum Gap (Medium)](#164-Maximum-Gap---Bucket-Sort)   
+        * [347. Top K Frequent Elements (Medium)](#347-Top-K-Frequent-Elements)   
 
 # Fundamental Sorting Concepts
 
@@ -90,7 +90,7 @@ Sorts integers by counting the frequency of each value and uses this to place th
 
 Sorts numbers by processing digits from least significant to most significant.
 
-#### 164. Maximum Gap - Radix Sort
+#### 164. Maximum Gap
 
 [Leetcode](https://leetcode.com/problems/maximum-gap/description/)
 
@@ -98,6 +98,25 @@ Sorts numbers by processing digits from least significant to most significant.
 
 Divides the input into several "buckets," sorts each bucket, and combines the results.
 
-#### 164. Maximum Gap - Bucket Sort
+#### 347. Top K Frequent Elements
 
-[Leetcode](https://leetcode.com/problems/maximum-gap/description/)
+[Leetcode](https://leetcode.com/problems/Top-K-Frequent-Elements/description/)
+
+```python
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        count = {}
+        freq = [[] for i in range(len(nums) + 1)]
+
+        for n in nums:
+            count[n] = 1 + count.get(n, 0)
+        for n, c in count.items():
+            freq[c].append(n)
+        
+        res = []
+        for i in range(len(freq) - 1, 0, -1):
+            for n in freq[i]:
+                res.append(n)
+                if len(res) == k:
+                    return res
+```
