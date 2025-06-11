@@ -53,7 +53,7 @@ class Solution:
         hash_map = {}
         for i, num in enumerate(nums):
             if target - num in hash_map:
-                return [hash_map.get(target-num), i]
+                return [hash_map.get(target - num), i]
             hash_map[num] = i
 ```
 
