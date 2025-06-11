@@ -44,6 +44,19 @@ class Solution {
     }
 }
 ```
+
+2025/06/11
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash_map = {}
+        for i, num in enumerate(nums):
+            if target - num in hash_map:
+                return [hash_map.get(target-num), i]
+            hash_map[num] = i
+```
+
 ## Contains Duplicate
 [217](https://leetcode.com/problems/Contains-Duplicate/)
 
