@@ -6,8 +6,7 @@
 - [338. Counting Bits](#Counting-Bits)
   
 ### Medium
-- [](#)
-- [](#)
+- [371. Sum of Two Integers](#Sum-of-Two-Integers)
 
 ### Hard
 
@@ -76,3 +75,19 @@ class Solution:
 ```
 
 ![image](https://github.com/user-attachments/assets/0b64cf30-18b7-4bbd-ba5b-5744ac820a25)
+
+## Sum of Two Integers
+[371](https://leetcode.com/problems/Sum-of-Two-Integers/)
+
+```java
+class Solution {
+    public int getSum(int a, int b) {
+        while (b != 0) {
+            int tmp = (a & b) << 1;
+            a = a ^ b;
+            b = tmp;   
+        }
+        return a;
+    }
+}
+```
