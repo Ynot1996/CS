@@ -10,6 +10,7 @@ These problems focus on fundamental HashSet / HashMap usage, such as checking du
 ### Medium
 These problems involve HashMap for solving more complex problems like substring matching, prefix sums, and sliding window techniques.
 - [3. Kth Largest Element in an Array](#Kth-Largest-Element-in-an-Array)
+- [128. Longest Consecutive Sequence](#Longest-Consecutive-Sequence)
 - [451. Sort Characters By Frequency](#Sort-Characters-By-Frequency)
 - [525. Contiguous Array](#Contiguous-Array)
 - [560. Subarray Sum Equals K](#Subarray-Sum-Equals-K)
@@ -100,7 +101,27 @@ class Solution:
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Medium-->
+## Longest Consecutive Sequence
+[128](https://leetcode.com/problems/Longest-Consecutive-Sequence/)
 
+This solution uses a HashSet to achieve linear time complexity O(n),
+whereas a sorting-based approach would result in O(n log n) time complexity.
+```python
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        num_set = set(nums)
+        longest = 0
+        for num in num_set:
+            if num - 1 not in num_set:
+                streak = 1
+                
+                while num + 1  in num_set:
+                    num += 1
+                    streak += 1
+                
+                longest = max(longest, streak)
+        return longest
+```
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Hard-->
 
