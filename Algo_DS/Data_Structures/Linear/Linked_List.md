@@ -9,9 +9,9 @@
 
 ### Medium
 - [2. Add Two Numbers](#Add-Two-Numbers)
+- [19. Remove Nth Node From End of List](#Remove-Nth-Node-From-End-of-List)
 - [328. Odd Even Linked List](#Odd-Even-Linked-List)
 - [237. Delete Node in a Linked List](#Delete-Node-in-a-Linked-List)
-- [Remove Nth Node From End of List](#Remove-Nth-Node-From-End-of-List)
 - [Rotate List](#Rotate-List)
 - [Partition List](#Partition-List)
 - [Sort List](#Sort-List)
@@ -190,6 +190,29 @@ class Solution {
         return dummy.next;
     }
 }
+```
+## Remove Nth Node From End of List
+[19](https://leetcode.com/problems/Remove-Nth-Node-From-End-of-List/)
+
+```python
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode(0)
+        dummy.next = head
+        current = dummy
+        length = 0
+
+        while current:
+            length += 1
+            current = current.next
+
+        current_2 = dummy
+        for i in range(length - n - 1):
+            current_2 = current_2.next
+        
+        current_2.next = current_2.next.next
+
+        return dummy.next
 ```
 ## Odd Even Linked List
 [328](https://leetcode.com/problems/Odd-Even-Linked-List/)
