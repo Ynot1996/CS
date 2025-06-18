@@ -194,6 +194,26 @@ class Solution {
 ## Remove Nth Node From End of List
 [19](https://leetcode.com/problems/Remove-Nth-Node-From-End-of-List/)
 
+O(n) Two Pointers: (Better method)
+```python
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode(0, head)
+        slow = fast = dummy
+
+        for i in range(n + 1):
+            fast = fast.next
+
+        while fast:
+            fast = fast.next
+            slow = slow.next
+
+        slow.next = slow.next.next
+
+        return dummy.next
+```
+
+O(2n) Iterate Twice:
 ```python
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
