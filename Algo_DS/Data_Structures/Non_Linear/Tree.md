@@ -13,7 +13,7 @@ DFS
 - [98. Validate Binary Search Tree](#Validate-Binary-Search-Tree)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](#Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal)
   
-- Medium
+- Hard
 - [297. Serialize and Deserialize Binary Tree](#Serialize-and-Deserialize-Binary-Tree)
   
 BFS
