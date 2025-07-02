@@ -8,10 +8,14 @@ DFS
 - [145. Binary Tree Postorder Traversal](#Binary-Tree-Postorder-Traversal)
 - [226. Invert Binary Tree)](#Invert-Binary-Tree)
 - [572. Subtree of Another Tree](#Subtree-of-Another-Tree)
+  
 - Medium
 - [98. Validate Binary Search Tree](#Validate-Binary-Search-Tree)
-- [105. Construct Binary Tree from Preorder and Inorder Traversal](#Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) 
-
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](#Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal)
+  
+- Medium
+- [297. Serialize and Deserialize Binary Tree](#Serialize-and-Deserialize-Binary-Tree)
+  
 BFS
 - [102. Binary Tree Level Order Traversal (Medium)](#Binary-Tree-Level-Order-Traversal)
 - [103. Binary Tree Zigzag Level Order Traversal (Medium)](#Binary-Tree-Zigzag-Level-Order-Traversal)
@@ -136,6 +140,43 @@ class Solution:
                     valid(node.right, node.val, right))
 
         return valid(root, float('-inf'), float('inf'))
+```
+
+### Serialize and Deserialize Binary Tree
+[297](https://leetcode.com/problems/Serialize-and-Deserialize-Binary-Tree/)
+
+```python
+class Codec:
+
+    def serialize(self, root):
+        if not root:
+            return "null"
+        
+        res = []
+
+        def dfs(node):
+            if not node:
+                res.append("null")
+                return
+            res.append(str(node.val))
+            dfs(node.left)
+            dfs(node.right)
+        
+        dfs(root)
+        return ",".join(res)
+
+    def deserialize(self, data):
+        values = iter(data.split(","))
+         
+        def dfs():
+            val = next(values)
+            if val == "null":
+                return None
+            node = TreeNode(int(val))
+            node.left = dfs()
+            node.right = dfs()
+        
+        return dfs()
 ```
 
 <!--BST>
