@@ -25,7 +25,6 @@ main：指的是 Git 專案的主分支名稱。
 
 ## :file_folder: Database
 
-- [Database Design](https://github.com/Ynot1996/CS/blob/main/Database/Database_Design.md)
 - [SQL Syntax](https://github.com/Ynot1996/CS/blob/main/Database/SQL_Syntax.md)
 - [SQL Practice](https://github.com/Ynot1996/CS/blob/main/Database/SQL_Practice.md)
   
